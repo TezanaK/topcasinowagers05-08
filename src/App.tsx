@@ -205,7 +205,7 @@ function App() {
       games: 900,
       license: "Curacao Gaming License",
       url: "https://gunsbet.com"
-    }
+    },
     {
       id: 10,
       name: "VICIBET",
