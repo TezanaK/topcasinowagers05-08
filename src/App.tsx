@@ -211,9 +211,13 @@ function App() {
       name: "VICIBET",
       logo: "/IMG_0160.jpeg",
       rating: 4.7,
-      bonus: "100% Match Bonus",
+      bonus: "325% up to €3,000 + 300 Free Spins + 1 Bonus Crab or Sport 100% up to €100 ",
       features: ["100% welcome bonus", "Fast payouts", "Mobile optimized"],
-      link: "#"
+      payoutTime: "2-4 days",
+      minDeposit: "CA$20",
+      games: 900,
+      license: "Anjouan License",
+      url: "https://vcbt.xarvilo.com/?mid=304790_1797260"
     }
   ];
 
