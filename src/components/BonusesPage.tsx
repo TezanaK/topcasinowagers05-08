@@ -233,6 +233,25 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
       terms: ["18+ only", "New players only", "NetEnt slots only"],
       category: 'free-spins'
     }
+    },
+    {
+      id: 10,
+      casino: "VICIBET",
+      logo: "/IMG_0160.jpeg",
+      bonusType: "Welcome Bonus",
+      title: "100% Match + 50 Free Spins",
+      amount: "up to CA$1,000",
+      percentage: 100,
+      freeSpins: 50,
+      minDeposit: "CA$20",
+      wagering: "35x",
+      validDays: 30,
+      gameRestrictions: ["Slots", "Table Games"],
+      promoCode: "TCWVICI",
+      rating: 4.7,
+      features: ["100% match bonus", "50 free spins", "All major games"],
+      terms: ["18+ only", "New players only", "Wagering requirements apply"],
+      category: 'welcome'
   ];
 
   const bonusCategories = [
