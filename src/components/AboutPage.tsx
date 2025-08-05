@@ -211,7 +211,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome }) => {
                   navigate the complex world of online casinos safely and confidently.
                 </p>
                 <p>
-                  Our founder, Sarah Mitchell, experienced firsthand the challenges of finding trustworthy 
+                  Our founder, Claire Thompson, experienced firsthand the challenges of finding trustworthy 
                   online casinos in Canada. After years of working in the gaming industry, she decided to 
                   create a platform that puts player safety and satisfaction first.
                 </p>
