@@ -28,7 +28,6 @@ import {
   FileText,
   Phone,
   BookOpen,
-  ChevronDown,
   Target,
   RefreshCw
 } from 'lucide-react';
