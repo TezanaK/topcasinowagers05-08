@@ -437,6 +437,74 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
           }
         ]
       }
+    },
+    {
+      id: 10,
+      name: "LUCKY DREAMS",
+      logo: "/IMG_0136.jpeg",
+      rating: 4.7,
+      bonus: "200% up to CA$2,000 + 150 Free Spins",
+      features: ["Dream Jackpots", "24/7 Support", "Mobile Casino"],
+      pros: ["Huge game selection", "Dream-themed slots", "Fast customer support"],
+      cons: ["Newer casino brand", "Limited live games"],
+      payoutTime: "1-3 days",
+      minDeposit: "CA$15",
+      games: 1100,
+      license: "Malta Gaming Authority",
+      detailedReview: {
+        gameSelection: {
+          rating: 4.8,
+          description: "LUCKY DREAMS offers over 1100 games with a focus on dream-themed slots and progressive jackpots.",
+          highlights: ["1100+ games", "Dream jackpot network", "Latest releases", "Mobile optimized"]
+        },
+        bonuses: {
+          rating: 4.6,
+          description: "Solid 200% welcome bonus with 150 free spins, plus regular dream-themed promotions.",
+          highlights: ["200% welcome bonus", "150 free spins", "Dream promotions", "Loyalty program"]
+        },
+        security: {
+          rating: 4.8,
+          description: "Malta Gaming Authority licensed with top-tier security and player protection measures.",
+          highlights: ["MGA licensed", "SSL encryption", "Fair play certified", "Player protection"]
+        },
+        customerSupport: {
+          rating: 4.9,
+          description: "Excellent 24/7 customer support with live chat, email, and phone support options.",
+          highlights: ["24/7 availability", "Live chat", "Phone support", "Multi-language"]
+        },
+        payouts: {
+          rating: 4.7,
+          description: "Reliable payouts within 1-3 days with multiple withdrawal options and CA$ support.",
+          highlights: ["1-3 day payouts", "Multiple methods", "CA$ friendly", "No fees"]
+        }
+      },
+      userReviews: {
+        totalReviews: 892,
+        averageRating: 4.6,
+        recentReviews: [
+          {
+            username: "Alex M. from Toronto",
+            rating: 5,
+            date: "2024-01-17",
+            comment: "Love the dream theme! The jackpot games are amazing and customer support is super helpful.",
+            verified: true
+          },
+          {
+            username: "Rachel K. from Vancouver",
+            rating: 4,
+            date: "2024-01-14",
+            comment: "Great selection of games and the mobile app works perfectly. Fast withdrawals too!",
+            verified: true
+          },
+          {
+            username: "Tom B. from Calgary",
+            rating: 5,
+            date: "2024-01-11",
+            comment: "The dream jackpots are incredible! Won big on their progressive slots. Highly recommend!",
+            verified: true
+          }
+        ]
+      }
     }
   ];
 
