@@ -103,9 +103,9 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
       name: "NEOSPIN",
       logo: "/neospin.jpg",
       rating: 4.9,
-      bonus: "100% up to CA$500 + 100 Free Spins",
+      bonus: "300% up to CA$11,000 + 300 Free Spins",
       features: ["800+ Games", "Instant Deposits", "Mobile Optimized"],
-      pros: ["100 deposit free spins", "Canadian dollar support", "Fast registration"],
+      pros: ["300% massive bonus", "300 free spins", "Canadian dollar support", "Fast registration"],
       cons: ["New casino brand"],
       payoutTime: "1-2 days",
       minDeposit: "CA$10",
@@ -119,8 +119,8 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
         },
         bonuses: {
           rating: 4.9,
-          description: "Outstanding welcome package with 100% match bonus and 100 free spins, plus regular promotions for existing players.",
-          highlights: ["100% welcome bonus", "100 free spins", "Weekly reload bonuses", "VIP program"]
+          description: "Outstanding welcome package with 300% match bonus and 300 free spins, plus regular promotions for existing players.",
+          highlights: ["300% welcome bonus", "300 free spins", "Weekly reload bonuses", "VIP program"]
         },
         security: {
           rating: 4.7,
