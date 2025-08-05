@@ -104,8 +104,6 @@ function App() {
     },
     {
       id: 2,
-    {
-      id: 2,
       name: "VICIBET",
       logo: "/IMG_0160.jpeg",
       rating: 4.7,
@@ -113,6 +111,8 @@ function App() {
       features: ["100% welcome bonus", "Fast payouts", "Mobile optimized"],
       minDeposit: "CA$10",
       payoutTime: "1-2 days",
+      games: 500,
+      license: "Curacao Gaming License",
       url: "https://vicibet.com"
     },
     {
@@ -124,6 +124,8 @@ function App() {
       features: ["1000+ Games", "Live Casino", "VIP Program"],
       minDeposit: "CA$20",
       payoutTime: "1-3 days",
+      games: 1000,
+      license: "Curacao Gaming License",
       url: "https://evospin.com"
     },
     {
@@ -192,7 +194,7 @@ function App() {
       url: "https://onluck.com"
     },
     {
-      id: 5,
+      id: 8,
       name: "CASINO INFINITY",
       logo: "/casino infinity.webp",
       rating: 4.7,
@@ -205,7 +207,7 @@ function App() {
       url: "https://casinoinfinity.com"
     },
     {
-      id: 6,
+      id: 9,
       name: "GUNS BET",
       logo: "/IMG_0134.jpeg",
       rating: 4.8,
@@ -216,8 +218,6 @@ function App() {
       games: 900,
       license: "Curacao Gaming License",
       url: "https://gunsbet.com"
-    },
-    {
     }
   ];
 
