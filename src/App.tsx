@@ -26,12 +26,19 @@ import {
   HelpCircle,
   Heart,
   FileText,
-  Phone
+  Phone,
+  BookOpen,
+  ChevronDown,
+  Target,
+  RefreshCw
 } from 'lucide-react';
 import ReviewsPage from './components/ReviewsPage';
 import BonusesPage from './components/BonusesPage';
 import AboutPage from './components/AboutPage';
 import SEOPages from './components/SEOPages';
+import CasinoLandingPages from './components/CasinoLandingPages';
+import GameGuidePages from './components/GameGuidePages';
+import LocationPages from './components/LocationPages';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
 
@@ -62,6 +69,40 @@ function App() {
     setCurrentPage('home');
     setIsMenuOpen(false);
   };
+
+  // SEO-optimized routing for programmatic pages
+  if (currentPage.startsWith('casino-')) {
+    const casinoName = currentPage.replace('casino-', '');
+    return (
+      <CasinoLandingPages 
+        casinoName={casinoName}
+        onNavigateHome={navigateHome}
+        onNavigateTo={navigateToPage}
+      />
+    );
+  }
+
+  if (currentPage.startsWith('games-')) {
+    const gameType = currentPage.replace('games-', '');
+    return (
+      <GameGuidePages 
+        gameType={gameType}
+        onNavigateHome={navigateHome}
+        onNavigateTo={navigateToPage}
+      />
+    );
+  }
+
+  if (currentPage.startsWith('location-')) {
+    const location = currentPage.replace('location-', '');
+    return (
+      <LocationPages 
+        location={location}
+        onNavigateHome={navigateHome}
+        onNavigateTo={navigateToPage}
+      />
+    );
+  }
 
   // Render different pages based on currentPage state
   if (currentPage === 'reviews') {
@@ -281,6 +322,40 @@ function App() {
               >
                 Bonuses
               </button>
+              <div className="relative group">
+                <button className="text-slate-700 hover:text-green-600 transition-colors font-medium flex items-center">
+                  Games
+                  <ChevronDown className="w-4 h-4 ml-1" />
+                </button>
+                <div className="absolute top-full left-0 mt-2 w-48 glass rounded-xl border border-white/20 shadow-modern opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                  <div className="p-2">
+                    <button 
+                      onClick={() => navigateToPage('games-slots')}
+                      className="w-full text-left px-3 py-2 text-sm text-slate-700 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                    >
+                      Online Slots
+                    </button>
+                    <button 
+                      onClick={() => navigateToPage('games-blackjack')}
+                      className="w-full text-left px-3 py-2 text-sm text-slate-700 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                    >
+                      Blackjack
+                    </button>
+                    <button 
+                      onClick={() => navigateToPage('games-roulette')}
+                      className="w-full text-left px-3 py-2 text-sm text-slate-700 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                    >
+                      Roulette
+                    </button>
+                    <button 
+                      onClick={() => navigateToPage('games-live-dealer')}
+                      className="w-full text-left px-3 py-2 text-sm text-slate-700 hover:bg-green-50 hover:text-green-600 rounded-lg transition-colors"
+                    >
+                      Live Dealer
+                    </button>
+                  </div>
+                </div>
+              </div>
               <button 
                 onClick={() => navigateToPage('reviews')}
                 className="text-slate-700 hover:text-green-600 transition-colors font-medium"
@@ -938,6 +1013,194 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* What We Offer Section */}
+      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold text-slate-900 mb-6 text-modern">
+              What We Offer
+            </h2>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+              Everything you need to make informed decisions about online casino gaming in Canada
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="modern-card shadow-modern-hover group">
+              <div className="p-8 text-center">
+                <div className="gradient-primary rounded-3xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <Trophy className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-2xl font-semibold text-slate-900 mb-4">Expert Reviews</h3>
+                <p className="text-slate-600 mb-6">In-depth analysis of Canada's top online casinos with detailed ratings and player feedback.</p>
+                <button 
+                  onClick={() => navigateToPage('reviews')}
+                  className="btn-modern rounded-2xl py-3 px-6 font-semibold"
+                >
+                  Read Reviews
+                </button>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group">
+              <div className="p-8 text-center">
+                <div className="gradient-secondary rounded-3xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <Gift className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-2xl font-semibold text-slate-900 mb-4">Exclusive Bonuses</h3>
+                <p className="text-slate-600 mb-6">Access the best casino bonuses and promotions available exclusively for Canadian players.</p>
+                <button 
+                  onClick={() => navigateToPage('bonuses')}
+                  className="btn-modern rounded-2xl py-3 px-6 font-semibold"
+                >
+                  View Bonuses
+                </button>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group">
+              <div className="p-8 text-center">
+                <div className="gradient-accent rounded-3xl w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <BookOpen className="w-10 h-10 text-white" />
+                </div>
+                <h3 className="text-2xl font-semibold text-slate-900 mb-4">Gaming Guides</h3>
+                <p className="text-slate-600 mb-6">Learn strategies and tips for popular casino games from our expert team.</p>
+                <button 
+                  onClick={() => navigateToPage('guide')}
+                  className="btn-modern rounded-2xl py-3 px-6 font-semibold"
+                >
+                  Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Content Sections */}
+      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Popular Casino Games in Canada</h2>
+            <p className="text-xl text-slate-600">Discover the most popular casino games among Canadian players</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="modern-card shadow-modern-hover text-center group cursor-pointer" onClick={() => navigateToPage('games-slots')}>
+              <div className="p-6">
+                <div className="gradient-primary rounded-3xl w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Gamepad2 className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Online Slots</h3>
+                <p className="text-slate-600 text-sm">Thousands of slot games with progressive jackpots</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover text-center group cursor-pointer" onClick={() => navigateToPage('games-blackjack')}>
+              <div className="p-6">
+                <div className="gradient-secondary rounded-3xl w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Target className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Blackjack</h3>
+                <p className="text-slate-600 text-sm">Master the art of 21 with our strategy guides</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover text-center group cursor-pointer" onClick={() => navigateToPage('games-roulette')}>
+              <div className="p-6">
+                <div className="gradient-accent rounded-3xl w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <RefreshCw className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Roulette</h3>
+                <p className="text-slate-600 text-sm">European, American, and French roulette variants</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover text-center group cursor-pointer" onClick={() => navigateToPage('games-live-dealer')}>
+              <div className="p-6">
+                <div className="gradient-gold rounded-3xl w-16 h-16 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Users className="w-8 h-8 text-slate-800" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Live Dealer</h3>
+                <p className="text-slate-600 text-sm">Real dealers streaming live from studios</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Provincial Focus Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Casino Gaming Across Canada</h2>
+            <p className="text-xl text-slate-600">Tailored information for players in every province</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-ontario')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-red-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">Ontario Casinos</h3>
+                </div>
+                <p className="text-slate-600 text-sm">Regulated online casinos for Ontario players with iGaming Ontario licensing</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-british-columbia')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-blue-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">British Columbia</h3>
+                </div>
+                <p className="text-slate-600 text-sm">Best online casinos for BC players with local banking options</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-alberta')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-green-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">Alberta Casinos</h3>
+                </div>
+                <p className="text-slate-600 text-sm">Top-rated casinos accepting Alberta players with CAD support</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-quebec')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-purple-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">Quebec Casinos</h3>
+                </div>
+                <p className="text-slate-600 text-sm">French and English language casinos for Quebec players</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-manitoba')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-yellow-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">Manitoba Gaming</h3>
+                </div>
+                <p className="text-slate-600 text-sm">Licensed casinos for Manitoba residents with local support</p>
+              </div>
+            </div>
+
+            <div className="modern-card shadow-modern-hover group cursor-pointer" onClick={() => navigateToPage('location-atlantic-canada')}>
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <MapPin className="w-6 h-6 text-teal-600 mr-3" />
+                  <h3 className="text-xl font-semibold text-slate-900">Atlantic Canada</h3>
+                </div>
+                <p className="text-slate-600 text-sm">Best casinos for players in Nova Scotia, New Brunswick, PEI, and Newfoundland</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* SEO Content Sections */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
@@ -1131,75 +1394,69 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-16">
+      <footer className="bg-gradient-to-br from-slate-900 to-blue-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
-            <div className="md:col-span-2">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 gradient-primary rounded-2xl flex items-center justify-center">
-                  <Crown className="w-6 h-6 text-white" />
+            <div>
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 gradient-primary rounded-2xl flex items-center justify-center mr-3">
+                  <Crown className="w-7 h-7 text-white" />
                 </div>
-                <div>
-                  <div className="text-2xl font-bold">TopCasinoWagers</div>
-                  <div className="text-sm text-green-400">Canada's Premier Casino Guide</div>
-                </div>
+                <div className="text-xl font-bold">TopCasinoWagers</div>
               </div>
-              <p className="text-slate-300 mb-6 max-w-md">
-                Your trusted source for Canadian online casino reviews, exclusive bonuses, 
-                and expert gaming advice since 2019.
+              <p className="text-slate-300 text-sm mb-4">
+                Canada's premier online casino review platform, helping players find safe and exciting gaming experiences since 2019.
               </p>
               <div className="flex space-x-4">
-                <div className="w-10 h-10 glass-dark rounded-xl flex items-center justify-center border border-white/20">
-                  <span className="text-lg">🇨🇦</span>
-                </div>
-                <div className="w-10 h-10 glass-dark rounded-xl flex items-center justify-center border border-white/20">
-                  <Shield className="w-5 h-5 text-green-400" />
-                </div>
-                <div className="w-10 h-10 glass-dark rounded-xl flex items-center justify-center border border-white/20">
-                  <Award className="w-5 h-5 text-yellow-400" />
+                <div className="w-8 h-8 glass-dark rounded-lg flex items-center justify-center">
+                  <span className="text-xs">🇨🇦</span>
                 </div>
               </div>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-              <ul className="space-y-2">
-                <li><a href="#casinos" className="text-slate-300 hover:text-white transition-colors">Top Casinos</a></li>
-                <li><button onClick={() => navigateToPage('bonuses')} className="text-slate-300 hover:text-white transition-colors">Casino Bonuses</button></li>
-                <li><button onClick={() => navigateToPage('reviews')} className="text-slate-300 hover:text-white transition-colors">Casino Reviews</button></li>
-                <li><button onClick={() => navigateToPage('about')} className="text-slate-300 hover:text-white transition-colors">About Us</button></li>
+              <h4 className="font-semibold mb-4">Casino Reviews</h4>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li><button onClick={() => navigateToPage('reviews')} className="hover:text-white transition-colors">All Reviews</button></li>
+                <li><button onClick={() => navigateToPage('casino-neospin')} className="hover:text-white transition-colors">NEOSPIN Review</button></li>
+                <li><button onClick={() => navigateToPage('casino-evospin')} className="hover:text-white transition-colors">EVOSPIN Review</button></li>
+                <li><button onClick={() => navigateToPage('casino-onluck')} className="hover:text-white transition-colors">ONLUCK Review</button></li>
+                <li><button onClick={() => navigateToPage('casino-vicibet')} className="hover:text-white transition-colors">VICIBET Review</button></li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-lg font-semibold mb-4">Support</h4>
-              <ul className="space-y-2">
-                <li><button onClick={() => navigateToPage('contact')} className="text-slate-300 hover:text-white transition-colors">Contact Us</button></li>
-                <li><button onClick={() => navigateToPage('faq')} className="text-slate-300 hover:text-white transition-colors">FAQ</button></li>
-                <li><button onClick={() => navigateToPage('responsible-gaming')} className="text-slate-300 hover:text-white transition-colors">Responsible Gaming</button></li>
-                <li><button onClick={() => navigateToPage('privacy')} className="text-slate-300 hover:text-white transition-colors">Privacy Policy</button></li>
+              <h4 className="font-semibold mb-4">Game Guides</h4>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li><button onClick={() => navigateToPage('games-slots')} className="hover:text-white transition-colors">Online Slots</button></li>
+                <li><button onClick={() => navigateToPage('games-blackjack')} className="hover:text-white transition-colors">Blackjack Guide</button></li>
+                <li><button onClick={() => navigateToPage('games-roulette')} className="hover:text-white transition-colors">Roulette Strategy</button></li>
+                <li><button onClick={() => navigateToPage('games-live-dealer')} className="hover:text-white transition-colors">Live Dealer Games</button></li>
+                <li><button onClick={() => navigateToPage('guide')} className="hover:text-white transition-colors">Complete Guide</button></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold mb-4">Provincial Guides</h4>
+              <ul className="space-y-2 text-sm text-slate-300">
+                <li><button onClick={() => navigateToPage('location-ontario')} className="hover:text-white transition-colors">Ontario Casinos</button></li>
+                <li><button onClick={() => navigateToPage('location-british-columbia')} className="hover:text-white transition-colors">BC Casinos</button></li>
+                <li><button onClick={() => navigateToPage('location-alberta')} className="hover:text-white transition-colors">Alberta Gaming</button></li>
+                <li><button onClick={() => navigateToPage('location-quebec')} className="hover:text-white transition-colors">Quebec Casinos</button></li>
+                <li><button onClick={() => navigateToPage('location-atlantic-canada')} className="hover:text-white transition-colors">Atlantic Canada</button></li>
               </ul>
             </div>
           </div>
 
           <div className="border-t border-slate-700 mt-12 pt-8">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-slate-400 text-sm mb-4 md:mb-0">
-                © 2024 TopCasinoWagers. All rights reserved. | 18+ Only | Play Responsibly
+            <div className="flex flex-wrap justify-between items-center">
+              <div className="text-sm text-slate-400">
+                © 2024 TopCasinoWagers. All rights reserved.
               </div>
-              <div className="flex items-center space-x-4 text-sm text-slate-400">
-                <span className="flex items-center">
-                  <MapPin className="w-4 h-4 mr-1" />
-                  Canada
-                </span>
-                <span className="flex items-center">
-                  <Shield className="w-4 h-4 mr-1" />
-                  Licensed
-                </span>
-                <span className="flex items-center">
-                  <CheckCircle className="w-4 h-4 mr-1" />
-                  Verified
-                </span>
+              <div className="flex space-x-6 text-sm text-slate-400">
+                <button onClick={() => navigateToPage('privacy-policy')} className="hover:text-white transition-colors">Privacy Policy</button>
+                <button onClick={() => navigateToPage('responsible-gaming')} className="hover:text-white transition-colors">Responsible Gaming</button>
+                <button onClick={() => navigateToPage('contact')} className="hover:text-white transition-colors">Contact</button>
               </div>
             </div>
           </div>
