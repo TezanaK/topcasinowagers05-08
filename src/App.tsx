@@ -204,18 +204,6 @@ function App() {
       minDeposit: "CA$25",
       games: 900,
       license: "Curacao Gaming License",
-    },
-    {
-      id: 10,
-      name: "LUCKY DREAMS",
-      logo: "/IMG_0136.jpeg",
-      rating: 4.7,
-      bonus: "200% up to CA$2,000 + 150 Free Spins",
-      features: ["Dream Jackpots", "24/7 Support", "Mobile Casino"],
-      payoutTime: "1-3 days",
-      minDeposit: "CA$15",
-      games: 1100,
-      license: "Malta Gaming Authority"
       url: "https://gunsbet.com"
     }
   ];

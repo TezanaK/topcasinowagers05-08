@@ -232,25 +232,6 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
       features: ["High value spins", "NetEnt games", "Sports combo"],
       terms: ["18+ only", "New players only", "NetEnt slots only"],
       category: 'free-spins'
-    },
-    {
-      id: 10,
-      casino: "LUCKY DREAMS",
-      logo: "/IMG_0136.jpeg",
-      bonusType: "Dream Welcome Package",
-      title: "200% Match + 150 Free Spins",
-      amount: "up to CA$2,000",
-      percentage: 200,
-      freeSpins: 150,
-      minDeposit: "CA$15",
-      wagering: "30x",
-      validDays: 30,
-      gameRestrictions: ["Slots", "Dream Games"],
-      promoCode: "TCWDREAM",
-      rating: 4.7,
-      features: ["Dream jackpots", "Mobile bonus", "24/7 support"],
-      terms: ["18+ only", "New players only", "Dream games eligible"],
-      category: 'welcome'
     }
   ];
 
