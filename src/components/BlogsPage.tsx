@@ -103,7 +103,7 @@ const BlogsPage: React.FC<BlogsPageProps> = ({ onNavigateHome, onNavigateTo }) =
         <h3>Responsible Gaming</h3>
         <p>Remember to always gamble responsibly. Set limits, take breaks, and never gamble more than you can afford to lose. If you need help, contact the Problem Gambling Helpline at 1-888-230-3505.</p>
       `,
-      author: "Sarah Mitchell",
+      author: "Claire Thompson",
       date: "2024-01-15",
       readTime: "8 min read",
       category: "Casino Reviews",
