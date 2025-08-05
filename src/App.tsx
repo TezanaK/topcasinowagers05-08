@@ -94,13 +94,13 @@ function App() {
       name: "NEOSPIN",
       logo: "/neospin.jpg",
       rating: 4.9,
-      bonus: "100% up to CA$500 + 100 Free Spins",
+      bonus: "300% up to CA$11000 + 300 Free Spins",
       features: ["800+ Games", "Instant Deposits", "Mobile Optimized"],
       payoutTime: "1-2 days",
       minDeposit: "CA$10",
       games: 800,
       license: "Curacao Gaming License",
-      url: "https://neospin.com"
+      url: "https://neospinlink.com/hd5377aa9"
     },
     {
       id: 2,
