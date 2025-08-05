@@ -143,7 +143,7 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
         averageRating: 4.8,
         recentReviews: [
           {
-            username: "Sarah M. from Toronto",
+            username: "Claire T. from Toronto",
             rating: 5,
             date: "2024-01-15",
             comment: "Amazing casino! Got my withdrawal in just 24 hours. The free spins bonus was exactly as advertised.",
