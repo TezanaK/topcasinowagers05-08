@@ -103,7 +103,7 @@ function App() {
       url: "https://neospinlink.com/hd5377aa9"
     },
     {
-      id: 2,
+      id: 10,
       name: "EVOSPIN",
       logo: "/IMG_0128.jpeg",
       rating: 4.8,
@@ -207,7 +207,7 @@ function App() {
       url: "https://gunsbet.com"
     },
     {
-      id: 10,
+      id: 2,
       name: "VICIBET",
       logo: "/IMG_0160.jpeg",
       rating: 4.7,
