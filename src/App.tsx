@@ -104,19 +104,30 @@ function App() {
     },
     {
       id: 2,
+    {
+      id: 2,
+      name: "VICIBET",
+      logo: "/IMG_0160.jpeg",
+      rating: 4.7,
+      bonus: "100% Match Bonus",
+      features: ["100% welcome bonus", "Fast payouts", "Mobile optimized"],
+      minDeposit: "CA$10",
+      payoutTime: "1-2 days",
+      url: "https://vicibet.com"
+    },
+    {
+      id: 3,
       name: "EVOSPIN",
       logo: "/IMG_0128.jpeg",
       rating: 4.8,
       bonus: "285% up to CA$7,500 + 285 Free Spins",
       features: ["1000+ Games", "Live Casino", "VIP Program"],
-      payoutTime: "1-3 days",
       minDeposit: "CA$20",
-      games: 1000,
-      license: "Malta Gaming Authority",
+      payoutTime: "1-3 days",
       url: "https://evospin.com"
     },
     {
-      id: 3,
+      id: 4,
       name: "JACKPOTCITY",
       logo: "/IMG_0129.jpeg",
       rating: 4.7,
@@ -129,7 +140,7 @@ function App() {
       url: "https://jackpotcity.com"
     },
     {
-      id: 4,
+      id: 10,
       name: "ROYAL VEGAS",
       logo: "/IMG_0131.jpeg",
       rating: 4.6,
@@ -181,7 +192,7 @@ function App() {
       url: "https://onluck.com"
     },
     {
-      id: 8,
+      id: 5,
       name: "CASINO INFINITY",
       logo: "/casino infinity.webp",
       rating: 4.7,
@@ -194,7 +205,7 @@ function App() {
       url: "https://casinoinfinity.com"
     },
     {
-      id: 9,
+      id: 6,
       name: "GUNS BET",
       logo: "/IMG_0134.jpeg",
       rating: 4.8,
@@ -207,17 +218,6 @@ function App() {
       url: "https://gunsbet.com"
     },
     {
-      id: 10,
-      name: "VICIBET",
-      logo: "/IMG_0160.jpeg",
-      rating: 4.7,
-      bonus: "325% up to €3,000 + 300 Free Spins + 1 Bonus Crab or Sport 100% up to €100 ",
-      features: ["100% welcome bonus", "Fast payouts", "Mobile optimized"],
-      payoutTime: "2-4 days",
-      minDeposit: "CA$20",
-      games: 900,
-      license: "Anjouan License",
-      url: "https://vcbt.xarvilo.com/?mid=304790_1797260"
     }
   ];
 
