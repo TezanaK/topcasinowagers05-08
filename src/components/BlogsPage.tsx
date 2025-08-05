@@ -533,7 +533,7 @@ const BlogsPage: React.FC<BlogsPageProps> = ({ onNavigateHome, onNavigateTo }) =
           <li>Same quality as desktop</li>
         </ul>
       `,
-      author: "Sarah Mitchell",
+      author: "Claire Thompson",
       date: "2024-01-05",
       readTime: "8 min read",
       category: "Game Strategies",
