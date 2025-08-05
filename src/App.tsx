@@ -206,6 +206,15 @@ function App() {
       license: "Curacao Gaming License",
       url: "https://gunsbet.com"
     }
+    {
+      id: 10,
+      name: "VICIBET",
+      logo: "/IMG_0160.jpeg",
+      rating: 4.7,
+      bonus: "100% Match Bonus",
+      features: ["100% welcome bonus", "Fast payouts", "Mobile optimized"],
+      link: "#"
+    }
   ];
 
   const renderStars = (rating: number) => {
