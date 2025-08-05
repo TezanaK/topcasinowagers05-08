@@ -232,7 +232,6 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
       features: ["High value spins", "NetEnt games", "Sports combo"],
       terms: ["18+ only", "New players only", "NetEnt slots only"],
       category: 'free-spins'
-    }
     },
     {
       id: 10,
@@ -252,6 +251,7 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
       features: ["100% match bonus", "50 free spins", "All major games"],
       terms: ["18+ only", "New players only", "Wagering requirements apply"],
       category: 'welcome'
+    }
   ];
 
   const bonusCategories = [
