@@ -779,7 +779,10 @@ function App() {
                             Play Now
                           </div>
                         </a>
-                        <button className="w-full glass rounded-2xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors">
+                        <button 
+                          onClick={() => setCurrentPage('reviews')}
+                          className="w-full glass rounded-2xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors"
+                        >
                           <div className="flex items-center justify-center">
                             <Trophy className="w-4 h-4 mr-2" />
                             Read Review
@@ -939,8 +942,16 @@ function App() {
                     <span className="font-semibold">30 days</span>
                   </div>
                 </div>
-                <button className="w-full btn-modern rounded-xl py-3 font-semibold">
-                  Claim Bonus
+                <button className="w-full btn-modern rounded-xl py-3 font-semibold mb-3">
+                  <Play className="w-4 h-4 mr-2 inline" />
+                  Play Now
+                </button>
+                <button 
+                  onClick={() => setCurrentPage('reviews')}
+                  className="w-full glass rounded-xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors"
+                >
+                  <Trophy className="w-4 h-4 mr-2 inline" />
+                  Read Review
                 </button>
               </div>
             </div>
@@ -975,8 +986,16 @@ function App() {
                     <span className="font-semibold">30 days</span>
                   </div>
                 </div>
-                <button className="w-full btn-modern rounded-xl py-3 font-semibold">
-                  Claim Bonus
+                <button className="w-full btn-modern rounded-xl py-3 font-semibold mb-3">
+                  <Play className="w-4 h-4 mr-2 inline" />
+                  Play Now
+                </button>
+                <button 
+                  onClick={() => setCurrentPage('reviews')}
+                  className="w-full glass rounded-xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors"
+                >
+                  <Trophy className="w-4 h-4 mr-2 inline" />
+                  Read Review
                 </button>
               </div>
             </div>
@@ -1011,8 +1030,16 @@ function App() {
                     <span className="font-semibold">45 days</span>
                   </div>
                 </div>
-                <button className="w-full btn-modern rounded-xl py-3 font-semibold">
-                  Claim Bonus
+                <button className="w-full btn-modern rounded-xl py-3 font-semibold mb-3">
+                  <Play className="w-4 h-4 mr-2 inline" />
+                  Play Now
+                </button>
+                <button 
+                  onClick={() => setCurrentPage('reviews')}
+                  className="w-full glass rounded-xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors"
+                >
+                  <Trophy className="w-4 h-4 mr-2 inline" />
+                  Read Review
                 </button>
               </div>
             </div>
@@ -1472,9 +1499,16 @@ function App() {
                   </div>
                 </div>
                 
-                <button className="w-full btn-modern rounded-2xl py-3 font-bold shadow-modern-hover transform group-hover:scale-105 transition-all duration-300">
+                <button className="w-full btn-modern rounded-2xl py-3 font-bold shadow-modern-hover transform group-hover:scale-105 transition-all duration-300 mb-3">
                   <Play className="w-5 h-5 mr-2 inline" />
-                  Claim Bonus
+                  Play Now
+                </button>
+                <button 
+                  onClick={() => setCurrentPage('reviews')}
+                  className="w-full glass rounded-2xl py-3 font-semibold text-slate-700 border border-slate-200 hover:bg-slate-50 transition-colors"
+                >
+                  <Trophy className="w-4 h-4 mr-2 inline" />
+                  Read Review
                 </button>
                 
                 <div className="text-center mt-4">
