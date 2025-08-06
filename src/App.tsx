@@ -1479,7 +1479,7 @@ function App() {
                 
                 <div className="gradient-gold rounded-2xl p-6 mb-6 text-center">
                   <div className="text-sm font-medium text-slate-800 mb-2">EXCLUSIVE BONUS</div>
-                  <div className="text-2xl font-bold text-slate-900 mb-2">100% + 50 FS</div>
+                  <div className="text-2xl font-bold text-slate-900 mb-2">325% up to €3,000 + 300 Free Spins + 1 Bonus Crab or Sport 100% up to €100</div>
                   <div className="text-lg font-semibold text-slate-800">up to CA$1,000</div>
                   <div className="text-sm text-slate-700 mt-2">Min deposit: CA$20</div>
                 </div>
@@ -1499,7 +1499,10 @@ function App() {
                   </div>
                 </div>
                 
-                <button className="w-full btn-modern rounded-2xl py-3 font-bold shadow-modern-hover transform group-hover:scale-105 transition-all duration-300 mb-3">
+                <button 
+                  onClick={() => window.open('https://vcbt.xarvilo.com/?mid=304790_1797260', '_blank')}
+                  className="w-full btn-modern rounded-2xl py-3 font-bold shadow-modern-hover transform group-hover:scale-105 transition-all duration-300 mb-3"
+                >
                   <Play className="w-5 h-5 mr-2 inline" />
                   Play Now
                 </button>
