@@ -238,7 +238,7 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
       casino: "VICIBET",
       logo: "/IMG_0160.jpeg",
       bonusType: "Welcome Bonus",
-      title: "100% Match + 50 Free Spins",
+      title: "325% up to €3,000 + 300 Free Spins + 1 Bonus Crab or Sport 100% up to €100",
       amount: "up to CA$1,000",
       percentage: 100,
       freeSpins: 50,
