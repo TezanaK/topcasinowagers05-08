@@ -34,6 +34,7 @@ import {
 import ReviewsPage from './components/ReviewsPage';
 import BonusesPage from './components/BonusesPage';
 import AboutPage from './components/AboutPage';
+import BlogsPage from './components/BlogsPage';
 import SEOPages from './components/SEOPages';
 import CasinoLandingPages from './components/CasinoLandingPages';
 import GameGuidePages from './components/GameGuidePages';
@@ -106,6 +107,10 @@ function App() {
   // Render different pages based on currentPage state
   if (currentPage === 'reviews') {
     return <ReviewsPage onNavigateHome={navigateHome} />;
+  }
+
+  if (currentPage === 'blog') {
+    return <BlogsPage onNavigateHome={navigateHome} onNavigateTo={navigateToPage} />;
   }
 
   if (currentPage === 'bonuses') {
@@ -362,6 +367,13 @@ function App() {
                 Reviews
               </button>
               
+              <button 
+                onClick={() => navigateToPage('blog')}
+                className="text-slate-700 hover:text-green-600 transition-colors font-medium"
+              >
+                Blog
+              </button>
+
               {/* Hamburger Menu */}
               <div className="relative">
                 <button
@@ -380,6 +392,13 @@ function App() {
                     >
                       <Users className="w-4 h-4 mr-3" />
                       About Us
+                    </button>
+                    <button
+                      onClick={() => navigateToPage('blog')}
+                      className="w-full flex items-center px-4 py-3 text-slate-700 hover:bg-slate-50 transition-colors"
+                    >
+                      <BookOpen className="w-4 h-4 mr-3" />
+                      Blog
                     </button>
                     <button
                       onClick={() => navigateToPage('faq')}
@@ -1413,6 +1432,56 @@ function App() {
               </div>
             </div>
 
+            {/* VICIBET Bonus */}
+            <div className="modern-card shadow-modern-hover group">
+              <div className="p-8">
+                <div className="flex items-center mb-6">
+                  <img 
+                    src="/IMG_0160.jpeg" 
+                    alt="VICIBET Casino"
+                    className="w-16 h-16 rounded-2xl object-cover shadow-modern border-2 border-white/20 mr-4"
+                  />
+                  <div>
+                    <h3 className="text-xl font-bold text-slate-900">VICIBET</h3>
+                    <div className="flex items-center">
+                      {renderStars(4.7)}
+                      <span className="ml-2 text-sm font-bold text-slate-700">4.7/5</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="gradient-gold rounded-2xl p-6 mb-6 text-center">
+                  <div className="text-sm font-medium text-slate-800 mb-2">EXCLUSIVE BONUS</div>
+                  <div className="text-2xl font-bold text-slate-900 mb-2">100% + 50 FS</div>
+                  <div className="text-lg font-semibold text-slate-800">up to CA$1,000</div>
+                  <div className="text-sm text-slate-700 mt-2">Min deposit: CA$20</div>
+                </div>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center text-green-600">
+                    <CheckCircle className="w-4 h-4 mr-2" />
+                    <span className="text-sm">50 free spins on signup</span>
+                  </div>
+                  <div className="flex items-center text-green-600">
+                    <CheckCircle className="w-4 h-4 mr-2" />
+                    <span className="text-sm">Malta Gaming licensed</span>
+                  </div>
+                  <div className="flex items-center text-green-600">
+                    <CheckCircle className="w-4 h-4 mr-2" />
+                    <span className="text-sm">VIP loyalty program</span>
+                  </div>
+                </div>
+                
+                <button className="w-full btn-modern rounded-2xl py-3 font-bold shadow-modern-hover transform group-hover:scale-105 transition-all duration-300">
+                  <Play className="w-5 h-5 mr-2 inline" />
+                  Claim Bonus
+                </button>
+                
+                <div className="text-center mt-4">
+                  <div className="text-xs text-slate-500">18+ only. Terms apply.</div>
+                </div>
+              </div>
+            </div>
             <div>
               <h4 className="font-semibold mb-4">Casino Reviews</h4>
               <ul className="space-y-2 text-sm text-slate-300">
