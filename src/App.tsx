@@ -616,3 +616,13 @@ function App() {
           <div className="text-center">
             <div className="flex justify-center mb-6">
               <div className="glass-dark rounded-2xl px-6 py-3 border border-white/20">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default App;
