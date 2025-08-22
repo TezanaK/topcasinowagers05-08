@@ -150,7 +150,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
                   className="w-full btn-gold rounded-2xl py-4 px-8 font-bold text-lg shadow-modern-hover transform hover:scale-105 transition-all duration-300 animate-pulse-glow"
                 >
                   <Gift className="w-6 h-6 mr-3 inline" />
-                  CLAIM CA$1,400 BONUS NOW
+                  CLAIM 100% BONUS NOW
                   <ExternalLink className="w-5 h-5 ml-3 inline" />
                 </button>
                 
