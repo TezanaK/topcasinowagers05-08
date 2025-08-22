@@ -41,6 +41,8 @@ import GameGuidePages from './components/GameGuidePages';
 import LocationPages from './components/LocationPages';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
+import TrustIndicators from './components/TrustIndicators';
+import InteractiveElements from './components/InteractiveElements';
 
 interface Casino {
   id: number;
@@ -70,7 +72,11 @@ function App() {
     setIsMenuOpen(false);
   };
 
-  // SEO-optimized routing for programmatic pages
+      <div>
+        <MainContent onNavigateTo={handleNavigateTo} />
+        <TrustIndicators />
+        <InteractiveElements onNavigateTo={handleNavigateTo} />
+      </div>
   if (currentPage.startsWith('casino-')) {
     const casinoName = currentPage.replace('casino-', '');
     return (
