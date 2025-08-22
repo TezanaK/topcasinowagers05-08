@@ -63,6 +63,7 @@
 }
 )
 @@ -280,7 +287,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
+       }
        {/* Why Choose Us Section */}
        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -102,8 +103,9 @@
                  <h3 className="text-xl font-semibold text-slate-900 mb-4">Expert Reviews</h3>
                 <p className="text-slate-600">Comprehensive reviews by Canadian gambling experts with 10+ years experience</p>
                </div>
+             }
              </div>
-}
+         }
 )
 
 @@ -319,7 +333,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
@@ -158,6 +160,12 @@
            )
            }
            </div>
+       )
+       )
+       }
+}
+}
+)
 
 +          {/* Additional SEO content for game guides */}
 +          <div className="max-w-4xl mx-auto text-center mb-12">
@@ -176,6 +184,9 @@
            )
            }
            </div>
+           )
+           )
+           }
 
 +          {/* SEO content for latest updates */}
 +          <div className="max-w-4xl mx-auto text-center mb-12">
@@ -194,6 +205,9 @@
            }
          </div>
        </section>
+           )
+           )
+           }
 
 +      {/* SEO Footer Content */}
 +      <section className="py-16 bg-gradient-to-br from-slate-100 to-blue-100">
