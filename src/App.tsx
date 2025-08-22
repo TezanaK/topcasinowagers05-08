@@ -260,16 +260,16 @@ function App() {
     },
     {
       id: 9,
-      name: "GUNS BET",
-      logo: "/IMG_0134.jpeg",
+      name: "JACKPOTCITY",
+      logo: "/IMG_0129.jpeg",
       rating: 4.8,
-      bonus: "335% up to CA$1,675 + 300 Free Spins",
+      bonus: "up to CA$1,600 ",
       features: ["Luck and Load Theme", "High RTP Games", "VIP Program"],
       payoutTime: "2-4 days",
       minDeposit: "CA$25",
       games: 900,
       license: "Curacao Gaming License",
-      url: "https://gunsbet.com"
+      url: "https://www.jackpotcitycasino.com/canada/?s=bfp49645"
     }
   ];
 
