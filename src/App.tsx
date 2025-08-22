@@ -204,7 +204,7 @@ function App() {
       minDeposit: "CA$10",
       games: 700,
       license: "Malta Gaming Authority",
-      url: "https://royalvegas.com"
+      url: "https://ca.royalvegascasino.com/?s=bfp49645"
     },
     {
       id: 5,
@@ -217,7 +217,7 @@ function App() {
       minDeposit: "CA$10",
       games: 500,
       license: "Malta Gaming Authority",
-      url: "https://betway.com"
+      url: "https://betway.com/bwp/welcome-casino-ca-1000-50/en-ca/?s=bfp49645"
     },
     {
       id: 6,
