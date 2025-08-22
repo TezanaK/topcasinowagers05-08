@@ -726,6 +726,8 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
                 </div>
               ))}
             </div>
+            </div>
+          </div>
           </div>
         </section>
       </div>
