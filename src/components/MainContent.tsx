@@ -1,5 +1,5 @@
-          ```jsx
-          <div className="text-center mb-16">
+@@ .. @@
+           <div className="text-center mb-16">
              <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-modern" itemProp="headline">
                <span className="text-yellow-300 animate-neon-pulse">
                 Best Online Casinos
@@ -61,7 +61,7 @@
                    <div className="flex items-center mb-6">
                      <img 
                        src={casino.logo} 
-                       alt={\`${casino.name} casino logo - Licensed Canadian online casino`}
+                       alt={`${casino.name} casino logo - Licensed Canadian online casino`}
                        loading={index === 0 ? "eager" : "lazy"}
                        decoding="async"
                        className="w-16 h-16 rounded-2xl object-cover shadow-modern border-2 border-white/20 mr-6"
@@ -71,7 +71,7 @@
                        <div className="flex items-center space-x-4">
                          <div className="flex items-center">
                            {[...Array(5)].map((_, i) => (
-                             <Star key={i} className={\`w-5 h-5 ${i < casino.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} itemProp="ratingValue" />
+                             <Star key={i} className={`w-5 h-5 ${i < casino.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} itemProp="ratingValue" />
                            ))}
                            <span className="ml-2 text-slate-600 font-semibold">{casino.rating}/5</span>
                          </div>
@@ -435,7 +435,7 @@
        <section className="py-20 bg-gradient-to-br from-green-900 to-emerald-900 text-white">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
            <div className="text-center mb-12">
-             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 text-modern">
+             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 text-modern">
                🛡️ Trust & Security
              </h2>
              <p className="text-xl text-slate-300 mb-8">
