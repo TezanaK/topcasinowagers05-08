@@ -49,6 +49,14 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
             <X className="w-5 h-5" />
           </button>
 
+          {/* Close Button */}
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 z-10 w-8 h-8 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center text-white transition-colors"
+          >
+            <X className="w-5 h-5" />
+          </button>
+
           {/* Header with Animation */}
           <div className="gradient-primary text-white p-8 text-center relative overflow-hidden">
             {/* Animated Background Elements */}
