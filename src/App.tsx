@@ -33,7 +33,6 @@ import {
 } from 'lucide-react';
 import ReviewsPage from './components/ReviewsPage';
 import BonusesPage from './components/BonusesPage';
-import MainContent from './components/MainContent';
 import AboutPage from './components/AboutPage';
 import BlogsPage from './components/BlogsPage';
 import SEOPages from './components/SEOPages';
@@ -42,8 +41,6 @@ import GameGuidePages from './components/GameGuidePages';
 import LocationPages from './components/LocationPages';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
-import TrustIndicators from './components/TrustIndicators';
-import InteractiveElements from './components/InteractiveElements';
 
 interface Casino {
   id: number;
@@ -73,11 +70,7 @@ function App() {
     setIsMenuOpen(false);
   };
 
-      <div>
-        <MainContent onNavigateTo={handleNavigateTo} />
-        <TrustIndicators />
-        <InteractiveElements onNavigateTo={handleNavigateTo} />
-      </div>
+  // SEO-optimized routing for programmatic pages
   if (currentPage.startsWith('casino-')) {
     const casinoName = currentPage.replace('casino-', '');
     return (
