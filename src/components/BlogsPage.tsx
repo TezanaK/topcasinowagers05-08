@@ -578,7 +578,7 @@ const BlogsPage: React.FC<BlogsPageProps> = ({ onNavigateHome, onNavigateTo }) =
       {/* Blog Page Meta Tags */}
       <div style={{ display: 'none' }}>
         <title>Casino Blog - Expert Tips, Strategies & News | TopCasinoWagers Canada</title>
-        <meta name="description" content="Expert casino blog with tips, strategies, game guides, and industry news for Canadian players. Stay updated with the latest casino trends and winning strategies." />
+        <meta name="description" content="Expert casino blog with tips, strategies, game guides & industry news for Canadian players. Latest casino trends & winning strategies." />
         <meta name="keywords" content="casino blog, gambling tips, casino strategies, game guides, casino news Canada, online gambling blog" />
       </div>
       

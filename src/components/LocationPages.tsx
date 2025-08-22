@@ -265,7 +265,7 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location, onNavigateHome,
   const locationInfo = locationData[location] || locationData['ontario'];
   
   const pageTitle = `Best Online Casinos in ${locationInfo.name} Canada 2024 | TopCasinoWagers`;
-  const pageDescription = `Top online casinos for ${locationInfo.name} players. ${locationInfo.legalStatus}. Expert reviews, bonuses, and legal information for ${locationInfo.fullName} residents.`;
+  const pageDescription = `Top online casinos for ${locationInfo.name} players. ${locationInfo.legalStatus}. Expert reviews, bonuses & legal info for residents.`;
   const pageKeywords = `${locationInfo.name} online casinos, ${locationInfo.name} gambling, Canadian casinos ${locationInfo.name}, online casino ${locationInfo.name}`;
 
   const renderStars = (rating: number) => {

@@ -32,7 +32,7 @@ interface PrivacyPolicyPageProps {
 const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigateHome, onNavigateTo }) => {
   const privacyMetadata = {
     title: "Privacy Policy - TopCasinoWagers Canada | Data Protection & Privacy",
-    description: "TopCasinoWagers Privacy Policy. Learn how we collect, use, and protect your personal information. GDPR compliant privacy practices for Canadian users.",
+    description: "TopCasinoWagers Privacy Policy. Learn how we collect, use & protect your personal information. GDPR compliant privacy practices for Canadians.",
     keywords: "privacy policy, data protection, GDPR, personal information, TopCasinoWagers privacy, Canadian privacy laws"
   };
 

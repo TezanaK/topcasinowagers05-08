@@ -159,7 +159,7 @@ const CasinoLandingPages: React.FC<CasinoLandingPagesProps> = ({ casinoName, onN
   const casino = casinoData[casinoName] || casinoData['neospin'];
   
   const pageTitle = `${casino.name} Casino Review Canada 2024 - ${casino.bonus} | TopCasinoWagers`;
-  const pageDescription = `${casino.name} casino review for Canadian players. ${casino.bonus}. ${casino.rating}/5 rating. ${casino.games} games, ${casino.payoutTime} payouts. Read our expert analysis.`;
+  const pageDescription = `${casino.name} casino review for Canadian players. ${casino.bonus}. ${casino.rating}/5 rating. ${casino.games} games, ${casino.payoutTime} payouts.`;
   const pageKeywords = `${casino.name} casino, ${casino.name} review Canada, ${casino.name} bonus, Canadian online casino, ${casino.name} games`;
 
   const renderStars = (rating: number) => {

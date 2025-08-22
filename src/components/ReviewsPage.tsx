@@ -93,7 +93,7 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
   // Add metadata for Reviews page
   const reviewsMetadata = {
     title: "Casino Reviews - Expert Analysis of Canadian Online Casinos | TopCasinoWagers",
-    description: "In-depth casino reviews for Canadian players. Expert analysis, player feedback, and detailed ratings of the best online casinos accepting Canadians.",
+    description: "In-depth casino reviews for Canadian players. Expert analysis, player feedback & detailed ratings of best online casinos accepting Canadians.",
     keywords: "casino reviews Canada, online casino ratings, Canadian casino analysis, expert casino reviews, casino comparison Canada"
   };
 

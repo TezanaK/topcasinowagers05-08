@@ -30,7 +30,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome }) => {
   // Add metadata for About page
   const aboutMetadata = {
     title: "About TopCasinoWagers - Canada's Trusted Casino Review Team",
-    description: "Learn about TopCasinoWagers, Canada's premier casino review platform. Meet our expert team and discover our mission to help Canadian players find safe, exciting gaming experiences.",
+    description: "Learn about TopCasinoWagers, Canada's premier casino review platform. Meet our expert team & discover our mission to help Canadian players.",
     keywords: "about TopCasinoWagers, Canadian casino experts, casino review team, trusted casino guide Canada"
   };
 

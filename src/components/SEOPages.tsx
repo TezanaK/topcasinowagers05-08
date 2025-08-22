@@ -127,7 +127,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* Guide Page Meta Tags */}
         <div style={{ display: 'none' }}>
           <title>Complete Casino Guide for Canadian Players | TopCasinoWagers</title>
-          <meta name="description" content="Complete casino guide for Canadian players. Learn how to choose casinos, understand bonuses, game strategies, banking methods, and responsible gambling." />
+          <meta name="description" content="Complete casino guide for Canadian players. Learn how to choose casinos, understand bonuses, game strategies & banking methods." />
           <meta name="keywords" content="casino guide Canada, how to choose casino, casino strategies, Canadian gambling guide, online casino tips" />
         </div>
         
@@ -555,7 +555,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* Contact Page Meta Tags */}
         <div style={{ display: 'none' }}>
           <title>Contact TopCasinoWagers - Canadian Casino Expert Support</title>
-          <meta name="description" content="Contact TopCasinoWagers for expert casino advice and support. Email, live chat, and phone support for Canadian players." />
+          <meta name="description" content="Contact TopCasinoWagers for expert casino advice & support. Email, live chat & phone support for Canadian players." />
           <meta name="keywords" content="contact casino experts, Canadian casino support, casino help, gambling questions Canada" />
         </div>
         
@@ -659,7 +659,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* FAQ Page Meta Tags */}
         <div style={{ display: 'none' }}>
           <title>Casino FAQ - Frequently Asked Questions | TopCasinoWagers Canada</title>
-          <meta name="description" content="Frequently asked questions about online casino gaming in Canada. Get answers about legality, bonuses, payments, and more." />
+          <meta name="description" content="Frequently asked questions about online casino gaming in Canada. Get answers about legality, bonuses, payments & more." />
           <meta name="keywords" content="casino FAQ Canada, online gambling questions, casino help, Canadian casino answers" />
         </div>
         
