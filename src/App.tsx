@@ -33,6 +33,8 @@ import {
 } from 'lucide-react';
 import ReviewsPage from './components/ReviewsPage';
 import BonusesPage from './components/BonusesPage';
+import ExitIntentPopup from './components/ExitIntentPopup';
+import { useExitIntent } from './hooks/useExitIntent';
 import AboutPage from './components/AboutPage';
 import BlogsPage from './components/BlogsPage';
 import SEOPages from './components/SEOPages';
@@ -58,6 +60,11 @@ interface Casino {
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
+  const { showPopup, closePopup } = useExitIntent({ 
+    enabled: currentPage === 'home',
+    delay: 800,
+    showOnce: true 
+  });
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigateToPage = (page: string) => {
@@ -1567,6 +1574,12 @@ function App() {
           </div>
         </div>
       </footer>
+      
+      {/* Exit Intent Popup */}
+      <ExitIntentPopup 
+        isVisible={showPopup} 
+        onClose={closePopup} 
+      />
     </div>
   );
 }

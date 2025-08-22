@@ -264,6 +264,52 @@ img[data-priority] {
   animation-delay: 1s;
 }
 
+/* Exit Intent Popup Animations */
+@keyframes popup-entrance {
+  0% {
+    transform: scale(0.8) translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes urgent-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+  }
+  50% { 
+    transform: scale(1.02);
+    box-shadow: 0 0 40px rgba(255, 215, 0, 0.8);
+  }
+}
+
+@keyframes countdown-pulse {
+  0%, 100% { 
+    color: #dc2626;
+    transform: scale(1);
+  }
+  50% { 
+    color: #ef4444;
+    transform: scale(1.1);
+  }
+}
+
+.animate-popup-entrance {
+  animation: popup-entrance 0.5s ease-out;
+}
+
+.animate-urgent-pulse {
+  animation: urgent-pulse 2s ease-in-out infinite;
+}
+
+.animate-countdown-pulse {
+  animation: countdown-pulse 1s ease-in-out infinite;
+}
+
 @keyframes logo-glow {
   0%, 100% { 
     filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.8)) drop-shadow(0 0 20px rgba(34, 197, 94, 0.4));
