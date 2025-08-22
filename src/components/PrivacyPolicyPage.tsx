@@ -278,6 +278,7 @@ const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigateHome, o
       {/* Information We Collect */}
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">Types of Personal Information We Collect</h2>
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Information We Collect</h2>
             <p className="text-xl text-slate-600">We collect different types of information to provide and improve our services</p>

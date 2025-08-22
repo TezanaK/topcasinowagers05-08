@@ -200,6 +200,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome }) => {
       {/* Our Story */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">TopCasinoWagers Company History and Mission</h2>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 text-modern">

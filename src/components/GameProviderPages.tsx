@@ -349,6 +349,7 @@ const GameProviderPages: React.FC<GameProviderPagesProps> = ({ provider, onNavig
       {/* Company Information */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">{providerInfo.name} Company Information and Overview</h2>
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="modern-card shadow-modern p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center">

@@ -84,6 +84,7 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
   return (
     <div className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="sr-only">Internal Navigation Links to Casino Guides and Reviews</h2>
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-6">Explore Our Casino Guides</h2>
           <p className="text-xl text-slate-600">

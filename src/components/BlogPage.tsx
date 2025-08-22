@@ -744,6 +744,7 @@ const BlogPage: React.FC<BlogPageProps> = ({ onNavigateHome, onNavigateTo }) => 
       {/* Blog Posts Grid */}
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">Latest Casino Blog Articles and Guides</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post) => (
               <article key={post.id} className="modern-card shadow-modern-hover cursor-pointer" onClick={() => setSelectedPost(post.id)} itemScope itemType="https://schema.org/Article">

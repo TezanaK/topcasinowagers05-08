@@ -388,6 +388,7 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location, onNavigateHome,
       {/* Legal Information */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">{locationInfo.name} Online Casino Legal Information and Regulations</h2>
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="modern-card shadow-modern p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center">

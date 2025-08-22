@@ -313,6 +313,7 @@ const CasinoLandingPages: React.FC<CasinoLandingPagesProps> = ({ casinoName, onN
       {/* Detailed Review */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="sr-only">{casino.name} Casino Detailed Review and Analysis</h2>
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-12">

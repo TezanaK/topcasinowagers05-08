@@ -169,6 +169,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* Guide Sections */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="sr-only">Complete Casino Gaming Guide Sections</h2>
             <div className="grid lg:grid-cols-3 gap-8">
               {/* Getting Started */}
               <div className="modern-card shadow-modern-hover">
@@ -580,6 +581,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* Contact Options */}
         <section className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="sr-only">Contact TopCasinoWagers Support Options</h2>
             <div className="grid md:grid-cols-3 gap-8 mb-16">
               <div className="modern-card shadow-modern-hover text-center">
                 <div className="p-8">

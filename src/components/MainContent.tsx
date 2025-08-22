@@ -47,6 +47,7 @@
              </p>
            </div>
           
+          <h2 className="sr-only">Best Online Casinos Canada 2024 Reviews</h2>
           {/* SEO-optimized intro text */}
           <div className="max-w-4xl mx-auto text-center mb-12">
             <p className="text-lg text-slate-600 leading-relaxed">
