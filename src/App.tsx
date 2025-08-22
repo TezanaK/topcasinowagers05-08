@@ -214,16 +214,16 @@ function App() {
     },
     {
       id: 6,
-      name: "SPIN CASINO",
-      logo: "/IMG_0135.jpeg",
+      name: "HOUSE OF JACK",
+      logo: "/public/hoj.webp",
       rating: 4.4,
-      bonus: "Up to CA$1,000 + 150 Free Spins",
+      bonus: "Up to CA$1,000 + 200 Free Spins",
       features: ["Microgaming", "Mobile Friendly", "Fast Payouts"],
       payoutTime: "1-3 days",
       minDeposit: "CA$10",
       games: 400,
-      license: "Malta Gaming Authority",
-      url: "https://spincasino.com"
+      license: "CURACAO LICENSE",
+      url: "https://record.jackedaffiliates.com/_NiRpjbXJyK5hg6WO2I1rgWNd7ZgqdRLk/1/"
     },
     {
       id: 7,
