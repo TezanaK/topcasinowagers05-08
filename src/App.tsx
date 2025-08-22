@@ -230,7 +230,7 @@ function App() {
       minDeposit: "CA$10",
       games: 400,
       license: "CURACAO LICENSE",
-      url: "https://record.jackedaffiliates.com/_NiRpjbXJyK5hg6WO2I1rgWNd7ZgqdRLk/1/"
+      url: "https://www.spincasino.com/ca/?s=bfp49645"
     },
     {
       id: 7,
