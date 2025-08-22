@@ -220,7 +220,7 @@ function App() {
       url: "https://betway.com/bwp/welcome-casino-ca-1000-50/en-ca/?s=bfp49645"
     },
     {
-      id: 6,
+      id: 9,
       name: "SPIN CASINO",
       logo: "/IMG_0130.jpeg",
       rating: 4.4,
@@ -259,7 +259,7 @@ function App() {
       url: "https://casinoinfinity.com"
     },
     {
-      id: 9,
+      id: 6,
       name: "JACKPOTCITY",
       logo: "/IMG_0129.jpeg",
       rating: 4.8,
