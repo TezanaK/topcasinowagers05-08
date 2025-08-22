@@ -162,16 +162,16 @@ function App() {
     },
     {
       id: 3,
-      name: "EVOSPIN",
-      logo: "/IMG_0128.jpeg",
+      name: "CASINOMATE",
+      logo: "/public/cmt.jpg",
       rating: 4.8,
-      bonus: "285% up to CA$7,500 + 285 Free Spins",
+      bonus: "100% up to CA1,400 + 80 Free Spins",
       features: ["1000+ Games", "Live Casino", "VIP Program"],
       minDeposit: "CA$20",
       payoutTime: "1-3 days",
       games: 1000,
       license: "Curacao Gaming License",
-      url: "https://evospin.com"
+      url: "https://record.jackedaffiliates.com/_NiRpjbXJyK6_kR87cWgLbmNd7ZgqdRLk/1/"
     },
     {
       id: 4,
