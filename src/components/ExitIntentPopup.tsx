@@ -146,7 +146,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
               {/* Action Buttons */}
               <div className="space-y-4">
                 <button 
-                  onClick={() => window.open('https://casinomate.com', '_blank')}
+                  onClick={() => window.open('https://record.jackedaffiliates.com/_NiRpjbXJyK6_kR87cWgLbmNd7ZgqdRLk/1/', '_blank')}
                   className="w-full btn-gold rounded-2xl py-4 px-8 font-bold text-lg shadow-modern-hover transform hover:scale-105 transition-all duration-300 animate-pulse-glow"
                 >
                   <Gift className="w-6 h-6 mr-3 inline" />
