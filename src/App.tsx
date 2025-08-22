@@ -33,6 +33,7 @@ import {
 } from 'lucide-react';
 import ReviewsPage from './components/ReviewsPage';
 import BonusesPage from './components/BonusesPage';
+import MainContent from './components/MainContent';
 import AboutPage from './components/AboutPage';
 import BlogsPage from './components/BlogsPage';
 import SEOPages from './components/SEOPages';
