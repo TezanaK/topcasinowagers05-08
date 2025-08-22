@@ -109,8 +109,10 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
               {/* Bonus Code */}
               <div className="glass rounded-2xl p-6 border-2 border-green-500 bg-green-50 mb-6">
                 <div className="text-center">
- 
-                  <div c
+                  <div className="text-sm font-bold text-green-700 mb-2">🎁 EXCLUSIVE BONUS CODE</div>
+                  <div className="text-2xl font-bold text-green-800 bg-white rounded-lg p-3 border-2 border-green-400">
+                    TCWMATE
+                  </div>
                 </div>
               </div>
 
