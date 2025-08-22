@@ -263,7 +263,7 @@ function App() {
       name: "JACKPOTCITY",
       logo: "/IMG_0129.jpeg",
       rating: 4.8,
-      bonus: "up to CA$1,600 ",
+      bonus: "up to CA$1,600",
       features: ["Luck and Load Theme", "High RTP Games", "VIP Program"],
       payoutTime: "2-4 days",
       minDeposit: "CA$25",
