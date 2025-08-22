@@ -22,6 +22,8 @@
                </div>
                <div className="glass-dark rounded-2xl px-6 py-4 border border-white/20">
                  <div className="text-2xl font-bold text-purple-400">24/7</div>
+}
+)
 @@ -104,7 +104,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
                  Play at Top Casinos
                </button>
@@ -30,6 +32,8 @@
                  Read Reviews
                </button>
              </div>
+}
+)
 @@ -115,7 +115,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
        {/* Featured Casinos Section */}
        <section className="py-20 bg-white">
@@ -52,6 +56,12 @@
 
            <div className="space-y-8">
              {casinos.map((casino, index) => (
+             )
+             )
+             }
+       }
+}
+)
 @@ -280,7 +287,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
        {/* Why Choose Us Section */}
        <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
@@ -80,7 +90,11 @@
                  <h3 className="text-xl font-semibold text-slate-900 mb-4">Licensed & Safe</h3>
                 <p className="text-slate-600">Only MGA, UKGC, and Curacao licensed casinos with SSL encryption and fair play certification</p>
                </div>
+             }
              </div>
+       }
+}
+)
 
 @@ -308,7 +322,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
                    <Award className="w-10 h-10 text-white" />
@@ -89,6 +103,8 @@
                 <p className="text-slate-600">Comprehensive reviews by Canadian gambling experts with 10+ years experience</p>
                </div>
              </div>
+}
+)
 
 @@ -319,7 +333,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
                    <MapPin className="w-10 h-10 text-white" />
@@ -97,6 +113,8 @@
                 <p className="text-slate-600">Expert knowledge of Canadian gambling laws, provincial regulations, and CAD banking options</p>
                </div>
              </div>
+}
+)
 
 @@ -330,7 +344,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
                    <Users className="w-10 h-10 text-white" />
@@ -106,6 +124,8 @@
                </div>
              </div>
            </div>
+}
+)
 @@ -341,7 +355,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
        <section className="py-20 bg-white">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -117,6 +137,9 @@
 @@ -349,6 +363,13 @@ const MainContent: React.FC<MainContentProps> = ({ 
              </p>
            </div>
+       }
+}
+)
 
 +          {/* SEO-rich bonus description */}
 +          <div className="max-w-4xl mx-auto text-center mb-12">
@@ -129,7 +152,11 @@
              {bonuses.map((bonus, index) => (
                <div key={index} className="modern-card shadow-modern-hover group">
 @@ -410,6 +431,13 @@ const MainContent: React.FC<MainContentProps> = ({ 
+               }
              </p>
+           )
+           )
+           }
            </div>
 
 +          {/* Additional SEO content for game guides */}
@@ -143,7 +170,11 @@
              {gameGuides.map((guide, index) => (
                <div key={index} className="modern-card shadow-modern-hover text-center group">
 @@ -442,6 +470,13 @@ const MainContent: React.FC<MainContentProps> = ({ 
+               }
              </p>
+           )
+           )
+           }
            </div>
 
 +          {/* SEO content for latest updates */}
@@ -157,6 +188,10 @@
              {latestUpdates.map((update, index) => (
                <div key={index} className="modern-card shadow-modern-hover group">
 @@ -470,6 +505,20 @@ const MainContent: React.FC<MainContentProps> = ({ 
+               }
+           )
+           )
+           }
          </div>
        </section>
 
