@@ -1,3 +1,4 @@
+```tsx
            <div className="text-center mb-16">
              <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-modern" itemProp="headline">
                <span className="text-yellow-300 animate-neon-pulse">
@@ -13,19 +14,25 @@
              </p>
 
              {/* Trust Indicators */}
-@@ -89,7 +89,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
+             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+               <div className="glass-dark rounded-2xl px-6 py-4 border border-white/20">
+                 <div className="text-2xl font-bold text-blue-400">150+</div>
+                 <div className="text-sm opacity-80">Casinos Reviewed</div>
                </div>
                <div className="glass-dark rounded-2xl px-6 py-4 border border-white/20">
                  <div className="text-2xl font-bold text-green-400">CA$9,000</div>
-                <div className="text-sm opacity-80">Max Bonus Amount</div>
+                 <div className="text-sm opacity-80">Max Bonus Amount</div>
                </div>
                <div className="glass-dark rounded-2xl px-6 py-4 border border-white/20">
                  <div className="text-2xl font-bold text-purple-400">1-3 Days</div>
-                <div className="text-sm opacity-80">Fast Payouts</div>
+                 <div className="text-sm opacity-80">Fast Payouts</div>
                </div>
              </div>
 
-@@ -104,7 +104,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
+             {/* CTA Buttons */}
+             <div className="flex flex-wrap justify-center gap-4">
+               <button className="btn-gold rounded-2xl py-4 px-8 font-bold shadow-modern-hover transform hover:scale-105 transition-all duration-300">
+                <Play className="w-5 h-5 mr-2 inline" />
                 Claim CA$9,000 Bonus
                </button>
                <button className="glass-dark border-2 border-white/20 text-white font-bold py-4 px-8 rounded-2xl hover:bg-white hover:text-slate-900 transition-all duration-300">
@@ -33,7 +40,10 @@
                  Read Expert Reviews
                </button>
              </div>
-@@ -115,7 +115,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
+           </div>
+         </div>
+       </section>
+
        {/* Featured Casinos Section */}
        <section className="py-20 bg-white">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -506,3 +516,4 @@
  };
 
  export default MainContent;
+```
