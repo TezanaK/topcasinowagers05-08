@@ -252,6 +252,16 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigateHome }) => {
             <p className="text-xl text-slate-600">
               The principles that guide everything we do
             </p>
+             
+             {/* Additional descriptive content */}
+             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
+               <p className="mb-4">
+                 At <strong>TopCasinoWagers</strong>, our core values shape every aspect of our <strong>casino review process</strong> and guide our commitment to <strong>Canadian players</strong>. These principles ensure that every recommendation we make prioritizes <strong>player safety</strong>, <strong>fair gaming</strong>, and <strong>exceptional user experience</strong>. Our values have remained constant since our founding in 2019 and continue to drive our mission to be <strong>Canada's most trusted casino review platform</strong>.
+               </p>
+               <p>
+                 We believe that <strong>online gambling</strong> should be safe, enjoyable, and transparent for all <strong>Canadian players</strong>. Our rigorous <strong>casino testing process</strong> and commitment to <strong>editorial independence</strong> means you can trust our recommendations to help you find the <strong>best online casinos Canada</strong> has to offer, complete with <strong>exclusive bonuses</strong>, <strong>fast payouts</strong>, and <strong>world-class customer support</strong>.
+               </p>
+             </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

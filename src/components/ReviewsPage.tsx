@@ -528,6 +528,16 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
                 <div className="text-sm text-slate-600">{casino.userReviews.totalReviews} reviews</div>
               </div>
             </div>
+             
+             {/* Additional descriptive content */}
+             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
+               <p className="mb-4">
+                 Our <strong>expert casino review team</strong> has personally tested and evaluated each of these <strong>Canadian online casinos</strong> to ensure they provide the best possible experience for players interested in <strong>{game.title.replace(' Guide', '').toLowerCase()}</strong>. Each casino on this list has been verified for <strong>licensing and security</strong>, <strong>game quality and variety</strong>, <strong>bonus fairness</strong>, <strong>customer support responsiveness</strong>, and <strong>payout reliability</strong>.
+               </p>
+               <p>
+                 These <strong>top-rated casinos</strong> all accept <strong>Canadian players</strong>, support <strong>CAD currency</strong>, offer <strong>Interac e-Transfer banking</strong>, and provide <strong>mobile-optimized gaming</strong> for smartphones and tablets. Whether you're a beginner or experienced player, these casinos offer the perfect combination of <strong>game selection</strong>, <strong>generous bonuses</strong>, and <strong>reliable payouts</strong> that Canadian players deserve.
+               </p>
+             </div>
           </div>
 
           <div className="space-y-6">

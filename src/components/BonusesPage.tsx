@@ -620,6 +620,16 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Understanding Casino Bonuses</h2>
             <p className="text-xl text-slate-600">Everything you need to know about casino bonuses in Canada</p>
+             
+             {/* Additional descriptive content */}
+             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
+               <p className="mb-4">
+                 <strong>Casino bonuses Canada</strong> are promotional offers designed to attract new players and reward loyal customers at <strong>online casinos</strong>. Understanding how these bonuses work is crucial for <strong>Canadian players</strong> who want to maximize their <strong>online gambling</strong> experience. From <strong>welcome bonuses</strong> and <strong>free spins</strong> to <strong>cashback offers</strong> and <strong>VIP rewards</strong>, each type of bonus has specific terms and conditions that affect your ability to withdraw winnings.
+               </p>
+               <p>
+                 The <strong>best casino bonuses Canada</strong> offers typically include generous <strong>match percentages</strong>, reasonable <strong>wagering requirements</strong>, and fair <strong>terms and conditions</strong>. Our expert team analyzes every aspect of bonus offers, including <strong>game restrictions</strong>, <strong>maximum bet limits</strong>, <strong>time limits</strong>, and <strong>withdrawal conditions</strong> to ensure Canadian players get the best value from their <strong>online casino bonuses</strong>.
+               </p>
+             </div>
           </div>
 
           <div className="space-y-8">
