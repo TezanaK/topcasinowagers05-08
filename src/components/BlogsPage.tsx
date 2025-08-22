@@ -63,8 +63,8 @@ const BlogsPage: React.FC<BlogsPageProps> = ({ onNavigateHome, onNavigateTo }) =
         <h3>1. NEOSPIN - 100% up to CA$500 + 100 Free Spins</h3>
         <p>NEOSPIN leads our list with their incredible welcome package. New Canadian players can claim a 100% match bonus up to CA$500 plus 100 free spins on popular slots. The wagering requirement is a reasonable 35x, and the bonus is valid for 30 days.</p>
         
-        <h3>2. EVOSPIN - 285% up to CA$7,500 + 285 Free Spins</h3>
-        <p>EVOSPIN offers one of the highest percentage bonuses available to Canadian players. With a massive 285% match bonus and 285 free spins, this offer provides exceptional value for high-rolling players.</p>
+        <h3>2. CASINOMATE - 285% up to CA$7,500 + 285 Free Spins</h3>
+        <p>CASINOMATE offers one of the highest percentage bonuses available to Canadian players. With a massive 285% match bonus and 285 free spins, this offer provides exceptional value for high-rolling players.</p>
         
         <h3>3. ONLUCK.COM - 285% up to CA$9,000 + 225 Free Spins</h3>
         <p>ONLUCK.COM takes the crown for the highest bonus amount, offering up to CA$9,000 in bonus funds. This makes it perfect for players who want to maximize their playing time and winning potential.</p>
@@ -380,7 +380,7 @@ const BlogsPage: React.FC<BlogsPageProps> = ({ onNavigateHome, onNavigateTo }) =
         <h3>Best Live Casinos for Canadians</h3>
         <p>Top-rated casinos offering live dealer games:</p>
         <ul>
-          <li>EVOSPIN - Premium Evolution Gaming tables</li>
+          <li>CASINOMATE - Premium Evolution Gaming tables</li>
           <li>VICIBET - Wide variety of live games</li>
           <li>NEOSPIN - High-quality streaming</li>
         </ul>
