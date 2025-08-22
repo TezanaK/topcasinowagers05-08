@@ -139,6 +139,16 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
           <div className="absolute inset-0 opacity-10">
             <div className="absolute top-20 left-20 w-24 h-24 gradient-accent rounded-3xl opacity-20 animate-float transform rotate-45"></div>
             <div className="absolute bottom-24 right-16 w-32 h-32 gradient-secondary rounded-full opacity-15 animate-float-delayed"></div>
+             
+             {/* Additional descriptive content for Contact page */}
+             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
+               <p className="mb-4">
+                 <strong>TopCasinoWagers</strong> provides dedicated support for <strong>Canadian casino players</strong> seeking expert advice about <strong>online gambling</strong>. Our team of <strong>casino specialists</strong> is available to help with questions about <strong>casino selection</strong>, <strong>bonus terms</strong>, <strong>banking methods</strong>, <strong>game strategies</strong>, and <strong>responsible gaming practices</strong>. Whether you're a beginner looking for guidance or an experienced player seeking advanced tips, our experts are here to assist.
+               </p>
+               <p>
+                 We understand that navigating the world of <strong>online casinos Canada</strong> can be overwhelming with hundreds of options available. Our <strong>customer support team</strong> has extensive knowledge of <strong>Canadian gambling laws</strong>, <strong>provincial regulations</strong>, <strong>banking requirements</strong>, and <strong>casino licensing</strong> to provide accurate, helpful information tailored specifically for <strong>Canadian residents</strong>. Contact us for personalized recommendations based on your gaming preferences and location.
+               </p>
+             </div>
           </div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-white">
