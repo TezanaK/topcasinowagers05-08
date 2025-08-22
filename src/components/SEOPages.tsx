@@ -688,19 +688,6 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
         {/* FAQ Content */}
         <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">FAQ</h2>
-              
-              {/* Additional descriptive content for FAQ page */}
-              <div className="max-w-4xl mx-auto mb-8 text-lg text-slate-600 leading-relaxed">
-                <p className="mb-4">
-                  Our <strong>frequently asked questions</strong> section addresses the most common inquiries from <strong>Canadian casino players</strong> about <strong>online gambling</strong>, <strong>casino bonuses</strong>, <strong>game strategies</strong>, and <strong>banking methods</strong>. These questions have been compiled from thousands of interactions with <strong>Canadian players</strong> and represent the most important information needed to enjoy <strong>online casinos</strong> safely and successfully.
-                </p>
-                <p>
-                  <strong>TopCasinoWagers</strong> has been helping <strong>Canadian players</strong> navigate the <strong>online casino landscape</strong> since 2019, and these FAQs reflect our deep understanding of the unique needs and concerns of <strong>Canadian casino enthusiasts</strong>. From <strong>legal considerations</strong> and <strong>provincial regulations</strong> to <strong>payment processing</strong> and <strong>withdrawal procedures</strong>, we provide clear, accurate answers to help you make informed decisions about your <strong>online gambling experience</strong>.
-                </p>
-              </div>
-              
             <div className="space-y-6">
               {faqs.map((faq, index) => (
                 <div key={index} className="modern-card shadow-modern">

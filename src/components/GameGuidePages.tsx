@@ -351,16 +351,6 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Popular {game.title.replace(' Guide', '')} Games</h2>
             <p className="text-xl text-slate-600">Most played games by Canadian players</p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 These <strong>popular {game.title.replace(' Guide', '').toLowerCase()} games</strong> have been carefully selected based on their popularity among <strong>Canadian online casino players</strong>, <strong>high RTP rates</strong>, <strong>engaging gameplay features</strong>, and availability at our <strong>top-rated Canadian casinos</strong>. Each game has been tested by our expert team for <strong>fairness</strong>, <strong>mobile compatibility</strong>, and <strong>bonus feature quality</strong> to ensure the best possible gaming experience.
-               </p>
-               <p>
-                 Whether you're playing for fun or aiming for big wins, these <strong>{game.title.replace(' Guide', '').toLowerCase()} games</strong> offer excellent <strong>return-to-player rates</strong>, <strong>exciting bonus features</strong>, and <strong>proven track records</strong> of fair play. All games are available at our recommended <strong>licensed Canadian casinos</strong> with <strong>CAD currency support</strong>, <strong>mobile optimization</strong>, and <strong>secure banking options</strong> including <strong>Interac e-Transfer</strong>.
-               </p>
-             </div>
           </div>
 
           <div className="modern-card shadow-modern p-8">

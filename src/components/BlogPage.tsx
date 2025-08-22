@@ -662,16 +662,6 @@ const BlogPage: React.FC<BlogPageProps> = ({ onNavigateHome, onNavigateTo }) => 
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6" itemProp="headline">Featured Casino Articles</h2>
             <p className="text-xl text-slate-600">Our most popular and comprehensive <strong>casino guides</strong> for <strong>Canadian players</strong></p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 Our <strong>featured casino articles</strong> represent the most comprehensive and valuable content for <strong>Canadian online casino players</strong>. These in-depth guides cover everything from <strong>choosing the best online casinos Canada</strong> has to offer to mastering <strong>casino game strategies</strong> and understanding <strong>bonus terms and conditions</strong>. Each article is written by our team of <strong>Canadian gambling experts</strong> with over 50 years of combined industry experience.
-               </p>
-               <p>
-                 Whether you're new to <strong>online gambling</strong> or an experienced player looking to improve your game, these articles provide actionable insights, <strong>expert tips</strong>, and <strong>proven strategies</strong> to enhance your <strong>casino gaming experience</strong>. From <strong>high RTP slot recommendations</strong> to <strong>blackjack basic strategy charts</strong>, our content helps Canadian players make informed decisions and maximize their winning potential at <strong>licensed online casinos</strong>.
-               </p>
-             </div>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8">

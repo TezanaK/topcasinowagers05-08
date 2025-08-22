@@ -446,16 +446,6 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location, onNavigateHome,
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Best Casinos for {locationInfo.name} Players</h2>
             <p className="text-xl text-slate-600">Top-rated online casinos accepting players from {locationInfo.fullName}</p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 <strong>{locationInfo.name} residents</strong> have access to some of the world's best <strong>online casinos</strong>, offering everything from <strong>massive welcome bonuses</strong> and <strong>free spins packages</strong> to <strong>live dealer games</strong> and <strong>progressive jackpot slots</strong>. Our recommended casinos for <strong>{locationInfo.name} players</strong> all support <strong>Canadian dollars (CAD)</strong>, accept <strong>Interac e-Transfer</strong>, and provide <strong>fast payouts</strong> typically processed within <strong>1-3 business days</strong>.
-               </p>
-               <p>
-                 The <strong>online gambling landscape in {locationInfo.name}</strong> is regulated by the <strong>{locationInfo.regulator}</strong>, ensuring that players have access to <strong>safe and fair gaming</strong> options. With a population of <strong>{locationInfo.population}</strong> and the capital city of <strong>{locationInfo.capital}</strong>, {locationInfo.name} represents a significant portion of the <strong>Canadian online casino market</strong>. All our recommended casinos comply with <strong>Canadian gambling laws</strong> and provide <strong>responsible gaming tools</strong> to ensure a safe gaming environment.
-               </p>
-             </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">

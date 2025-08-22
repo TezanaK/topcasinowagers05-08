@@ -351,16 +351,6 @@ const ResponsibleGamingPage: React.FC<ResponsibleGamingPageProps> = ({ onNavigat
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Safe Gambling Guidelines</h2>
             <p className="text-xl text-slate-600">Follow these essential tips to maintain healthy gambling habits</p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 <strong>Responsible gambling</strong> is the cornerstone of a positive <strong>online casino experience</strong> for <strong>Canadian players</strong>. These <strong>safe gambling guidelines</strong> have been developed by <strong>gambling addiction specialists</strong> and <strong>responsible gaming experts</strong> to help players maintain control over their <strong>online gambling activities</strong>. Following these principles ensures that <strong>casino gaming</strong> remains an enjoyable form of entertainment rather than becoming a source of financial or emotional stress.
-               </p>
-               <p>
-                 <strong>Problem gambling</strong> affects approximately 2-3% of the Canadian population, but with proper awareness and preventive measures, most players can enjoy <strong>online casinos</strong> safely. Our guidelines are based on research from the <strong>Responsible Gambling Council</strong> and other <strong>Canadian addiction support organizations</strong>, providing practical strategies that have helped thousands of <strong>Canadian casino players</strong> maintain healthy gambling habits while still enjoying their favorite <strong>casino games</strong>.
-               </p>
-             </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -409,16 +409,6 @@ const GameProviderPages: React.FC<GameProviderPagesProps> = ({ provider, onNavig
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Popular {providerInfo.name} Games</h2>
             <p className="text-xl text-slate-600">Top-rated games loved by Canadian players</p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 <strong>{providerInfo.name}</strong> has established itself as one of the premier <strong>casino game developers</strong> in the industry, creating innovative and engaging games that are beloved by <strong>Canadian online casino players</strong>. With over <strong>{providerInfo.totalGames} games</strong> in their portfolio and an impressive average <strong>RTP of {providerInfo.avgRTP}</strong>, {providerInfo.name} consistently delivers high-quality gaming experiences that combine cutting-edge technology with player-friendly features.
-               </p>
-               <p>
-                 Founded in <strong>{providerInfo.founded}</strong> and headquartered in <strong>{providerInfo.headquarters}</strong>, {providerInfo.name} employs over <strong>{providerInfo.employees} gaming professionals</strong> dedicated to creating the next generation of <strong>online casino games</strong>. Their games are available at all our <strong>top-rated Canadian casinos</strong> and are fully optimized for <strong>desktop and mobile gaming</strong>, ensuring Canadian players can enjoy premium gaming experiences anywhere, anytime.
-               </p>
-             </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

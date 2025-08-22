@@ -282,16 +282,6 @@ const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigateHome, o
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Information We Collect</h2>
             <p className="text-xl text-slate-600">We collect different types of information to provide and improve our services</p>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mt-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 <strong>TopCasinoWagers</strong> is committed to transparency about the information we collect from visitors to our <strong>Canadian casino review website</strong>. We only collect information that is necessary to provide our services, improve user experience, and comply with applicable <strong>Canadian privacy laws</strong> including <strong>PIPEDA (Personal Information Protection and Electronic Documents Act)</strong>. Our data collection practices are designed to respect your privacy while enabling us to deliver the most relevant and helpful <strong>casino reviews</strong> and <strong>bonus recommendations</strong>.
-               </p>
-               <p>
-                 The information we collect falls into several categories, each serving specific purposes related to our mission of helping <strong>Canadian players</strong> find the <strong>best online casinos</strong>. We use industry-standard security measures to protect all collected information and never sell personal data to third parties. Our commitment to <strong>data protection</strong> and <strong>user privacy</strong> is fundamental to maintaining the trust of the <strong>Canadian gambling community</strong> we serve.
-               </p>
-             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

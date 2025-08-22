@@ -541,17 +541,6 @@ const CasinoLandingPages: React.FC<CasinoLandingPagesProps> = ({ casinoName, onN
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">{casino.name} FAQ</h2>
-             
-             {/* Additional descriptive content */}
-             <div className="max-w-4xl mx-auto mb-8 text-lg text-slate-600 leading-relaxed">
-               <p className="mb-4">
-                 Get answers to the most frequently asked questions about <strong>{casino.name} casino</strong> from our <strong>Canadian casino experts</strong>. Our comprehensive FAQ section covers everything from <strong>account registration</strong> and <strong>bonus claiming</strong> to <strong>withdrawal processes</strong> and <strong>game availability</strong>. We've compiled these questions based on real inquiries from <strong>Canadian players</strong> to help you make informed decisions about playing at <strong>{casino.name}</strong>.
-               </p>
-               <p>
-                 <strong>{casino.name}</strong> is one of our <strong>top-rated online casinos</strong> for <strong>Canadian players</strong>, offering <strong>{casino.bonus}</strong>, <strong>{casino.games} premium games</strong>, and <strong>{casino.payoutTime} withdrawal processing</strong>. Licensed by the <strong>{casino.license}</strong>, this casino provides a safe and secure gaming environment with <strong>CAD currency support</strong> and <strong>Canadian-friendly banking methods</strong> including <strong>Interac e-Transfer</strong>.
-               </p>
-             </div>
-             
           <div className="space-y-6">
             <div className="modern-card shadow-modern p-6">
               <h3 className="text-xl font-semibold text-slate-900 mb-3">Is {casino.name} safe for Canadian players?</h3>

@@ -13,19 +13,6 @@
               <strong>expert reviews</strong>, and <strong>trusted recommendations</strong>. <strong>Licensed casinos accepting Canadian players</strong> with <strong>CAD support</strong>, <strong>Interac e-Transfer</strong>, and <strong>fast payouts in 1-3 days</strong>.
              </p>
 
-             {/* Additional SEO Content */}
-             <div className="max-w-5xl mx-auto text-lg text-white/90 mb-12 leading-relaxed">
-               <p className="mb-6">
-                 Welcome to <strong>TopCasinoWagers</strong>, Canada's most trusted source for <strong>online casino reviews</strong> and <strong>exclusive bonus offers</strong>. Since 2019, our team of <strong>Canadian gambling experts</strong> has tested and reviewed hundreds of <strong>online casinos</strong> to bring you the most comprehensive guide to <strong>legal online gambling in Canada 2024</strong>. Whether you're looking for the <strong>best welcome bonuses</strong>, <strong>high RTP slots</strong>, or <strong>live dealer games</strong>, we\'ve got you covered.
-               </p>
-               <p className="mb-6">
-                 Our recommended <strong>Canadian online casinos</strong> are all <strong>licensed by reputable authorities</strong> including the <strong>Malta Gaming Authority</strong>, <strong>UK Gambling Commission</strong>, and <strong>Curacao Gaming Authority</strong>. Every casino on our list accepts <strong>Canadian dollars (CAD)</strong>, supports <strong>Interac e-Transfer deposits and withdrawals</strong>, offers <strong>24/7 customer support</strong>, and provides <strong>mobile casino gaming</strong> for smartphones and tablets.
-               </p>
-               <p>
-                 From <strong>progressive jackpot slots</strong> with multi-million dollar prizes to <strong>live dealer blackjack and roulette</strong> with professional dealers, Canadian players have access to the world's best <strong>online casino games</strong>. Our expert reviews cover everything from <strong>game selection and software providers</strong> to <strong>banking methods and withdrawal speeds</strong>, ensuring you find the perfect <strong>online casino Canada</strong> for your gaming preferences.
-               </p>
-             </div>
-
              {/* Trust Indicators */}
 @@ -89,7 +89,7 @@ const MainContent: React.FC<MainContentProps> = ({ 
                </div>
