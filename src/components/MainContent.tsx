@@ -1,3 +1,4 @@
+          ```jsx
           <div className="text-center mb-16">
              <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-modern" itemProp="headline">
                <span className="text-yellow-300 animate-neon-pulse">
@@ -434,7 +435,7 @@
        <section className="py-20 bg-gradient-to-br from-green-900 to-emerald-900 text-white">
          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
            <div className="text-center mb-12">
-             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 text-modern">
+             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 text-modern">
                🛡️ Trust & Security
              </h2>
              <p className="text-xl text-slate-300 mb-8">
@@ -506,3 +507,4 @@
  };
 
  export default MainContent;
+```
