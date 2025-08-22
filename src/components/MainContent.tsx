@@ -61,7 +61,7 @@
                    <div className="flex items-center mb-6">
                      <img 
                        src={casino.logo} 
-                       alt={\`${casino.name} casino logo - Licensed Canadian online casino`}
+                       alt={`${casino.name} casino logo - Licensed Canadian online casino`}
                        loading={index === 0 ? "eager" : "lazy"}
                        decoding="async"
                        className="w-16 h-16 rounded-2xl object-cover shadow-modern border-2 border-white/20 mr-6"
