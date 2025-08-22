@@ -61,7 +61,7 @@
                    <div className="flex items-center mb-6">
                      <img 
                        src={casino.logo} 
-                       alt={`${casino.name} casino logo - Licensed Canadian online casino`}
+                       alt={\`${casino.name} casino logo - Licensed Canadian online casino`}
                        loading={index === 0 ? "eager" : "lazy"}
                        decoding="async"
                        className="w-16 h-16 rounded-2xl object-cover shadow-modern border-2 border-white/20 mr-6"
@@ -71,7 +71,7 @@
                        <div className="flex items-center space-x-4">
                          <div className="flex items-center">
                            {[...Array(5)].map((_, i) => (
-                             <Star key={i} className={\`w-5 h-5 ${i < casino.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} itemProp="ratingValue" />
+                             <Star key={i} className={`w-5 h-5 ${i < casino.rating ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} itemProp="ratingValue" />
                            ))}
                            <span className="ml-2 text-slate-600 font-semibold">{casino.rating}/5</span>
                          </div>
