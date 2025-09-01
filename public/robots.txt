@@ -1,5 +1,5 @@
 # Robots.txt for TopCasinoWagers.ca
-# Updated: January 2024 - Optimized for SEO
+# Updated: January 2024 - Enhanced SEO Optimization
 
 User-agent: *
 Allow: /
@@ -7,8 +7,9 @@ Crawl-delay: 1
 
 # Sitemap location
 Sitemap: https://topcasinowagers.ca/sitemap.xml
-Sitemap: https://topcasinowagers.ca/sitemap-news.xml
-Sitemap: https://topcasinowagers.ca/sitemap-images.xml
+Sitemap: https://topcasinowagers.ca/sitemap-blog.xml
+Sitemap: https://topcasinowagers.ca/sitemap-casinos.xml
+Sitemap: https://topcasinowagers.ca/sitemap-locations.xml
 
 # Allow all major search engines
 User-agent: Googlebot
@@ -43,6 +44,18 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
+User-agent: AppleBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 # Block unwanted bots
 User-agent: AhrefsBot
 Disallow: /
@@ -65,8 +78,18 @@ Disallow: /
 User-agent: DataForSeoBot
 Disallow: /
 
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
 # Allow access to important files
 Allow: /sitemap.xml
+Allow: /sitemap-*.xml
 Allow: /robots.txt
 Allow: /*.css
 Allow: /*.js
@@ -85,5 +108,38 @@ Allow: /reviews
 Allow: /blog/*
 Allow: /location-*
 
+# Optimize crawling for new content
+Allow: /games-*
+Allow: /provider-*
+Allow: /*-canada
+Allow: /*-bonus*
+Allow: /*-review*
+
+# Block unnecessary crawling
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /src/
+Disallow: /build/
+Disallow: /dist/
+
+# Block search and filter URLs
+Disallow: /*?search=*
+Disallow: /*?filter=*
+Disallow: /*?sort=*
+Disallow: /*?page=*
+
 # Host directive (helps with canonicalization)
 Host: https://topcasinowagers.ca
+
+# Crawl-delay for specific bots
+User-agent: Bingbot
+Crawl-delay: 2
+
+User-agent: Slurp
+Crawl-delay: 3
+
+User-agent: Baiduspider
+Crawl-delay: 5
