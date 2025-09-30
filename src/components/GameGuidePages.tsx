@@ -350,3 +350,12 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
             <p className="text-xl text-slate-600">
               <strong>Top-rated Canadian online casinos</strong> offering the best <strong>{gameType} games</strong> 
               with <strong>licensed operations</strong>, <strong>fast payouts</strong>, and <strong>excellent customer support</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default GameGuidePages;
