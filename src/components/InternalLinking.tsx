@@ -129,6 +129,10 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
         {/* Popular Search Terms */}
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold text-slate-900 mb-8">Popular Casino Searches in Canada</h3>
+          <p className="text-slate-600 mb-6 max-w-4xl mx-auto">
+            Discover the most searched <strong>casino terms</strong> by <strong>Canadian players</strong>. 
+            Click any term to explore detailed guides and expert recommendations.
+          </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
               "best online casinos Canada",
@@ -142,16 +146,53 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
               "progressive jackpots Canada",
               "blackjack Canada online",
               "roulette Canada",
-              "Canadian casino reviews"
+              "Canadian casino reviews",
+              "new casinos Canada 2024",
+              "high RTP slots Canada",
+              "casino apps Canada",
+              "no deposit bonus Canada",
+              "free spins Canada",
+              "VIP casino programs",
+              "casino tournaments Canada",
+              "crypto casinos Canada",
+              "weekend casino bonuses",
+              "casino loyalty programs",
+              "biggest jackpots Canada"
             ].map((term, index) => (
               <button
                 key={index}
                 onClick={() => onNavigateTo?.('reviews')}
-                className="px-4 py-2 glass rounded-full border border-slate-200 text-slate-700 hover:bg-green-600 hover:text-white transition-all duration-300 text-sm font-medium"
+                className="px-4 py-2 glass rounded-full border border-slate-200 text-slate-700 hover:bg-green-600 hover:text-white transition-all duration-300 text-sm font-medium hover:scale-105 transform"
               >
                 {term}
               </button>
             ))}
+          </div>
+          
+          {/* Trending Searches Section */}
+          <div className="mt-12">
+            <h4 className="text-xl font-bold text-slate-900 mb-6 flex items-center justify-center">
+              <TrendingUp className="w-6 h-6 text-red-500 mr-2" />
+              🔥 Trending This Week
+            </h4>
+            <div className="flex flex-wrap justify-center gap-3">
+              {[
+                "CA$9,000 casino bonus",
+                "24 hour payout casinos",
+                "mobile casino apps 2024",
+                "crypto casino Canada",
+                "live dealer blackjack",
+                "weekend reload bonuses"
+              ].map((term, index) => (
+                <button
+                  key={index}
+                  onClick={() => onNavigateTo?.('bonuses')}
+                  className="px-4 py-2 gradient-primary text-white rounded-full text-sm font-medium hover:scale-105 transform transition-all duration-300 shadow-modern animate-pulse"
+                >
+                  🔥 {term}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       </div>

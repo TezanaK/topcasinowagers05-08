@@ -159,6 +159,22 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
                 >
                   Maybe Later
                 </button>
+                
+                {/* Social Proof */}
+                <div className="text-center mt-4">
+                  <p className="text-sm text-slate-600 mb-2">
+                    <strong>2,847 Canadian players</strong> claimed this bonus this week!
+                  </p>
+                  <div className="flex justify-center items-center space-x-2 text-xs text-slate-500">
+                    <div className="flex -space-x-1">
+                      <div className="w-6 h-6 bg-green-500 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-blue-500 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-purple-500 rounded-full border-2 border-white"></div>
+                      <div className="w-6 h-6 bg-yellow-500 rounded-full border-2 border-white"></div>
+                    </div>
+                    <span>+2,843 others</span>
+                  </div>
+                </div>
               </div>
 
               {/* Trust Indicators */}
