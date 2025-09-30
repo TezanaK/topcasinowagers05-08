@@ -1,4 +1,5 @@
-          <div className="text-center mb-16">
+@@ .. @@
+           <div className="text-center mb-16">
              <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-modern" itemProp="headline">
                <span className="text-yellow-300 animate-neon-pulse">
                 Best Online Casinos
