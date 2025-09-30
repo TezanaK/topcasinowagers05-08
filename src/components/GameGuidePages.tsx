@@ -238,11 +238,14 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight text-modern">
-              {game.title}
+              <span className="text-yellow-300 animate-neon-pulse">{game.title.split(' ')[0]}</span>
+              <br />
+              <span className="text-white">{game.title.split(' ').slice(1).join(' ')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-12 opacity-90 max-w-4xl mx-auto text-modern">
-              {game.description}
+              🎯 <strong>{game.description}</strong> Learn <strong>winning strategies</strong>, 
+              <strong>best practices</strong>, and <strong>expert tips</strong> for <strong>Canadian casino players</strong>.
             </p>
 
             {/* Game Stats */}
@@ -268,6 +271,26 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
         </div>
       </section>
 
+      {/* SEO Introduction */}
+      <section className="py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">{game.title} Canada 2024: Complete Guide</h2>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-lg text-slate-600 leading-relaxed">
+                <strong>{game.title.toLowerCase()}</strong> is one of the most popular <strong>casino games</strong> 
+                among <strong>Canadian players</strong>, offering <strong>{game.rtp} RTP</strong> and 
+                <strong>{game.difficulty.toLowerCase()} difficulty level</strong>. This comprehensive guide covers 
+                everything <strong>Canadian casino players</strong> need to know about playing 
+                <strong>{gameType} at online casinos Canada</strong>, including <strong>winning strategies</strong>, 
+                <strong>best casinos</strong>, and <strong>expert tips</strong> for maximizing your 
+                <strong>online gambling experience</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Strategy Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -276,8 +299,13 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
             <div className="modern-card shadow-modern p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center">
                 <Target className="w-8 h-8 text-green-600 mr-3" />
-                Winning Strategies
+                {game.title.split(' ')[0]} Winning Strategies for Canadians
               </h2>
+              <p className="text-slate-600 mb-6">
+                These <strong>{gameType} strategies</strong> are specifically designed for 
+                <strong>Canadian casino players</strong> to maximize winning potential at 
+                <strong>licensed online casinos Canada</strong>:
+              </p>
               <div className="space-y-4">
                 {game.strategies.map((strategy: string, index: number) => (
                   <div key={index} className="flex items-start">
@@ -295,8 +323,12 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
             <div className="modern-card shadow-modern p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center">
                 <Trophy className="w-8 h-8 text-yellow-600 mr-3" />
-                Expert Tips
+                Expert {game.title.split(' ')[0]} Tips
               </h2>
+              <p className="text-slate-600 mb-6">
+                Professional <strong>{gameType} tips</strong> from <strong>Canadian gambling experts</strong> 
+                with years of experience at <strong>top online casinos Canada</strong>:
+              </p>
               <div className="space-y-4">
                 {game.tips.map((tip: string, index: number) => (
                   <div key={index} className="flex items-start">
@@ -314,148 +346,7 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
       <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">Best Casinos for {game.title.replace(' Guide', '')}</h2>
-            <p className="text-xl text-slate-600">Top-rated Canadian casinos offering the best {gameType} experience</p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {game.bestCasinos.map((casino: string, index: number) => (
-              <div key={index} className="modern-card shadow-modern-hover text-center">
-                <div className="p-8">
-                  <div className="gradient-primary rounded-3xl w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                    <Crown className="w-8 h-8 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-4">{casino}</h3>
-                  <div className="flex justify-center mb-4">
-                    {Array.from({ length: 5 }, (_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    ))}
-                  </div>
-                  <button 
-                    onClick={() => onNavigateTo?.(`casino-${casino.toLowerCase()}`)}
-                    className="btn-modern rounded-xl py-2 px-6 font-semibold"
-                  >
-                    <Play className="w-4 h-4 mr-2 inline" />
-                    Play Now
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Popular Games */}
-      <section className="py-20 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">Popular {game.title.replace(' Guide', '')} Games</h2>
-            <p className="text-xl text-slate-600">Most played games by Canadian players</p>
-          </div>
-
-          <div className="modern-card shadow-modern p-8">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6">Top Games</h3>
-                <div className="space-y-4">
-                  {game.popularGames.map((gameName: string, index: number) => (
-                    <div key={index} className="flex items-center justify-between glass rounded-lg p-4 border border-slate-200">
-                      <div className="flex items-center">
-                        <div className="gradient-secondary rounded-full w-8 h-8 flex items-center justify-center mr-3 text-white font-bold text-sm">
-                          {index + 1}
-                        </div>
-                        <span className="font-medium text-slate-900">{gameName}</span>
-                      </div>
-                      <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold text-slate-900 mb-6">Why These Games?</h3>
-                <div className="space-y-4">
-                  <div className="glass rounded-lg p-4 border border-green-200 bg-green-50">
-                    <div className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-green-600 mr-3 mt-1" />
-                      <div>
-                        <h4 className="font-semibold text-green-900 mb-1">High RTP</h4>
-                        <p className="text-green-800 text-sm">These games offer some of the best return-to-player rates</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="glass rounded-lg p-4 border border-blue-200 bg-blue-50">
-                    <div className="flex items-start">
-                      <Trophy className="w-5 h-5 text-blue-600 mr-3 mt-1" />
-                      <div>
-                        <h4 className="font-semibold text-blue-900 mb-1">Popular Choice</h4>
-                        <p className="text-blue-800 text-sm">Most played by Canadian casino players</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="glass rounded-lg p-4 border border-purple-200 bg-purple-50">
-                    <div className="flex items-start">
-                      <Shield className="w-5 h-5 text-purple-600 mr-3 mt-1" />
-                      <div>
-                        <h4 className="font-semibold text-purple-900 mb-1">Trusted Providers</h4>
-                        <p className="text-purple-800 text-sm">From reputable game developers with fair play certification</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">{game.title} FAQ</h2>
-          <div className="space-y-6">
-            <div className="modern-card shadow-modern p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">What is the best strategy for {gameType}?</h3>
-              <p className="text-slate-600">
-                The best strategy depends on the specific game, but generally involves understanding the rules, 
-                managing your bankroll effectively, and choosing games with favorable odds. Our guide above 
-                covers the most effective strategies for Canadian players.
-              </p>
-            </div>
-            
-            <div className="modern-card shadow-modern p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Can I play {gameType} for free?</h3>
-              <p className="text-slate-600">
-                Yes, most online casinos offer free demo versions of {gameType} games. This allows you to 
-                practice strategies and learn the games without risking real money. It's highly recommended 
-                for beginners.
-              </p>
-            </div>
-            
-            <div className="modern-card shadow-modern p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">What's the minimum bet for {gameType}?</h3>
-              <p className="text-slate-600">
-                Minimum bets typically start from {game.minBet} at most Canadian online casinos, making 
-                these games accessible for players with different budgets. Some games may have even lower 
-                minimum bets.
-              </p>
-            </div>
-            
-            <div className="modern-card shadow-modern p-6">
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Are {gameType} games fair at online casinos?</h3>
-              <p className="text-slate-600">
-                Yes, licensed online casinos use Random Number Generators (RNG) that are regularly tested 
-                by independent auditors to ensure fair play. Always play at licensed casinos that we recommend 
-                for the safest gaming experience.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};
-
-export default GameGuidePages;
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Best Canadian Casinos for {game.title.replace(' Guide', '')} 2024</h2>
+            <p className="text-xl text-slate-600">
+              <strong>Top-rated Canadian online casinos</strong> offering the best <strong>{gameType} games</strong> 
+              with <strong>

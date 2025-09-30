@@ -404,6 +404,347 @@ const BlogPage: React.FC<BlogPageProps> = ({ onNavigateHome, onNavigateTo }) => 
       image: "/IMG_0133.jpeg",
       metaDescription: "Complete guide to Ontario online casinos and iGaming Ontario licensed sites. Legal gambling, bonuses, and regulations for Ontario residents in 2024.",
       keywords: ["Ontario online casinos", "iGaming Ontario", "legal online gambling Ontario", "Ontario casino bonuses", "Ontario casino sites"]
+    },
+    {
+      id: 7,
+      title: "Mobile Casino Canada 2024: Best Apps & Mobile Gaming Guide",
+      slug: "mobile-casino-canada-guide-2024",
+      excerpt: "Complete guide to mobile casino gaming in Canada. Best casino apps, mobile bonuses, and top sites for iPhone and Android players.",
+      content: `
+        <h2>Mobile Casino Canada 2024: Complete Gaming Guide</h2>
+        <p><strong>Mobile casino Canada</strong> gaming has revolutionized how <strong>Canadian players</strong> enjoy <strong>online gambling</strong>. With <strong>mobile-optimized casinos</strong> and dedicated <strong>casino apps</strong>, you can now play <strong>real money casino games</strong> anywhere in Canada with just your smartphone or tablet.</p>
+        
+        <h3>Best Mobile Casino Apps Canada 2024</h3>
+        <p>Top <strong>mobile casino apps</strong> for <strong>Canadian players</strong>:</p>
+        <ul>
+          <li><strong>NEOSPIN Mobile:</strong> 800+ games, instant deposits</li>
+          <li><strong>EVOSPIN App:</strong> 1000+ games, live dealer mobile</li>
+          <li><strong>VICIBET Mobile:</strong> Premium mobile experience</li>
+          <li><strong>CASINO INFINITY:</strong> No-limit mobile gaming</li>
+        </ul>
+        
+        <h3>Mobile Casino Features for Canadians</h3>
+        <ul>
+          <li><strong>Touch-Optimized Interface:</strong> Designed for mobile screens</li>
+          <li><strong>Mobile Banking:</strong> Interac e-Transfer on mobile</li>
+          <li><strong>Push Notifications:</strong> Bonus alerts and promotions</li>
+          <li><strong>Offline Play:</strong> Download games for offline play</li>
+          <li><strong>Biometric Login:</strong> Fingerprint and Face ID security</li>
+        </ul>
+        
+        <h3>Mobile Casino Bonuses Canada</h3>
+        <p><strong>Mobile casino bonuses</strong> specifically for <strong>Canadian mobile players</strong>:</p>
+        <ul>
+          <li><strong>Mobile Welcome Bonuses:</strong> Up to CA$2,000 + free spins</li>
+          <li><strong>Mobile Free Spins:</strong> Exclusive mobile-only offers</li>
+          <li><strong>App Download Bonuses:</strong> Rewards for downloading casino apps</li>
+          <li><strong>Mobile Cashback:</strong> Special rates for mobile players</li>
+        </ul>
+        
+        <h3>Best Mobile Casino Games Canada</h3>
+        <p>Top <strong>mobile casino games</strong> for <strong>Canadian players</strong>:</p>
+        <ul>
+          <li><strong>Mobile Slots:</strong> Touch-optimized with swipe controls</li>
+          <li><strong>Live Dealer Mobile:</strong> HD streaming on mobile devices</li>
+          <li><strong>Mobile Blackjack:</strong> Perfect for commuting</li>
+          <li><strong>Mobile Roulette:</strong> Tap to place bets</li>
+        </ul>
+      `,
+      author: "Alex Thompson",
+      publishDate: "2024-01-08",
+      readTime: "14 min read",
+      category: "Mobile Gaming",
+      tags: ["mobile casino Canada", "casino apps", "mobile gambling", "iPhone casino", "Android casino"],
+      featured: true,
+      image: "/IMG_0134.jpeg",
+      metaDescription: "Best mobile casino Canada guide 2024. Top casino apps, mobile bonuses, and gaming tips for iPhone and Android players.",
+      keywords: ["mobile casino Canada", "casino apps Canada", "mobile gambling Canada", "iPhone casino", "Android casino apps"]
+    },
+    {
+      id: 8,
+      title: "Fast Payout Casinos Canada 2024: Quickest Withdrawal Times",
+      slug: "fast-payout-casinos-canada-2024",
+      excerpt: "Discover the fastest payout casinos in Canada with withdrawal times under 24 hours. Best quick withdrawal methods and instant payout sites.",
+      content: `
+        <h2>Fast Payout Casinos Canada 2024: Quick Withdrawal Guide</h2>
+        <p><strong>Fast payout casinos Canada</strong> are essential for <strong>Canadian players</strong> who want quick access to their winnings. The <strong>best fast withdrawal casinos</strong> process payouts in under 24 hours, with some offering <strong>instant withdrawals</strong> for certain payment methods.</p>
+        
+        <h3>Fastest Payout Casinos Canada 2024</h3>
+        <ol>
+          <li><strong>NEOSPIN:</strong> 1-2 hours (e-wallets), 24 hours (Interac)</li>
+          <li><strong>CASINO INFINITY:</strong> 2-4 hours (all methods)</li>
+          <li><strong>EVOSPIN:</strong> 4-8 hours (e-wallets), 1-2 days (bank)</li>
+          <li><strong>VICIBET:</strong> 6-12 hours (e-wallets), 1-3 days (bank)</li>
+        </ol>
+        
+        <h3>Fastest Withdrawal Methods for Canadians</h3>
+        <ul>
+          <li><strong>E-wallets (PayPal, Skrill):</strong> 1-6 hours</li>
+          <li><strong>Cryptocurrency:</strong> 15 minutes - 2 hours</li>
+          <li><strong>Interac e-Transfer:</strong> 2-24 hours</li>
+          <li><strong>Credit Cards:</strong> 1-3 days</li>
+          <li><strong>Bank Transfer:</strong> 1-5 days</li>
+        </ul>
+        
+        <h3>How to Get Faster Payouts</h3>
+        <ul>
+          <li><strong>Complete Verification Early:</strong> Upload documents immediately</li>
+          <li><strong>Choose E-wallets:</strong> Fastest withdrawal method</li>
+          <li><strong>VIP Status:</strong> Priority processing for high-value players</li>
+          <li><strong>Avoid Weekends:</strong> Business days process faster</li>
+        </ul>
+        
+        <h3>Fast Payout Casino Requirements</h3>
+        <p>To qualify for <strong>fast casino payouts</strong>:</p>
+        <ul>
+          <li><strong>Account Verification:</strong> Complete KYC process</li>
+          <li><strong>Minimum Withdrawal:</strong> Usually CA$20-50</li>
+          <li><strong>Bonus Wagering:</strong> Complete requirements first</li>
+          <li><strong>Payment Method:</strong> Same method as deposit (usually)</li>
+        </ul>
+      `,
+      author: "Michael Chen",
+      publishDate: "2024-01-06",
+      readTime: "12 min read",
+      category: "Banking",
+      tags: ["fast payout casinos", "quick withdrawals", "instant payouts", "casino banking"],
+      featured: true,
+      image: "/IMG_0135.jpeg",
+      metaDescription: "Fastest payout casinos Canada 2024. Quick withdrawal times under 24 hours, instant payout methods, and best fast withdrawal sites.",
+      keywords: ["fast payout casinos Canada", "quick withdrawal casinos", "instant payout casino", "fastest withdrawal casino", "quick casino payouts"]
+    },
+    {
+      id: 9,
+      title: "Progressive Jackpot Slots Canada: Million Dollar Wins Guide 2024",
+      slug: "progressive-jackpot-slots-canada-2024",
+      excerpt: "Win life-changing amounts with progressive jackpot slots in Canada. Guide to Mega Moolah, Major Millions, and other million-dollar jackpots.",
+      content: `
+        <h2>Progressive Jackpot Slots Canada: Million Dollar Guide 2024</h2>
+        <p><strong>Progressive jackpot slots Canada</strong> offer <strong>Canadian players</strong> the chance to win life-changing amounts, with jackpots regularly exceeding <strong>CA$1 million</strong>. These <strong>progressive slots</strong> are available at all major <strong>Canadian online casinos</strong> and have created numerous <strong>Canadian millionaires</strong>.</p>
+        
+        <h3>Biggest Progressive Jackpots for Canadians</h3>
+        <ul>
+          <li><strong>Mega Moolah:</strong> Record CA$20+ million jackpots</li>
+          <li><strong>Major Millions:</strong> CA$1-5 million average</li>
+          <li><strong>Hall of Gods:</strong> CA$2-8 million jackpots</li>
+          <li><strong>Arabian Nights:</strong> CA$1-3 million prizes</li>
+          <li><strong>King Cashalot:</strong> CA$500K-2 million wins</li>
+        </ul>
+        
+        <h3>How Progressive Jackpots Work</h3>
+        <p><strong>Progressive jackpot mechanics</strong> explained:</p>
+        <ul>
+          <li><strong>Network Jackpots:</strong> Connected across multiple casinos</li>
+          <li><strong>Contribution Rate:</strong> Small percentage of each bet adds to jackpot</li>
+          <li><strong>Random Triggers:</strong> Jackpots can hit on any spin</li>
+          <li><strong>Maximum Bet:</strong> Often required for jackpot eligibility</li>
+        </ul>
+        
+        <h3>Best Progressive Slot Casinos Canada</h3>
+        <p><strong>Top Canadian casinos</strong> for <strong>progressive jackpot slots</strong>:</p>
+        <ul>
+          <li><strong>JACKPOTCITY:</strong> Largest Microgaming progressive network</li>
+          <li><strong>SPIN CASINO:</strong> Multiple progressive providers</li>
+          <li><strong>ROYAL VEGAS:</strong> Exclusive progressive tournaments</li>
+        </ul>
+        
+        <h3>Progressive Jackpot Strategies</h3>
+        <ul>
+          <li><strong>Play Maximum Bet:</strong> Required for jackpot eligibility</li>
+          <li><strong>Choose High Jackpots:</strong> Play when jackpots are above average</li>
+          <li><strong>Set Loss Limits:</strong> Don't chase progressive jackpots</li>
+          <li><strong>Understand Odds:</strong> Jackpots are rare but life-changing</li>
+        </ul>
+        
+        <h3>Canadian Progressive Jackpot Winners</h3>
+        <p>Recent <strong>Canadian progressive jackpot winners</strong>:</p>
+        <ul>
+          <li><strong>2023:</strong> Ontario player wins CA$18.9 million on Mega Moolah</li>
+          <li><strong>2022:</strong> BC player wins CA$7.2 million on Hall of Gods</li>
+          <li><strong>2021:</strong> Quebec player wins CA$12.4 million on Mega Fortune</li>
+        </ul>
+      `,
+      author: "Rachel Williams",
+      publishDate: "2024-01-04",
+      readTime: "13 min read",
+      category: "Game Guides",
+      tags: ["progressive jackpots", "mega moolah", "jackpot slots", "million dollar wins"],
+      featured: true,
+      image: "/IMG_0136.jpeg",
+      metaDescription: "Progressive jackpot slots Canada guide. Win millions with Mega Moolah, Major Millions & other progressive slots at top Canadian casinos.",
+      keywords: ["progressive jackpot slots Canada", "mega moolah Canada", "jackpot slots", "progressive slots", "million dollar jackpots"]
+    },
+    {
+      id: 10,
+      title: "High RTP Slots Canada: Best Return-to-Player Games 2024",
+      slug: "high-rtp-slots-canada-2024",
+      excerpt: "Discover the highest RTP slots available to Canadian players. Games with 97%+ return rates and best casinos for high RTP gaming.",
+      content: `
+        <h2>High RTP Slots Canada: Best Return Games 2024</h2>
+        <p><strong>High RTP slots Canada</strong> offer <strong>Canadian players</strong> the best mathematical odds of winning, with <strong>return-to-player rates</strong> of 97% or higher. These <strong>high return slots</strong> are available at all major <strong>Canadian online casinos</strong> and provide better long-term value than standard slots.</p>
+        
+        <h3>Highest RTP Slots for Canadian Players</h3>
+        <ol>
+          <li><strong>Mega Joker (NetEnt):</strong> 99% RTP - Highest available</li>
+          <li><strong>Blood Suckers (NetEnt):</strong> 98% RTP - Vampire theme</li>
+          <li><strong>Starmania (NextGen):</strong> 97.87% RTP - Space adventure</li>
+          <li><strong>White Rabbit (Big Time Gaming):</strong> 97.72% RTP - Megaways</li>
+          <li><strong>Ooh Aah Dracula (Barcrest):</strong> 97.6% RTP - Classic slot</li>
+          <li><strong>Tropic Reels (Playtech):</strong> 97.58% RTP - Tropical theme</li>
+        </ol>
+        
+        <h3>Understanding RTP in Online Slots</h3>
+        <p><strong>RTP (Return to Player)</strong> explained for <strong>Canadian casino players</strong>:</p>
+        <ul>
+          <li><strong>Theoretical Return:</strong> Percentage returned over millions of spins</li>
+          <li><strong>House Edge:</strong> 100% minus RTP (e.g., 97% RTP = 3% house edge)</li>
+          <li><strong>Long-term Average:</strong> Not guaranteed for individual sessions</li>
+          <li><strong>Volatility Impact:</strong> High RTP doesn't mean frequent wins</li>
+        </ul>
+        
+        <h3>Best High RTP Slot Casinos Canada</h3>
+        <p><strong>Canadian casinos</strong> with the best <strong>high RTP slot selection</strong>:</p>
+        <ul>
+          <li><strong>NEOSPIN:</strong> 150+ high RTP slots (96%+)</li>
+          <li><strong>EVOSPIN:</strong> 200+ premium high RTP games</li>
+          <li><strong>VICIBET:</strong> Curated high RTP collection</li>
+        </ul>
+        
+        <h3>High RTP Slot Strategies</h3>
+        <ul>
+          <li><strong>Choose 97%+ RTP:</strong> Better mathematical odds</li>
+          <li><strong>Check Volatility:</strong> Balance RTP with volatility preference</li>
+          <li><strong>Use Bonuses:</strong> Maximize value with casino promotions</li>
+          <li><strong>Set Limits:</strong> High RTP doesn't guarantee wins</li>
+        </ul>
+      `,
+      author: "Kevin Martinez",
+      publishDate: "2024-01-02",
+      readTime: "11 min read",
+      category: "Game Guides",
+      tags: ["high RTP slots", "best RTP games", "slot RTP", "return to player"],
+      featured: false,
+      image: "/IMG_0137.jpeg",
+      metaDescription: "High RTP slots Canada guide. Best return-to-player games with 97%+ RTP rates at top Canadian online casinos.",
+      keywords: ["high RTP slots Canada", "best RTP slots", "highest RTP games", "slot return to player", "97% RTP slots"]
+    },
+    {
+      id: 11,
+      title: "New Online Casinos Canada 2024: Latest Launches & Fresh Bonuses",
+      slug: "new-online-casinos-canada-2024",
+      excerpt: "Discover the newest online casinos launching in Canada 2024. Fresh bonuses, innovative features, and latest gaming technology.",
+      content: `
+        <h2>New Online Casinos Canada 2024: Latest Launches</h2>
+        <p><strong>New online casinos Canada 2024</strong> bring fresh innovation, generous <strong>launch bonuses</strong>, and cutting-edge technology to <strong>Canadian players</strong>. These <strong>newly launched casinos</strong> often offer the most competitive bonuses and latest gaming features to attract players.</p>
+        
+        <h3>Newest Canadian Casino Launches 2024</h3>
+        <ul>
+          <li><strong>NEOSPIN (2023):</strong> 100% + 100 free spins, 800+ games</li>
+          <li><strong>CASINO INFINITY (2023):</strong> 10% cashback, no limits approach</li>
+          <li><strong>GUNS BET (2022):</strong> 335% bonus, unique theme</li>
+          <li><strong>VICIBET (2022):</strong> 100% + 50 spins, premium experience</li>
+        </ul>
+        
+        <h3>Benefits of New Online Casinos</h3>
+        <ul>
+          <li><strong>Generous Launch Bonuses:</strong> Higher percentages to attract players</li>
+          <li><strong>Latest Technology:</strong> Modern platforms and mobile optimization</li>
+          <li><strong>Fresh Game Libraries:</strong> Newest releases and providers</li>
+          <li><strong>Innovative Features:</strong> Unique loyalty programs and promotions</li>
+          <li><strong>Better Customer Service:</strong> Eager to build reputation</li>
+        </ul>
+        
+        <h3>What to Look for in New Casinos</h3>
+        <p>When evaluating <strong>new Canadian casinos</strong>:</p>
+        <ul>
+          <li><strong>Valid License:</strong> MGA, UKGC, or Curacao licensing</li>
+          <li><strong>Established Operators:</strong> Backed by experienced companies</li>
+          <li><strong>Security Measures:</strong> SSL encryption and fair play certification</li>
+          <li><strong>Canadian Support:</strong> CAD currency and local banking</li>
+          <li><strong>Responsible Gaming:</strong> Player protection tools</li>
+        </ul>
+        
+        <h3>New Casino Bonuses vs Established Sites</h3>
+        <p><strong>New casino bonuses</strong> comparison:</p>
+        <ul>
+          <li><strong>New Casinos:</strong> Higher percentages, more free spins</li>
+          <li><strong>Established Casinos:</strong> Better terms, proven reliability</li>
+          <li><strong>Hybrid Approach:</strong> Try new casinos with small deposits</li>
+        </ul>
+      `,
+      author: "Sophie Dubois",
+      publishDate: "2023-12-30",
+      readTime: "10 min read",
+      category: "Casino Reviews",
+      tags: ["new casinos 2024", "casino launches", "new casino bonuses", "latest casinos"],
+      featured: false,
+      image: "/IMG_0138.jpeg",
+      metaDescription: "New online casinos Canada 2024 guide. Latest casino launches, fresh bonuses, and innovative features for Canadian players.",
+      keywords: ["new online casinos Canada 2024", "new casino launches", "latest casinos Canada", "new casino bonuses", "fresh casino sites"]
+    },
+    {
+      id: 12,
+      title: "Canadian Casino Laws 2024: Legal Gambling Guide by Province",
+      slug: "canadian-casino-laws-2024-guide",
+      excerpt: "Complete guide to Canadian casino laws and online gambling regulations by province. Legal requirements, licensing, and compliance for players.",
+      content: `
+        <h2>Canadian Casino Laws 2024: Complete Legal Guide</h2>
+        <p><strong>Canadian casino laws</strong> vary by province, but <strong>online gambling is legal</strong> for Canadian residents aged 18+ or 19+. This comprehensive guide covers <strong>Canadian gambling laws</strong>, <strong>provincial regulations</strong>, and <strong>legal requirements</strong> for <strong>online casino players</strong> across Canada.</p>
+        
+        <h3>Federal vs Provincial Gambling Laws</h3>
+        <p><strong>Canadian gambling regulation</strong> structure:</p>
+        <ul>
+          <li><strong>Federal Level:</strong> Criminal Code defines legal gambling</li>
+          <li><strong>Provincial Level:</strong> Each province regulates gambling within borders</li>
+          <li><strong>Offshore Casinos:</strong> Legal for Canadians to access</li>
+          <li><strong>Age Requirements:</strong> 18+ (Alberta, Quebec) or 19+ (other provinces)</li>
+        </ul>
+        
+        <h3>Provincial Online Casino Laws 2024</h3>
+        <ul>
+          <li><strong>Ontario:</strong> Fully regulated market via iGaming Ontario</li>
+          <li><strong>British Columbia:</strong> PlayNow.com monopoly + offshore access</li>
+          <li><strong>Quebec:</strong> EspaceJeux monopoly + offshore access</li>
+          <li><strong>Alberta:</strong> PlayAlberta + unrestricted offshore access</li>
+          <li><strong>Other Provinces:</strong> Provincial sites + offshore access</li>
+        </ul>
+        
+        <h3>Legal Requirements for Canadian Players</h3>
+        <ul>
+          <li><strong>Age Verification:</strong> Government-issued ID required</li>
+          <li><strong>Residency:</strong> Must be Canadian resident</li>
+          <li><strong>Location:</strong> Some provincial sites require physical presence</li>
+          <li><strong>Banking:</strong> Canadian bank account for deposits/withdrawals</li>
+          <li><strong>Tax Obligations:</strong> Professional gamblers may owe taxes</li>
+        </ul>
+        
+        <h3>Offshore Casino Legality</h3>
+        <p><strong>Offshore online casinos</strong> and <strong>Canadian law</strong>:</p>
+        <ul>
+          <li><strong>Legal to Play:</strong> No laws prohibit accessing offshore sites</li>
+          <li><strong>Licensed Operators:</strong> Must be licensed in their jurisdiction</li>
+          <li><strong>Player Protection:</strong> Limited compared to provincial sites</li>
+          <li><strong>Dispute Resolution:</strong> Through licensing authority</li>
+        </ul>
+        
+        <h3>Responsible Gambling Laws</h3>
+        <p><strong>Canadian responsible gambling requirements</strong>:</p>
+        <ul>
+          <li><strong>Self-Exclusion:</strong> Mandatory programs</li>
+          <li><strong>Spending Limits:</strong> Player-set deposit limits</li>
+          <li><strong>Reality Checks:</strong> Time and spending reminders</li>
+          <li><strong>Problem Gambling Support:</strong> 24/7 helplines</li>
+        </ul>
+      `,
+      author: "James Patterson",
+      publishDate: "2023-12-28",
+      readTime: "15 min read",
+      category: "Regulations",
+      tags: ["Canadian casino laws", "gambling laws Canada", "online gambling legal", "casino regulations"],
+      featured: false,
+      image: "/IMG_0139.jpeg",
+      metaDescription: "Canadian casino laws 2024 guide. Online gambling legality, provincial regulations, and legal requirements for Canadian players.",
+      keywords: ["Canadian casino laws", "gambling laws Canada", "online gambling legal Canada", "casino regulations Canada", "Canadian gambling guide"]
     }
   ];
 
@@ -413,7 +754,9 @@ const BlogPage: React.FC<BlogPageProps> = ({ onNavigateHome, onNavigateTo }) => 
     { id: 'Game Guides', name: 'Game Guides', count: blogPosts.filter(p => p.category === 'Game Guides').length },
     { id: 'Bonuses', name: 'Casino Bonuses', count: blogPosts.filter(p => p.category === 'Bonuses').length },
     { id: 'Banking', name: 'Banking & Payments', count: blogPosts.filter(p => p.category === 'Banking').length },
-    { id: 'Regulations', name: 'Legal & Regulations', count: blogPosts.filter(p => p.category === 'Regulations').length }
+    { id: 'Regulations', name: 'Legal & Regulations', count: blogPosts.filter(p => p.category === 'Regulations').length },
+    { id: 'Mobile Gaming', name: 'Mobile Gaming', count: blogPosts.filter(p => p.category === 'Mobile Gaming').length },
+    { id: 'Responsible Gaming', name: 'Responsible Gaming', count: blogPosts.filter(p => p.category === 'Responsible Gaming').length }
   ];
 
   const filteredPosts = blogPosts.filter(post => {

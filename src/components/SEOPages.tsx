@@ -34,7 +34,20 @@ import {
   Search,
   ExternalLink,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  ArrowRight,
+  TrendingDown,
+  BarChart3,
+  Lightbulb,
+  Coins,
+  Smartphone,
+  Monitor,
+  Wifi,
+  Database,
+  RefreshCw,
+  PieChart,
+  LineChart,
+  Activity
 } from 'lucide-react';
 
 interface SEOPagesProps {
