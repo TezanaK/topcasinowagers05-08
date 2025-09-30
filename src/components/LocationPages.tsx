@@ -197,11 +197,6 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location = 'ontario', onN
           </div>
         </div>
       </header>
-        </div>
-      </div>
-    </div>
-  );
-};
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
@@ -221,6 +216,15 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location = 'ontario', onN
               <span className="text-yellow-300 animate-neon-pulse">Best Casinos</span>
               <br />
               <span className="text-white">{locationInfo.name}</span>
+            </h1>
+            <p className="text-xl md:text-2xl mb-12 opacity-90 max-w-4xl mx-auto text-modern">
+              🍁 Complete guide to <strong>online casinos in {locationInfo.name}</strong> - 
+              Licensed operators, exclusive bonuses, and secure gaming for Canadian players.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Province Overview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -252,7 +256,6 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location = 'ontario', onN
                 </div>
               </div>
             </div>
-            </h1>
             <div className="modern-card shadow-modern p-8">
               <h2 className="text-3xl font-bold text-slate-900 mb-6 flex items-center">
                 <CheckCircle className="w-8 h-8 text-green-600 mr-3" />
@@ -278,7 +281,6 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location = 'ontario', onN
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Top Online Casinos for {locationInfo.name} Players</h2>
             <p className="text-xl text-slate-600">Licensed and trusted casinos accepting players from {locationInfo.name}</p>
           </div>
-            <p className="text-xl md:text-2xl mb-12 opacity-90 max-w-4xl mx-auto text-modern">
           <div className="grid md:grid-cols-3 gap-8">
             {locationInfo.topCasinos.map((casino: any, index: number) => (
               <div key={index} className="modern-card shadow-modern-hover text-center">
@@ -307,10 +309,9 @@ const LocationPages: React.FC<LocationPagesProps> = ({ location = 'ontario', onN
               </div>
             ))}
           </div>
-              🍁 Complete guide to <strong>online casinos in {locationInfo.name}</strong> - 
-      </section>
-            </p>
-          </div>
         </div>
       </section>
+    </div>
+  );
+};
 export default LocationPages;
