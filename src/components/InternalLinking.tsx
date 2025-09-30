@@ -86,9 +86,9 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="sr-only">Internal Navigation Links to Casino Guides and Reviews</h2>
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-6">Explore Our Casino Guides</h2>
+          <h2 className="text-4xl font-bold text-slate-900 mb-6">🎯 Explore Our Professional Casino Guides</h2>
           <p className="text-xl text-slate-600">
-            Comprehensive guides covering every aspect of <strong>online casino gaming in Canada</strong>
+            Professional guides covering every aspect of <strong>winning at online casinos in Canada</strong>
           </p>
         </div>
 
@@ -128,41 +128,41 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
 
         {/* Popular Search Terms */}
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-slate-900 mb-8">Popular Casino Searches in Canada</h3>
+          <h3 className="text-2xl font-bold text-slate-900 mb-8">🔥 Trending Casino Searches in Canada</h3>
           <p className="text-slate-600 mb-6 max-w-4xl mx-auto">
-            Discover the most searched <strong>casino terms</strong> by <strong>Canadian players</strong>. 
-            Click any term to explore detailed guides and expert recommendations.
+            Discover the hottest <strong>casino searches</strong> by <strong>50,000+ Canadian players</strong>. 
+            Click any term to explore detailed guides and exclusive bonuses.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "best online casinos Canada",
-              "casino bonuses Canada",
-              "online slots Canada real money",
-              "Interac e-Transfer casinos",
-              "live dealer casino Canada",
-              "Ontario online casinos",
-              "fast payout casinos Canada",
-              "mobile casino Canada",
-              "progressive jackpots Canada",
-              "blackjack Canada online",
-              "roulette Canada",
-              "Canadian casino reviews",
-              "new casinos Canada 2024",
-              "high RTP slots Canada",
-              "casino apps Canada",
-              "no deposit bonus Canada",
-              "free spins Canada",
-              "VIP casino programs",
-              "casino tournaments Canada",
-              "crypto casinos Canada",
-              "weekend casino bonuses",
-              "casino loyalty programs",
-              "biggest jackpots Canada"
+              "🏆 best online casinos Canada",
+              "💰 CA$9,000 casino bonuses",
+              "🎰 online slots Canada real money",
+              "⚡ 24-hour payout casinos",
+              "🎮 live dealer casino Canada",
+              "🍁 Ontario licensed casinos",
+              "💸 instant withdrawal casinos",
+              "📱 mobile casino apps Canada",
+              "🎯 million dollar jackpots",
+              "♠️ live blackjack Canada",
+              "🎲 immersive roulette online",
+              "⭐ 5-star casino reviews",
+              "🆕 new casinos Canada 2024",
+              "📈 98% RTP slots Canada",
+              "📲 casino apps download",
+              "🎁 no deposit bonus codes",
+              "🔄 1000 free spins",
+              "👑 VIP casino rewards",
+              "🏅 casino tournaments",
+              "₿ crypto casinos Canada",
+              "🎉 weekend reload bonuses",
+              "💎 loyalty cashback programs",
+              "🎊 biggest jackpot winners"
             ].map((term, index) => (
               <button
                 key={index}
                 onClick={() => onNavigateTo?.('reviews')}
-                className="px-4 py-2 glass rounded-full border border-slate-200 text-slate-700 hover:bg-green-600 hover:text-white transition-all duration-300 text-sm font-medium hover:scale-105 transform"
+                className="px-4 py-2 glass rounded-full border border-slate-200 text-slate-700 hover:bg-gradient-to-r hover:from-green-600 hover:to-blue-600 hover:text-white transition-all duration-300 text-sm font-medium hover:scale-105 transform shadow-md hover:shadow-lg"
               >
                 {term}
               </button>
@@ -172,24 +172,25 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
           {/* Trending Searches Section */}
           <div className="mt-12">
             <h4 className="text-xl font-bold text-slate-900 mb-6 flex items-center justify-center">
-              <TrendingUp className="w-6 h-6 text-red-500 mr-2" />
-              🔥 Trending This Week
+              <TrendingUp className="w-6 h-6 text-red-500 mr-2 animate-pulse" />
+              🔥 HOTTEST This Week - 50,000+ Searches
             </h4>
             <div className="flex flex-wrap justify-center gap-3">
               {[
-                "CA$9,000 casino bonus",
-                "24 hour payout casinos",
-                "mobile casino apps 2024",
-                "crypto casino Canada",
-                "live dealer blackjack",
-                "weekend reload bonuses"
+                "💥 CA$9,000 instant bonus",
+                "⚡ 24-hour mega payouts",
+                "📱 #1 mobile casino apps",
+                "₿ crypto casino bonuses",
+                "🎮 live dealer VIP tables",
+                "🎉 weekend 200% bonuses",
+                "🎰 98% RTP mega slots"
               ].map((term, index) => (
                 <button
                   key={index}
                   onClick={() => onNavigateTo?.('bonuses')}
-                  className="px-4 py-2 gradient-primary text-white rounded-full text-sm font-medium hover:scale-105 transform transition-all duration-300 shadow-modern animate-pulse"
+                  className="px-4 py-2 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 text-white rounded-full text-sm font-bold hover:scale-110 transform transition-all duration-300 shadow-lg animate-pulse hover:animate-none"
                 >
-                  🔥 {term}
+                  {term}
                 </button>
               ))}
             </div>
