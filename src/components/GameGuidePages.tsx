@@ -349,4 +349,4 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
             <h2 className="text-4xl font-bold text-slate-900 mb-6">Best Canadian Casinos for {game.title.replace(' Guide', '')} 2024</h2>
             <p className="text-xl text-slate-600">
               <strong>Top-rated Canadian online casinos</strong> offering the best <strong>{gameType} games</strong> 
-              with <strong>
+              with <strong>licensed operations</strong>, <strong>fast payouts</strong>, and <strong>excellent customer support</strong>.
