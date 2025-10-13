@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, ArrowRight, Star, Crown, Gift, Gamepad2, Shield, CreditCard } from 'lucide-react';
+import { ExternalLink, ArrowRight, Star, Crown, Gift, Gamepad2, Shield, CreditCard, BookOpen, TrendingUp } from 'lucide-react';
 
 interface InternalLinkingProps {
   onNavigateTo?: (page: string) => void;
@@ -39,7 +39,8 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
         { text: "Blackjack Strategy Canada", page: "games-blackjack", keywords: "blackjack strategy Canada" },
         { text: "Roulette Guide Canada", page: "games-roulette", keywords: "roulette Canada" },
         { text: "Live Dealer Games Guide", page: "games-live-dealer", keywords: "live dealer Canada" },
-        { text: "Progressive Jackpots", page: "games-slots", keywords: "progressive jackpots Canada" }
+        { text: "Progressive Jackpots", page: "games-slots", keywords: "progressive jackpots Canada" },
+        { text: "Complete Gameplay Guides", page: "gameplay-guides", keywords: "casino game strategies" }
       ],
       icon: Gamepad2
     },
@@ -81,6 +82,23 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
     }
   ];
 
+  const blogCategories = [
+    {
+      title: "Expert Blog & Insights",
+      description: "Latest casino strategies, tips and industry news",
+      links: [
+        { text: "Slot Machine Strategy Guide 2024", page: "blog", keywords: "slot machine strategy" },
+        { text: "Blackjack Basic Strategy Chart", page: "blog", keywords: "blackjack basic strategy" },
+        { text: "Live Dealer Games Guide", page: "blog", keywords: "live dealer casino" },
+        { text: "Progressive Jackpot Strategies", page: "blog", keywords: "progressive jackpot tips" },
+        { text: "Canadian Casino Industry News", page: "blog", keywords: "casino industry Canada" }
+      ],
+      icon: BookOpen
+    }
+  ];
+
+  const allCategories = [...linkCategories, ...blogCategories];
+
   return (
     <div className="py-16 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -93,7 +111,7 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {linkCategories.map((category, index) => (
+          {allCategories.map((category, index) => (
             <div key={index} className="modern-card shadow-modern-hover">
               <div className="p-6">
                 <div className="flex items-center mb-4">
