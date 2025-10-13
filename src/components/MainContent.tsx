@@ -169,12 +169,12 @@ export const MainContent: React.FC = () => {
           <div className="text-center">
             <div className="flex justify-center items-center mb-6">
               <Crown className="w-12 h-12 text-yellow-400 mr-3" />
-              <h1 className="text-5xl md:text-7xl font-bold text-white">
-                #1 Best <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Online Casinos</span> Canada 2024
+              <h1 className="text-5xl md:text-7xl font-bold text-white" itemProp="headline">
+                🏆 #1 Best <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Online Casinos</span> Canada 2024
               </h1>
             </div>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto">
-              🏆 Trusted by 50,000+ players • 💰 CA$5M+ bonuses claimed • ⭐ 5,247 five-star reviews
+            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto" itemProp="description">
+              🏆 Trusted by <strong>50,000+ Canadian players</strong> • 💰 <strong>CA$5M+ bonuses claimed</strong> • ⭐ <strong>5,247 five-star reviews</strong> • 🚀 <strong>24-hour payouts guaranteed</strong>
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-green-500/20 px-4 py-2 rounded-full">
@@ -221,11 +221,11 @@ export const MainContent: React.FC = () => {
       {/* Casino Rankings */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            🏆 #1 Trusted Casino Rankings
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" itemProp="name">
+            🏆 #1 Trusted Casino Rankings Canada 2024
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Expertly reviewed and ranked by our certified gaming professionals. Updated daily with the latest bonuses and promotions.
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto" itemProp="description">
+            <strong>Expertly reviewed and ranked</strong> by our <strong>certified gaming professionals</strong>. Updated daily with the <strong>latest exclusive bonuses</strong> and <strong>highest payout casinos</strong> for Canadian players.
           </p>
         </div>
 
@@ -247,48 +247,48 @@ export const MainContent: React.FC = () => {
 
                 {/* Casino Logo & Info */}
                 <div className="flex-shrink-0 text-center lg:text-left">
-                  <img src={casino.logo} alt={casino.name} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" />
-                  <h3 className="text-2xl font-bold text-white mb-2">{casino.name}</h3>
+                  <img src={casino.logo} alt={`${casino.name} Casino Logo - Best Online Casino Canada`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
+                  <h3 className="text-2xl font-bold text-white mb-2" itemProp="name">{casino.name} Casino</h3>
                   <div className="flex items-center justify-center lg:justify-start mb-2">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className={`w-5 h-5 ${i < Math.floor(casino.rating) ? 'text-yellow-400 fill-current' : 'text-gray-400'}`} />
                     ))}
-                    <span className="text-white font-semibold ml-2">{casino.rating}/5</span>
+                    <span className="text-white font-semibold ml-2" itemProp="ratingValue">{casino.rating}/5 ⭐</span>
                   </div>
                   <div className="text-sm text-gray-400">
-                    Est. {casino.established} • {casino.license}
+                    Est. {casino.established} • <span itemProp="license">{casino.license}</span>
                   </div>
                 </div>
 
                 {/* Bonus Info */}
                 <div className="flex-grow text-center lg:text-left">
                   <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl p-4 mb-4">
-                    <div className="text-3xl font-bold text-green-400 mb-1">{casino.bonus}</div>
-                    <div className="text-xl text-blue-300">{casino.spins}</div>
+                    <div className="text-3xl font-bold text-green-400 mb-1" itemProp="offers">💰 {casino.bonus}</div>
+                    <div className="text-xl text-blue-300" itemProp="bonus">🎰 {casino.spins}</div>
                   </div>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
                       <div className="text-gray-400">Payout Time</div>
-                      <div className="text-white font-semibold">{casino.payoutTime}</div>
+                      <div className="text-white font-semibold" itemProp="payoutTime">⚡ {casino.payoutTime}</div>
                     </div>
                     <div>
                       <div className="text-gray-400">Min Deposit</div>
-                      <div className="text-white font-semibold">{casino.minDeposit}</div>
+                      <div className="text-white font-semibold" itemProp="minDeposit">💳 {casino.minDeposit}</div>
                     </div>
                     <div>
                       <div className="text-gray-400">Games</div>
-                      <div className="text-white font-semibold">{casino.gameCount}</div>
+                      <div className="text-white font-semibold" itemProp="gameCount">🎮 {casino.gameCount}</div>
                     </div>
                     <div>
                       <div className="text-gray-400">Rating</div>
-                      <div className="text-white font-semibold">{casino.rating}/5</div>
+                      <div className="text-white font-semibold" itemProp="aggregateRating">⭐ {casino.rating}/5</div>
                     </div>
                   </div>
                 </div>
 
                 {/* CTA Button */}
                 <div className="flex-shrink-0">
-                  <button className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg">
+                  <button className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg" itemProp="url">
                     🔥 Claim Now
                   </button>
                   <div className="text-center mt-2">
@@ -399,29 +399,33 @@ export const MainContent: React.FC = () => {
       {/* Trending Searches */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-4 flex items-center justify-center">
+          <h2 className="text-4xl font-bold text-white mb-4 flex items-center justify-center" itemProp="name">
             <TrendingUp className="w-10 h-10 text-orange-400 mr-3" />
-            🔥 Trending Casino Searches
+            🔥 Trending Casino Searches Canada 2024
           </h2>
-          <p className="text-xl text-gray-300">What Canadian players are searching for right now</p>
+          <p className="text-xl text-gray-300" itemProp="description">What <strong>50,000+ Canadian players</strong> are searching for right now - <strong>updated hourly</strong></p>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {[
-            "🔥 24-hour payout casinos",
-            "💰 No deposit bonus codes",
-            "🎰 98% RTP slots Canada",
-            "🏆 Million dollar jackpots",
-            "📱 Mobile casino apps",
-            "💎 VIP casino bonuses",
-            "⚡ Instant withdrawal sites",
-            "🎲 Live dealer blackjack",
-            "🍀 Weekend casino bonuses",
-            "🎯 High roller casinos",
-            "🔒 Crypto-friendly casinos",
-            "🎪 New casino launches 2024"
+            "🔥 24-hour payout casinos Canada",
+            "💰 No deposit bonus codes 2024",
+            "🎰 98% RTP slots Canada real money",
+            "🏆 Million dollar jackpots Canada",
+            "📱 Mobile casino apps Canada",
+            "💎 VIP casino bonuses exclusive",
+            "⚡ Instant withdrawal casinos",
+            "🎲 Live dealer blackjack Canada",
+            "🍀 Weekend 300% casino bonuses",
+            "🎯 High roller casinos Canada",
+            "🔒 Crypto-friendly casinos bitcoin",
+            "🎪 New casino launches 2024 Canada",
+            "🎊 Progressive jackpot winners",
+            "💸 Fastest payout casinos",
+            "🎁 Free spins no wagering",
+            "👑 Licensed Ontario casinos"
           ].map((search, index) => (
-            <div key={index} className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 hover:from-purple-500/20 hover:to-blue-500/20 rounded-lg p-3 border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 cursor-pointer group">
+            <div key={index} className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 hover:from-purple-500/20 hover:to-blue-500/20 rounded-lg p-3 border border-purple-500/20 hover:border-purple-400/40 transition-all duration-300 cursor-pointer group" itemProp="keywords">
               <span className="text-white text-sm group-hover:text-purple-300 transition-colors">
                 {search}
               </span>

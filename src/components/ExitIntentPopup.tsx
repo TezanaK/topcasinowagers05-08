@@ -76,10 +76,10 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
               </div>
               
               <h2 className="text-3xl md:text-4xl font-bold mb-2 animate-bounce-in">
-                🚨 WAIT! Exclusive CA$1,400 Bonus!
+                🚨 WAIT! Exclusive CA$1,400 Bonus + 200 Spins!
               </h2>
               <p className="text-xl opacity-90 animate-slide-up">
-                Limited Time: 100% + 200 Free Spins!
+                ⏰ Limited Time: 100% Match + 200 Free Spins!
               </p>
             </div>
           </div>
@@ -108,10 +108,10 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
               {/* Bonus Offer */}
               <div className="gradient-gold rounded-3xl p-6 mb-6 text-center shadow-modern">
                 <div className="text-slate-900">
-                  <div className="text-sm font-bold mb-2 opacity-80">🎁 EXCLUSIVE FOR YOU</div>
+                  <div className="text-sm font-bold mb-2 opacity-80">🎁 EXCLUSIVE CANADIAN BONUS</div>
                   <div className="text-3xl font-bold mb-2">100% up to CA$1,400</div>
                   <div className="text-xl font-bold">+ 200 FREE SPINS</div>
-                  <div className="text-sm font-bold mt-2 text-red-700">⏰ Only 47 Bonuses Left!</div>
+                  <div className="text-sm font-bold mt-2 text-red-700">⏰ Only 23 Bonuses Left Today!</div>
                 </div>
               </div>
 
@@ -139,7 +139,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
               <div className="glass rounded-2xl p-4 border border-red-200 bg-red-50 mb-6">
                 <div className="flex items-center justify-center text-red-700">
                   <Clock className="w-5 h-5 mr-2 animate-pulse" />
-                  <span className="font-bold text-sm">⏰ 2,847 Players Claimed This Week - Only 47 Left!</span>
+                  <span className="font-bold text-sm">⏰ 3,247 Players Claimed This Week - Only 23 Left Today!</span>
                 </div>
               </div>
 
@@ -150,7 +150,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
                   className="w-full bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 text-white rounded-2xl py-4 px-8 font-bold text-lg shadow-modern-hover transform hover:scale-105 transition-all duration-300 animate-pulse-glow"
                 >
                   <Gift className="w-6 h-6 mr-3 inline" />
-                  🔥 CLAIM CA$1,400 BONUS NOW
+                  🔥 CLAIM CA$1,400 + 200 SPINS NOW
                   <ExternalLink className="w-5 h-5 ml-3 inline" />
                 </button>
                 
@@ -164,7 +164,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
                 {/* Social Proof */}
                 <div className="text-center mt-4">
                   <p className="text-sm text-slate-600 mb-2">
-                    <strong>2,847 Canadian players</strong> claimed this bonus this week! Only <strong>47 bonuses left</strong>!
+                    <strong>3,247 Canadian players</strong> claimed this bonus this week! Only <strong>23 bonuses left today</strong>!
                   </p>
                   <div className="flex justify-center items-center space-x-2 text-xs text-slate-500">
                     <div className="flex -space-x-1">
@@ -173,7 +173,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
                       <div className="w-6 h-6 bg-purple-500 rounded-full border-2 border-white"></div>
                       <div className="w-6 h-6 bg-yellow-500 rounded-full border-2 border-white"></div>
                     </div>
-                    <span>+2,843 winners this week</span>
+                    <span>+3,243 winners this week</span>
                   </div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
           {/* Bottom Banner */}
           <div className="gradient-secondary text-white p-4 text-center">
             <p className="text-sm font-medium">
-              🍁 Trusted by 50,000+ Canadian Winners | MGA Licensed & Regulated
+              🍁 Trusted by 50,000+ Canadian Winners | MGA Licensed & Regulated | 24-Hour Payouts
             </p>
           </div>
         </div>

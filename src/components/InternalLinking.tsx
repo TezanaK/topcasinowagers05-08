@@ -135,29 +135,33 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "🏆 best online casinos Canada",
-              "💰 CA$9,000 casino bonuses",
-              "🎰 online slots Canada real money",
-              "⚡ 24-hour payout casinos",
-              "🎮 live dealer casino Canada",
-              "🍁 Ontario licensed casinos",
-              "💸 instant withdrawal casinos",
-              "📱 mobile casino apps Canada",
-              "🎯 million dollar jackpots",
-              "♠️ live blackjack Canada",
-              "🎲 immersive roulette online",
-              "⭐ 5-star casino reviews",
-              "🆕 new casinos Canada 2024",
-              "📈 98% RTP slots Canada",
-              "📲 casino apps download",
-              "🎁 no deposit bonus codes",
-              "🔄 1000 free spins",
-              "👑 VIP casino rewards",
-              "🏅 casino tournaments",
-              "₿ crypto casinos Canada",
-              "🎉 weekend reload bonuses",
-              "💎 loyalty cashback programs",
-              "🎊 biggest jackpot winners"
+              "🏆 #1 best online casinos Canada 2024",
+              "💰 CA$5M+ bonuses claimed by winners",
+              "🎰 98% RTP slots Canada real money",
+              "⚡ 24-hour guaranteed payout casinos",
+              "🎮 live dealer casino Canada real money",
+              "🍁 licensed Ontario iGaming casinos",
+              "💸 instant withdrawal casinos Canada",
+              "📱 mobile casino apps Canada download",
+              "🎯 million dollar jackpot winners",
+              "♠️ live blackjack Canada professional",
+              "🎲 immersive roulette Canada online",
+              "⭐ 5-star casino reviews Canada",
+              "🆕 new casino launches Canada 2024",
+              "📈 highest RTP slots Canada 98%",
+              "📲 casino apps download Canada",
+              "🎁 no deposit bonus codes 2024",
+              "🔄 free spins no wagering Canada",
+              "👑 VIP casino rewards exclusive",
+              "🏅 casino tournaments Canada prizes",
+              "₿ crypto casinos Canada bitcoin",
+              "🎉 weekend 300% reload bonuses",
+              "💎 loyalty cashback programs Canada",
+              "🎊 biggest jackpot winners Canada 2024",
+              "🚀 fastest payout casinos Canada",
+              "🔥 trending casino bonuses 2024",
+              "💎 high roller casinos Canada",
+              "🎪 exclusive casino promotions"
             ].map((term, index) => (
               <button
                 key={index}
@@ -173,17 +177,22 @@ const InternalLinking: React.FC<InternalLinkingProps> = ({ onNavigateTo }) => {
           <div className="mt-12">
             <h4 className="text-xl font-bold text-slate-900 mb-6 flex items-center justify-center">
               <TrendingUp className="w-6 h-6 text-red-500 mr-2 animate-pulse" />
-              🔥 HOTTEST This Week - 50,000+ Searches
+              🔥 HOTTEST This Week - 100,000+ Searches
             </h4>
             <div className="flex flex-wrap justify-center gap-3">
               {[
-                "💥 CA$9,000 instant bonus",
-                "⚡ 24-hour mega payouts",
-                "📱 #1 mobile casino apps",
-                "₿ crypto casino bonuses",
-                "🎮 live dealer VIP tables",
-                "🎉 weekend 200% bonuses",
-                "🎰 98% RTP mega slots"
+                "💥 CA$5M+ bonuses claimed winners",
+                "⚡ 24-hour guaranteed mega payouts",
+                "📱 #1 mobile casino apps Canada",
+                "₿ crypto casino bitcoin bonuses",
+                "🎮 live dealer VIP tables Canada",
+                "🎉 weekend 300% exclusive bonuses",
+                "🎰 98% RTP mega jackpot slots",
+                "🏆 million dollar jackpot winners",
+                "🚀 instant withdrawal casinos",
+                "👑 VIP casino rewards exclusive",
+                "🔥 trending casino launches 2024",
+                "💎 high roller bonuses Canada"
               ].map((term, index) => (
                 <button
                   key={index}
