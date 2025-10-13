@@ -169,7 +169,7 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
     {
       id: 2,
       name: "EVOSPIN",
-      logo: "/IMG_0128.jpeg",
+      logo: "/IMG_0129.jpeg",
       rating: 4.8,
       bonus: "285% up to CA$7,500 + 285 Free Spins",
       features: ["1000+ Games", "Live Casino", "VIP Program"],

@@ -90,7 +90,7 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
     {
       id: 2,
       casino: "EVOSPIN",
-      logo: "/IMG_0128.jpeg",
+      logo: "/IMG_0129.jpeg",
       bonusType: "Mega Welcome Package",
       title: "285% Match + 285 Free Spins",
       amount: "up to CA$7,500",
