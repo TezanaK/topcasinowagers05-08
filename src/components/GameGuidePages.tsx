@@ -155,7 +155,7 @@ const GameGuidePages: React.FC<GameGuidePagesProps> = ({ gameType, onNavigateHom
   const GameIcon = game.icon;
   
   const pageTitle = `${game.title} Canada 2024 - Best Strategies & Tips | TopCasinoWagers`;
-  const pageDescription = `${game.description}. RTP: ${game.rtp}, Difficulty: ${game.difficulty}. Expert strategies & tips for Canadian players.`;
+  const pageDescription = `${game.description}. ${game.rtp} RTP, ${game.difficulty} level. Winning strategies & expert tips for Canadian casino players 2024.`;
   const pageKeywords = `${gameType} Canada, ${gameType} strategy, online ${gameType}, Canadian ${gameType} guide, ${gameType} tips`;
 
   return (

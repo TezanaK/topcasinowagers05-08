@@ -139,7 +139,7 @@ const SEOPages: React.FC<SEOPagesProps> = ({ currentPage, onNavigateHome, onNavi
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
         {/* Guide Page Meta Tags */}
         <div style={{ display: 'none' }}>
-          <title>Complete Casino Guide for Canadian Players | TopCasinoWagers</title>
+          <title>Casino Guide Canada 2024 - Complete Gambling Strategy Guide | TopCasinoWagers</title>
           <meta name="description" content="Complete casino guide for Canadian players. Learn how to choose casinos, understand bonuses, game strategies & banking methods." />
           <meta name="keywords" content="casino guide Canada, how to choose casino, casino strategies, Canadian gambling guide, online casino tips" />
         </div>

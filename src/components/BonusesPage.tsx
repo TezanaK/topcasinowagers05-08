@@ -62,7 +62,7 @@ const BonusesPage: React.FC<BonusesPageProps> = ({ onNavigateHome, onNavigateTo 
   const [expandedBonus, setExpandedBonus] = useState<number | null>(null);
 
   const bonusesMetadata = {
-    title: "Best Casino Bonuses Canada 2024 - Exclusive Offers | TopCasinoWagers",
+    title: "Casino Bonuses Canada 2024 - CA$9,000 Welcome Offers | TopCasinoWagers",
     description: "Best casino bonuses Canada 2024. Exclusive welcome bonuses, free spins, no deposit offers & cashback deals from top-rated casinos.",
     keywords: "casino bonuses Canada, welcome bonus, free spins Canada, no deposit bonus, casino promotions, Canadian casino offers, exclusive bonuses"
   };

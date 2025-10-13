@@ -197,7 +197,7 @@ const GameProviderPages: React.FC<GameProviderPagesProps> = ({ provider, onNavig
   const providerInfo = providerData[provider] || providerData['netent'];
   
   const pageTitle = `${providerInfo.name} Games Canada 2024 - Best Casinos & Slots | TopCasinoWagers`;
-  const pageDescription = `Play ${providerInfo.name} games at top Canadian casinos. ${providerInfo.totalGames} games, ${providerInfo.avgRTP} average RTP. Expert reviews & bonuses.`;
+  const pageDescription = `${providerInfo.name} games at top Canadian casinos 2024. ${providerInfo.totalGames} games, ${providerInfo.avgRTP} RTP. Exclusive bonuses & expert reviews.`;
   const pageKeywords = `${providerInfo.name} games Canada, ${providerInfo.name} slots, ${providerInfo.name} casinos, Canadian ${providerInfo.name} games`;
 
   const renderStars = (rating: number) => {

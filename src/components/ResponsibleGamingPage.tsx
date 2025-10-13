@@ -31,7 +31,7 @@ interface ResponsibleGamingPageProps {
 
 const ResponsibleGamingPage: React.FC<ResponsibleGamingPageProps> = ({ onNavigateHome, onNavigateTo }) => {
   const responsibleGamingMetadata = {
-    title: "Responsible Gaming - Safe Gambling Guidelines | TopCasinoWagers Canada",
+    title: "Responsible Gaming Canada - Safe Gambling Guide & Support Resources | TopCasinoWagers",
     description: "Learn responsible gambling practices, warning signs of problem gambling & resources for help. Safe gaming guidelines for Canadian players.",
     keywords: "responsible gambling Canada, problem gambling help, safe gaming practices, gambling addiction resources, Canadian gambling support"
   };
