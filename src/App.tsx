@@ -170,7 +170,7 @@ function App() {
     {
       id: 3,
      name: "HOUSE OF JACK",
-      logo: "/public/hoj.webp",
+      logo: "/OIP.webp",
       rating: 4.4,
       bonus: "Up to CA$1,000 + 200 Free Spins",
       features: ["Microgaming", "Mobile Friendly", "Fast Payouts"],
