@@ -1,9 +1,9 @@
 # Robots.txt for TopCasinoWagers.ca
-# Updated: January 2024 - Optimized for SEO
+# Updated: October 2025 - Optimized for Maximum Crawl Efficiency
 
 User-agent: *
 Allow: /
-Crawl-delay: 1
+Crawl-delay: 0
 
 # Sitemap location
 Sitemap: https://topcasinowagers.ca/sitemap.xml
@@ -43,9 +43,14 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
-# Block unwanted bots
+# Allow SEO tools for better optimization
 User-agent: AhrefsBot
-Disallow: /
+Allow: /
+Crawl-delay: 2
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 2
 
 User-agent: MJ12bot
 Disallow: /
@@ -53,17 +58,17 @@ Disallow: /
 User-agent: DotBot
 Disallow: /
 
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
 User-agent: BLEXBot
 Disallow: /
 
 User-agent: DataForSeoBot
 Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
 
 # Allow access to important files
 Allow: /sitemap.xml

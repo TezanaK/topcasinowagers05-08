@@ -175,11 +175,11 @@ export const MainContent: React.FC = () => {
             <div className="flex justify-center items-center mb-6">
               <Crown className="w-12 h-12 text-yellow-400 mr-3" />
               <h1 className="text-5xl md:text-7xl font-bold text-white" itemProp="headline">
-                🏆 #1 Best <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-500">Online Casinos</span> Canada 2024
+                Best Online Casinos Canada 2024 - Trusted Reviews & $11,000 Bonuses
               </h1>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto" itemProp="description">
-              🏆 Trusted by <strong>50,000+ Canadian players</strong> • 💰 <strong>CA$5M+ bonuses claimed</strong> • ⭐ <strong>5,247 five-star reviews</strong> • 🚀 <strong>24-hour payouts guaranteed</strong>
+              Top-rated licensed casinos for Canadian players. Get up to <strong>$11,000 welcome bonus + 300 free spins</strong>. Instant Interac deposits, 24-hour withdrawals, 2000+ games. MGA & Curacao licensed. Expert reviews updated daily.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <div className="flex items-center bg-green-500/20 px-4 py-2 rounded-full">
@@ -227,10 +227,10 @@ export const MainContent: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" itemProp="name">
-            🏆 #1 Trusted Casino Rankings Canada 2024
+            Top Canadian Online Casino Rankings 2024
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto" itemProp="description">
-            <strong>Expertly reviewed and ranked</strong> by our <strong>certified gaming professionals</strong>. Updated daily with the <strong>latest exclusive bonuses</strong> and <strong>highest payout casinos</strong> for Canadian players.
+            Expert-verified casino reviews by certified gaming professionals. Compare welcome bonuses, payout speeds, game selection, and licensing. Featuring <strong>Interac e-Transfer deposits</strong>, <strong>same-day withdrawals</strong>, and <strong>CAD currency support</strong>. All casinos tested for fairness and security.
           </p>
         </div>
 
@@ -346,7 +346,7 @@ export const MainContent: React.FC = () => {
             <div className="bg-gradient-to-br from-gray-800/30 to-gray-900/30 rounded-2xl p-8 border border-gray-700/30">
               <h3 className="text-3xl font-bold text-white mb-6 flex items-center">
                 <Award className="w-8 h-8 text-yellow-400 mr-3" />
-                Why Choose Our #1 Casinos?
+                Why Choose Licensed Canadian Casinos
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start">
@@ -427,9 +427,9 @@ export const MainContent: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4 flex items-center justify-center" itemProp="name">
             <TrendingUp className="w-10 h-10 text-orange-400 mr-3" />
-            🔥 Trending Casino Searches Canada 2024
+            Popular Casino Topics in Canada 2024
           </h2>
-          <p className="text-xl text-gray-300" itemProp="description">What <strong>50,000+ Canadian players</strong> are searching for right now - <strong>updated hourly</strong></p>
+          <p className="text-xl text-gray-300" itemProp="description">Top casino topics and searches from Canadian players. Find information on bonuses, payment methods, game guides, and licensed operators.</p>
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
