@@ -133,7 +133,7 @@ const casinos = [
   {
     id: 10,
     name: "HOUSE OF JACK",
-    logo: "/IMG_0130.jpeg",
+    logo: "/OIP.webp",
     rating: 4.6,
     bonus: "Up to CA$1,500",
     spins: "100 Free Spins",
