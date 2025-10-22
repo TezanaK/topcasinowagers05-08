@@ -89,6 +89,8 @@ const ReviewsPage: React.FC<ReviewsPageProps> = ({ onNavigateHome }) => {
   const [selectedCasino, setSelectedCasino] = useState<number | null>(null);
   const [filterRating, setFilterRating] = useState<number>(0);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [showComparison, setShowComparison] = useState<boolean>(false);
+  const [selectedForComparison, setSelectedForComparison] = useState<number[]>([]);
   
   // Add metadata for Reviews page
   const reviewsMetadata = {
