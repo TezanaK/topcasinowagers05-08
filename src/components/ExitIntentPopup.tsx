@@ -89,8 +89,8 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({ isVisible, onClose })
             <div className="text-center mb-8">
               {/* Casino Logo and Info */}
               <div className="flex items-center justify-center mb-6">
-                <img 
-                  src="/IMG_0129.jpeg" 
+                <img
+                  src="/casino-mate.webp"
                   alt="CASINOMATE Casino Logo"
                   className="w-16 h-16 rounded-2xl object-cover shadow-modern border-2 border-yellow-400 mr-4"
                 />
