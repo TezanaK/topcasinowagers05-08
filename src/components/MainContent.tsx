@@ -21,7 +21,7 @@ const casinos = [
   {
     id: 2,
     name: "CASINOMATE",
-    logo: "/IMG_0129.jpeg",
+    logo: "/casino-mate.webp",
     rating: 4.8,
     bonus: "Up to CA$1,400",
     spins: "200 Free Spins",
