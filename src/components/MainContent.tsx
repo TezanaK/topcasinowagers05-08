@@ -247,7 +247,7 @@ export const MainContent: React.FC = () => {
 
                 {/* Casino Logo & Info */}
                 <div className="flex-shrink-0 text-center lg:text-left">
-                  <img src={casino.logo} alt={`${casino.name} Casino Logo - Best Online Casino Canada`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
+                  <img src={casino.logo} alt={`${casino.name} Casino Logo - Licensed Canadian Online Casino with ${casino.bonus} Welcome Bonus`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
                   <h3 className="text-2xl font-bold text-white mb-2" itemProp="name">{casino.name} Casino</h3>
                   <div className="flex items-center justify-center lg:justify-start mb-2">
                     {[...Array(5)].map((_, i) => (
