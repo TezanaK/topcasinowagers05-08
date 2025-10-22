@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Star, Shield, Clock, Award, TrendingUp, Users, DollarSign, Zap, Crown, Gift } from 'lucide-react';
+import { Star, Shield, Clock, Award, TrendingUp, Users, DollarSign, Zap, Crown, Gift, CheckCircle2, AlertCircle } from 'lucide-react';
 import { InternalLinking } from './InternalLinking';
 import { ExitIntentPopup } from './ExitIntentPopup';
+import { FloatingBonusBar } from './FloatingBonusBar';
+import { LiveStats } from './LiveStats';
 
 const casinos = [
   {
@@ -162,6 +164,9 @@ export const MainContent: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      {/* Live Stats Bar */}
+      <LiveStats />
+
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-blue-600/20"></div>
@@ -262,9 +267,20 @@ export const MainContent: React.FC = () => {
 
                 {/* Bonus Info */}
                 <div className="flex-grow text-center lg:text-left">
-                  <div className="bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl p-4 mb-4">
+                  <div className="relative bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-xl p-4 mb-4 border-2 border-green-400/30">
+                    {index < 3 && (
+                      <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full animate-pulse">
+                        🔥 TRENDING NOW
+                      </div>
+                    )}
                     <div className="text-3xl font-bold text-green-400 mb-1" itemProp="offers">💰 {casino.bonus}</div>
                     <div className="text-xl text-blue-300" itemProp="bonus">🎰 {casino.spins}</div>
+                    {index < 3 && (
+                      <div className="flex items-center justify-center gap-2 mt-2 text-yellow-400 text-sm">
+                        <AlertCircle className="w-4 h-4 animate-pulse" />
+                        <span className="font-semibold">Limited spots available</span>
+                      </div>
+                    )}
                   </div>
                   <div className="grid grid-cols-2 gap-4 text-sm">
                     <div>
@@ -288,11 +304,21 @@ export const MainContent: React.FC = () => {
 
                 {/* CTA Button */}
                 <div className="flex-shrink-0">
-                  <button className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg" itemProp="url">
+                  <button className="relative bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-lg group" itemProp="url">
+                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse">
+                      HOT
+                    </span>
                     🔥 Claim Now
+                    <span className="block text-xs mt-1 opacity-90 group-hover:opacity-100">
+                      {index < 3 ? '⚡ Last 5 spots!' : '✓ Available'}
+                    </span>
                   </button>
                   <div className="text-center mt-2">
                     <div className="text-xs text-gray-400">18+ • T&C Apply</div>
+                    <div className="flex items-center justify-center gap-1 text-green-400 text-xs mt-1">
+                      <CheckCircle2 className="w-3 h-3" />
+                      <span>Verified Safe</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -441,6 +467,9 @@ export const MainContent: React.FC = () => {
       {showExitIntent && (
         <ExitIntentPopup onClose={() => setShowExitIntent(false)} />
       )}
+
+      {/* Floating Bonus Bar */}
+      <FloatingBonusBar />
     </div>
   );
 };
