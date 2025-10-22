@@ -144,7 +144,7 @@ function App() {
     {
       id: 1,
   name: "CASINOMATE",
-      logo: "/public/cmt.jpg",
+      logo: "/casino-mate.webp",
       rating: 4.8,
       bonus: "100% up to CA1,400 + 80 Free Spins",
       features: ["1000+ Games", "Live Casino", "VIP Program"],
