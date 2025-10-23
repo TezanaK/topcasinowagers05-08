@@ -175,7 +175,7 @@ export const MainContent: React.FC = () => {
             <div className="flex justify-center items-center mb-6">
               <Crown className="w-12 h-12 text-yellow-400 mr-3" />
               <h1 className="text-5xl md:text-7xl font-bold text-white" itemProp="headline">
-                Best Online Casinos Canada 2024 - Trusted Reviews & $11,000 Bonuses
+                Best Online Casinos Canada 2025 | Expert Reviews & CA$11,000 Bonuses
               </h1>
             </div>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto" itemProp="description">
@@ -227,7 +227,7 @@ export const MainContent: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" itemProp="name">
-            Top Canadian Online Casino Rankings 2024
+            Top 10 Canadian Online Casinos 2025 - Licensed & Verified
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto" itemProp="description">
             Expert-verified casino reviews by certified gaming professionals. Compare welcome bonuses, payout speeds, game selection, and licensing. Featuring <strong>Interac e-Transfer deposits</strong>, <strong>same-day withdrawals</strong>, and <strong>CAD currency support</strong>. All casinos tested for fairness and security.
@@ -252,7 +252,7 @@ export const MainContent: React.FC = () => {
 
                 {/* Casino Logo & Info */}
                 <div className="flex-shrink-0 text-center lg:text-left">
-                  <img src={casino.logo} alt={`${casino.name} Casino Logo - Licensed Canadian Online Casino with ${casino.bonus} Welcome Bonus`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
+                  <img src={casino.logo} alt={`${casino.name} Casino - Licensed Canadian Online Casino | ${casino.bonus} Welcome Bonus + ${casino.spins} | ${casino.license} Licensed | ${casino.gameCount} Games | ${casino.payoutTime} Payout Time`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
                   <h3 className="text-2xl font-bold text-white mb-2" itemProp="name">{casino.name} Casino</h3>
                   <div className="flex items-center justify-center lg:justify-start mb-2">
                     {[...Array(5)].map((_, i) => (
@@ -384,7 +384,7 @@ export const MainContent: React.FC = () => {
             <div className="bg-gradient-to-br from-gray-800/30 to-gray-900/30 rounded-2xl p-8 border border-gray-700/30">
               <h3 className="text-3xl font-bold text-white mb-6 flex items-center">
                 <TrendingUp className="w-8 h-8 text-green-400 mr-3" />
-                Canadian Casino Market 2024
+                Canadian Casino Market 2025
               </h3>
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
@@ -414,7 +414,7 @@ export const MainContent: React.FC = () => {
               </div>
               <div className="mt-6 p-4 bg-green-500/10 rounded-lg border border-green-500/20">
                 <p className="text-green-300 text-sm">
-                  <strong>Legal Update:</strong> Online gambling is regulated in Ontario, with more provinces expected to follow suit in 2024.
+                  <strong>Legal Update:</strong> Online gambling is regulated in Ontario, with more provinces expected to follow suit in 2025.
                 </p>
               </div>
             </div>
@@ -427,7 +427,7 @@ export const MainContent: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4 flex items-center justify-center" itemProp="name">
             <TrendingUp className="w-10 h-10 text-orange-400 mr-3" />
-            Popular Casino Topics in Canada 2024
+            Popular Casino Topics in Canada 2025
           </h2>
           <p className="text-xl text-gray-300" itemProp="description">Top casino topics and searches from Canadian players. Find information on bonuses, payment methods, game guides, and licensed operators.</p>
         </div>
@@ -435,7 +435,7 @@ export const MainContent: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {[
             "🔥 24-hour payout casinos Canada",
-            "💰 No deposit bonus codes 2024",
+            "💰 No deposit bonus codes 2025",
             "🎰 98% RTP slots Canada real money",
             "🏆 Million dollar jackpots Canada",
             "📱 Mobile casino apps Canada",
@@ -445,7 +445,7 @@ export const MainContent: React.FC = () => {
             "🍀 Weekend 300% casino bonuses",
             "🎯 High roller casinos Canada",
             "🔒 Crypto-friendly casinos bitcoin",
-            "🎪 New casino launches 2024 Canada",
+            "🎪 New casino launches 2025 Canada",
             "🎊 Progressive jackpot winners",
             "💸 Fastest payout casinos",
             "🎁 Free spins no wagering",
