@@ -252,7 +252,14 @@ export const MainContent: React.FC = () => {
 
                 {/* Casino Logo & Info */}
                 <div className="flex-shrink-0 text-center lg:text-left">
-                  <img src={casino.logo} alt={`${casino.name} Casino - Licensed Canadian Online Casino | ${casino.bonus} Welcome Bonus + ${casino.spins} | ${casino.license} Licensed | ${casino.gameCount} Games | ${casino.payoutTime} Payout Time`} className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover" itemProp="image" />
+                  <img
+                    src={casino.logo}
+                    alt={`${casino.name} Casino - Licensed Canadian Online Casino | ${casino.bonus} Welcome Bonus + ${casino.spins} | ${casino.license} Licensed | ${casino.gameCount} Games | ${casino.payoutTime} Payout Time`}
+                    className="w-24 h-24 mx-auto lg:mx-0 rounded-xl mb-3 object-cover"
+                    itemProp="image"
+                    loading="lazy"
+                    decoding="async"
+                  />
                   <h3 className="text-2xl font-bold text-white mb-2" itemProp="name">{casino.name} Casino</h3>
                   <div className="flex items-center justify-center lg:justify-start mb-2">
                     {[...Array(5)].map((_, i) => (
@@ -703,6 +710,152 @@ export const MainContent: React.FC = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* Trust Badges and Security Signals */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h2 className="text-4xl font-bold text-white mb-8 text-center">
+          Our Commitment to Safe and Fair Gaming
+        </h2>
+        <div className="grid md:grid-cols-4 gap-6">
+          <div className="bg-gradient-to-br from-green-900/30 to-green-800/20 rounded-xl p-6 border border-green-700/50 text-center">
+            <Shield className="w-16 h-16 text-green-400 mx-auto mb-4" />
+            <h3 className="text-xl font-bold text-white mb-2">SSL Encrypted</h3>
+            <p className="text-gray-300 text-sm">256-bit bank-level encryption protects all transactions</p>
+          </div>
+          <div className="bg-gradient-to-br from-blue-900/30 to-blue-800/20 rounded-xl p-6 border border-blue-700/50 text-center">
+            <CheckCircle2 className="w-16 h-16 text-blue-400 mx-auto mb-4" />
+            <h3 className="text-xl font-bold text-white mb-2">eCOGRA Certified</h3>
+            <p className="text-gray-300 text-sm">Fair gaming verified by independent auditors</p>
+          </div>
+          <div className="bg-gradient-to-br from-purple-900/30 to-purple-800/20 rounded-xl p-6 border border-purple-700/50 text-center">
+            <Award className="w-16 h-16 text-purple-400 mx-auto mb-4" />
+            <h3 className="text-xl font-bold text-white mb-2">Licensed Operators</h3>
+            <p className="text-gray-300 text-sm">MGA, UKGC, and Curacao licensed casinos only</p>
+          </div>
+          <div className="bg-gradient-to-br from-orange-900/30 to-orange-800/20 rounded-xl p-6 border border-orange-700/50 text-center">
+            <Users className="w-16 h-16 text-orange-400 mx-auto mb-4" />
+            <h3 className="text-xl font-bold text-white mb-2">50K+ Players</h3>
+            <p className="text-gray-300 text-sm">Trusted by thousands of Canadian players</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Related Searches - Long-tail Keywords */}
+      <div className="bg-gradient-to-br from-gray-900/50 to-black/50 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-4xl font-bold text-white mb-8 text-center">
+            Related Casino Topics & Searches
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">What is the safest online casino in Canada?</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                Jackpot City Casino is considered the safest with Malta Gaming Authority license, 25+ years operation, eCOGRA certification, and proven payout history.
+              </p>
+              <p className="text-purple-400 text-sm">Read full safety guide</p>
+            </article>
+
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">Best casino for $10 minimum deposit Canada</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                Jackpot City, Spin Casino, and Ruby Fortune all accept CA$10 minimum deposits with full bonus eligibility and Interac e-Transfer support.
+              </p>
+              <p className="text-purple-400 text-sm">View low deposit casinos</p>
+            </article>
+
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">Which casino has the best slots selection?</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                Videoslots Casino offers 4,000+ slot games from 150+ providers including NetEnt, Microgaming, Pragmatic Play, and exclusive titles not found elsewhere.
+              </p>
+              <p className="text-purple-400 text-sm">Explore slot games</p>
+            </article>
+
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">Best live dealer casino Canada 2025</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                LeoVegas and Spin Casino lead with Evolution Gaming live dealers, offering blackjack, roulette, baccarat, and game shows with professional Canadian dealers.
+              </p>
+              <p className="text-purple-400 text-sm">See live casino options</p>
+            </article>
+
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">Can I play online casino in Ontario legally?</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                Yes, Ontario has legal online casinos regulated by iGaming Ontario since 2022. You can play at iGO-licensed sites or offshore casinos. Age 19+.
+              </p>
+              <p className="text-purple-400 text-sm">Ontario casino guide</p>
+            </article>
+
+            <article className="bg-gray-800/50 rounded-xl p-6 border border-gray-700 hover:border-purple-500/50 transition-all">
+              <h3 className="text-xl font-bold text-white mb-3">Best mobile casino app for iPhone Canada</h3>
+              <p className="text-gray-300 text-sm mb-3">
+                LeoVegas offers the best iOS casino app with 1,000+ games, instant deposits, biometric login, and optimized mobile interface for iPhone and iPad.
+              </p>
+              <p className="text-purple-400 text-sm">Download casino apps</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      {/* Long-tail Keyword Rich Content Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <article className="bg-gray-800/50 rounded-xl p-8 border border-gray-700">
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Complete Guide to Playing at Online Casinos in Canada 2025
+          </h2>
+
+          <section className="mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">How to Deposit Money at Canadian Online Casinos</h3>
+            <p className="text-gray-300 mb-4">
+              Canadian players have multiple secure deposit options at licensed online casinos. <strong>Interac e-Transfer</strong> remains the most popular choice, offering instant deposits with CA$20-$5,000 limits per transaction. <strong>Credit cards</strong> (Visa, Mastercard) process instantly but may have bank restrictions. <strong>E-wallets</strong> like Skrill, Neteller, and MuchBetter provide fast deposits and withdrawals. <strong>Cryptocurrency casinos</strong> accept Bitcoin, Ethereum, and Litecoin for anonymous transactions with no fees.
+            </p>
+            <p className="text-gray-300 mb-4">
+              For <strong>instant casino deposits</strong>, use Interac e-Transfer or e-wallets. Processing takes 0-5 minutes. Credit cards are instant but withdrawals aren't available. <strong>Prepaid vouchers</strong> like Paysafecard offer anonymous deposits without bank details. Most casinos have a <strong>CA$10-$20 minimum deposit</strong>, making it accessible for all budgets.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">Fastest Withdrawal Online Casinos Canada</h3>
+            <p className="text-gray-300 mb-4">
+              <strong>Withdrawal speed</strong> varies by casino and payment method. The fastest casinos process <strong>same-day withdrawals</strong> or within 24 hours. <strong>CASINOMATE Casino</strong> leads with 1-2 hour payouts for verified players. <strong>LeoVegas</strong> offers 0-1 day withdrawals to e-wallets. <strong>Jackpot City</strong> processes most withdrawals within 24 hours.
+            </p>
+            <p className="text-gray-300 mb-4">
+              For <strong>fast casino payouts</strong>, complete account verification immediately after registration. Upload ID, proof of address, and payment method screenshots. Use <strong>e-wallets</strong> (Skrill, Neteller) for fastest withdrawals (0-24 hours). <strong>Interac e-Transfer</strong> takes 1-3 business days. Avoid bank transfers and credit cards which can take 3-7 days.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h3 className="text-2xl font-bold text-white mb-4">Understanding Casino Wagering Requirements</h3>
+            <p className="text-gray-300 mb-4">
+              <strong>Wagering requirements</strong> determine how many times you must bet a bonus before withdrawing. A <strong>CA$100 bonus with 35x wagering</strong> requires CA$3,500 in bets. Lower is better - look for <strong>25x-35x wagering</strong> as industry standard. Some casinos offer <strong>no wagering free spins</strong>, keeping all winnings without restrictions.
+            </p>
+            <p className="text-gray-300 mb-4">
+              Tips for <strong>clearing bonus wagering</strong>: Play <strong>high RTP slots</strong> (96%+) like Blood Suckers (98% RTP) or Mega Joker (99% RTP). Avoid table games which contribute 10-20% versus 100% for slots. Check <strong>maximum bet limits</strong> (usually CA$5-$8) to avoid bonus forfeiture. Complete within <strong>30 days</strong> before expiry.
+            </p>
+          </section>
+
+          <section>
+            <h3 className="text-2xl font-bold text-white mb-4">Mobile Casino Gaming on iPhone and Android</h3>
+            <p className="text-gray-300 mb-4">
+              All top <strong>Canadian mobile casinos</strong> offer native iOS and Android apps or mobile-optimized websites. <strong>LeoVegas mobile casino</strong> leads with award-winning app featuring 1,000+ games, biometric login, and instant deposits. <strong>Jackpot City mobile</strong> offers 600+ games optimized for smaller screens. <strong>Spin Casino app</strong> provides seamless gameplay with no lag.
+            </p>
+            <p className="text-gray-300 mb-4">
+              <strong>Mobile casino bonuses</strong> match desktop offers - claim full <strong>welcome bonuses on smartphone</strong>. Mobile payments work via Interac, Apple Pay, Google Pay, and e-wallets. <strong>Data usage</strong> averages 20-50 MB per hour for slots, 50-100 MB for live dealer games. Use WiFi for best <strong>mobile casino experience</strong>.
+            </p>
+          </section>
+        </article>
+      </div>
+
+      {/* Last Updated Timestamp */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center">
+        <p className="text-gray-400 text-sm">
+          <strong>Last Updated:</strong> December 8, 2025 | <strong>Next Review:</strong> December 15, 2025
+        </p>
+        <p className="text-gray-500 text-xs mt-2">
+          Our expert team reviews and updates casino bonuses, games, and ratings daily to ensure accuracy. All casinos tested with real money deposits.
+        </p>
       </div>
 
       {/* Internal Linking Component */}
