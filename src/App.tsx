@@ -43,6 +43,7 @@ import GameGuidePages from './components/GameGuidePages';
 import LocationPages from './components/LocationPages';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
+import BacklinkStrategy from './components/BacklinkStrategy';
 
 interface Casino {
   id: number;
@@ -138,6 +139,10 @@ function App() {
 
   if (currentPage === 'responsible-gaming') {
     return <ResponsibleGamingPage onNavigateHome={navigateHome} onNavigateTo={navigateToPage} />;
+  }
+
+  if (currentPage === 'backlink-strategy') {
+    return <BacklinkStrategy />;
   }
 
   const topCasinos: Casino[] = [
