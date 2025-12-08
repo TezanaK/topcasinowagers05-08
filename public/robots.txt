@@ -1,5 +1,6 @@
 # Robots.txt for TopCasinoWagers.ca
-# Updated: October 2025 - Optimized for Maximum Crawl Efficiency
+# Updated: December 8, 2025 - Optimized for Maximum Crawl Efficiency
+# Canada's Premier Online Casino Review Platform
 
 User-agent: *
 Allow: /
@@ -7,8 +8,6 @@ Crawl-delay: 0
 
 # Sitemap location
 Sitemap: https://topcasinowagers.ca/sitemap.xml
-Sitemap: https://topcasinowagers.ca/sitemap-news.xml
-Sitemap: https://topcasinowagers.ca/sitemap-images.xml
 
 # Allow all major search engines
 User-agent: Googlebot

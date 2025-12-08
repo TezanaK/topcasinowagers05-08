@@ -44,6 +44,7 @@ import LocationPages from './components/LocationPages';
 import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
 import BacklinkStrategy from './components/BacklinkStrategy';
+import SitemapPage from './components/SitemapPage';
 
 interface Casino {
   id: number;
@@ -143,6 +144,10 @@ function App() {
 
   if (currentPage === 'backlink-strategy') {
     return <BacklinkStrategy />;
+  }
+
+  if (currentPage === 'sitemap') {
+    return <SitemapPage onNavigateHome={navigateHome} onNavigateTo={navigateToPage} />;
   }
 
   const topCasinos: Casino[] = [
