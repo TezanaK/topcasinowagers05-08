@@ -45,6 +45,8 @@ import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 import ResponsibleGamingPage from './components/ResponsibleGamingPage';
 import BacklinkStrategy from './components/BacklinkStrategy';
 import SitemapPage from './components/SitemapPage';
+import BacklinkOutreachManager from './components/BacklinkOutreachManager';
+import ContentCalendar from './components/ContentCalendar';
 
 interface Casino {
   id: number;
@@ -143,11 +145,19 @@ function App() {
   }
 
   if (currentPage === 'backlink-strategy') {
-    return <BacklinkStrategy />;
+    return <BacklinkStrategy onNavigateTo={navigateToPage} />;
   }
 
   if (currentPage === 'sitemap') {
     return <SitemapPage onNavigateHome={navigateHome} onNavigateTo={navigateToPage} />;
+  }
+
+  if (currentPage === 'backlink-outreach') {
+    return <BacklinkOutreachManager />;
+  }
+
+  if (currentPage === 'content-calendar') {
+    return <ContentCalendar />;
   }
 
   const topCasinos: Casino[] = [

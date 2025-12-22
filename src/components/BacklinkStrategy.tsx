@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search } from 'lucide-react';
+import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search, Calendar, Send, ArrowRight } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
@@ -31,7 +31,11 @@ interface Backlink {
   acquired_date: string;
 }
 
-const BacklinkStrategy = () => {
+interface BacklinkStrategyProps {
+  onNavigateTo?: (page: string) => void;
+}
+
+const BacklinkStrategy = ({ onNavigateTo }: BacklinkStrategyProps) => {
   const [opportunities, setOpportunities] = useState<BacklinkOpportunity[]>([]);
   const [backlinks, setBacklinks] = useState<Backlink[]>([]);
   const [copiedTemplate, setCopiedTemplate] = useState<string | null>(null);
@@ -326,13 +330,62 @@ Founder, TopCasinoWagers.ca
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
             Backlink Strategy & Outreach
           </h1>
           <p className="text-xl text-gray-300">
             Comprehensive link building system to improve domain authority and rankings
           </p>
+        </div>
+
+        {/* Quick Access Tools */}
+        <div className="grid md:grid-cols-2 gap-6 mb-12">
+          <div
+            onClick={() => onNavigateTo?.('backlink-outreach')}
+            className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <Send className="w-7 h-7 mr-3" />
+                  Outreach Manager
+                </h3>
+                <p className="text-blue-100 mb-4">
+                  Automated email templates, contact tracking, and outreach campaigns with proven templates
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">6 Email Templates</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">15+ Opportunities</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Response Tracking</span>
+            </div>
+          </div>
+
+          <div
+            onClick={() => onNavigateTo?.('content-calendar')}
+            className="bg-gradient-to-br from-green-600 to-emerald-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <Calendar className="w-7 h-7 mr-3" />
+                  Content Calendar
+                </h3>
+                <p className="text-green-100 mb-4">
+                  Strategic content planning with keyword research, SEO optimization, and publishing schedules
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">10 Content Ideas</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">20+ Keywords</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Performance Tracking</span>
+            </div>
+          </div>
         </div>
 
         {/* Tab Navigation */}
