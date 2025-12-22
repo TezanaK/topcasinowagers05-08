@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Home, Star, Gift, BookOpen, MapPin, Gamepad2, Award, Users, FileText, Heart, Phone, HelpCircle, Link2, TrendingUp } from 'lucide-react';
 
 interface SitemapPageProps {
@@ -6,6 +7,90 @@ interface SitemapPageProps {
 }
 
 const SitemapPage = ({ onNavigateHome, onNavigateTo }: SitemapPageProps) => {
+  useEffect(() => {
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "TopCasinoWagers Sitemap - Complete Site Navigation",
+      "description": "Complete sitemap of TopCasinoWagers.ca - Canada's premier online casino review platform. Navigate to casino reviews, game guides, bonuses, and provincial gambling information.",
+      "url": "https://topcasinowagers.ca/sitemap",
+      "inLanguage": "en-CA",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://topcasinowagers.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Sitemap",
+            "item": "https://topcasinowagers.ca/sitemap"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 200,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Casino Reviews",
+            "description": "Comprehensive reviews of top Canadian online casinos"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Game Guides",
+            "description": "Strategy guides for slots, blackjack, roulette, and more"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Provincial Guides",
+            "description": "Online gambling guides for all Canadian provinces"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Bonus Offers",
+            "description": "Latest casino bonuses and promotional offers"
+          }
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TopCasinoWagers",
+        "url": "https://topcasinowagers.ca",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://topcasinowagers.ca/logo.png"
+        }
+      }
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(structuredData);
+    document.head.appendChild(script);
+
+    document.title = 'Sitemap - TopCasinoWagers | Complete Site Navigation';
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Complete sitemap of TopCasinoWagers.ca. Navigate 200+ pages including casino reviews, game guides, bonuses, and provincial gambling information for Canadian players.');
+    }
+
+    return () => {
+      if (script.parentNode) {
+        document.head.removeChild(script);
+      }
+    };
+  }, []);
+
   const sitemapSections = [
     {
       title: 'Main Pages',

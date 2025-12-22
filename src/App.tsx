@@ -1555,6 +1555,7 @@ function App() {
                 <li><button onClick={() => navigateToPage('games-roulette')} className="hover:text-white transition-colors">Roulette Strategy</button></li>
                 <li><button onClick={() => navigateToPage('games-live-dealer')} className="hover:text-white transition-colors">Live Dealer Games</button></li>
                 <li><button onClick={() => navigateToPage('guide')} className="hover:text-white transition-colors">Complete Guide</button></li>
+                <li><button onClick={() => navigateToPage('sitemap')} className="hover:text-white transition-colors font-medium text-green-300">📍 Site Navigation</button></li>
               </ul>
             </div>
 
@@ -1576,6 +1577,7 @@ function App() {
                 © 2024 TopCasinoWagers. All rights reserved.
               </div>
               <div className="flex space-x-6 text-sm text-slate-400">
+                <button onClick={() => navigateToPage('sitemap')} className="hover:text-white transition-colors">Sitemap</button>
                 <button onClick={() => navigateToPage('privacy-policy')} className="hover:text-white transition-colors">Privacy Policy</button>
                 <button onClick={() => navigateToPage('responsible-gaming')} className="hover:text-white transition-colors">Responsible Gaming</button>
                 <button onClick={() => navigateToPage('contact')} className="hover:text-white transition-colors">Contact</button>
