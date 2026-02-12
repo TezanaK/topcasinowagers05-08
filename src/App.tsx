@@ -49,6 +49,8 @@ import BacklinkOutreachManager from './components/BacklinkOutreachManager';
 import ContentCalendar from './components/ContentCalendar';
 import SEOAnalyticsDashboard from './components/SEOAnalyticsDashboard';
 import ContentOptimizer from './components/ContentOptimizer';
+import CompetitorAnalyzer from './components/CompetitorAnalyzer';
+import BacklinkHealthMonitor from './components/BacklinkHealthMonitor';
 
 interface Casino {
   id: number;
@@ -168,6 +170,14 @@ function App() {
 
   if (currentPage === 'content-optimizer') {
     return <ContentOptimizer />;
+  }
+
+  if (currentPage === 'competitor-analyzer') {
+    return <CompetitorAnalyzer />;
+  }
+
+  if (currentPage === 'backlink-health') {
+    return <BacklinkHealthMonitor />;
   }
 
   const topCasinos: Casino[] = [

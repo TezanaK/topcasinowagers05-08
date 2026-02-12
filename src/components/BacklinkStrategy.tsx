@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search, Calendar, Send, ArrowRight, BarChart3, Sparkles } from 'lucide-react';
+import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search, Calendar, Send, ArrowRight, BarChart3, Sparkles, Shield, Activity } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
@@ -430,6 +430,52 @@ Founder, TopCasinoWagers.ca
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">SEO Scoring</span>
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Fix Suggestions</span>
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Readability Check</span>
+            </div>
+          </div>
+
+          <div
+            onClick={() => onNavigateTo?.('competitor-analyzer')}
+            className="bg-gradient-to-br from-cyan-600 to-blue-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <Activity className="w-7 h-7 mr-3" />
+                  Competitor Analyzer
+                </h3>
+                <p className="text-cyan-100 mb-4">
+                  Discover where competitors get backlinks and convert them into opportunities
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Spy on Competitors</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Find Opportunities</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">DA Tracking</span>
+            </div>
+          </div>
+
+          <div
+            onClick={() => onNavigateTo?.('backlink-health')}
+            className="bg-gradient-to-br from-emerald-600 to-teal-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <Shield className="w-7 h-7 mr-3" />
+                  Health Monitor
+                </h3>
+                <p className="text-emerald-100 mb-4">
+                  Monitor backlink status, catch broken links, and track link quality in real-time
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Health Checks</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Status Monitoring</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Issue Alerts</span>
             </div>
           </div>
         </div>
