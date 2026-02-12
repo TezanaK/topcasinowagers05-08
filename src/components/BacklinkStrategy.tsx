@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search, Calendar, Send, ArrowRight } from 'lucide-react';
+import { Link2, Mail, TrendingUp, CheckCircle2, AlertCircle, ExternalLink, Copy, Target, Users, FileText, Search, Calendar, Send, ArrowRight, BarChart3, Sparkles } from 'lucide-react';
 import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
@@ -340,7 +340,7 @@ Founder, TopCasinoWagers.ca
         </div>
 
         {/* Quick Access Tools */}
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <div
             onClick={() => onNavigateTo?.('backlink-outreach')}
             className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
@@ -384,6 +384,52 @@ Founder, TopCasinoWagers.ca
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">10 Content Ideas</span>
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">20+ Keywords</span>
               <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Performance Tracking</span>
+            </div>
+          </div>
+
+          <div
+            onClick={() => onNavigateTo?.('seo-analytics')}
+            className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <BarChart3 className="w-7 h-7 mr-3" />
+                  Analytics Dashboard
+                </h3>
+                <p className="text-purple-100 mb-4">
+                  Comprehensive SEO metrics, backlink tracking, and content performance analytics
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Real-time Stats</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Progress Tracking</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Action Items</span>
+            </div>
+          </div>
+
+          <div
+            onClick={() => onNavigateTo?.('content-optimizer')}
+            className="bg-gradient-to-br from-amber-600 to-orange-600 rounded-2xl p-8 cursor-pointer hover:scale-105 transition-all shadow-2xl group"
+          >
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2 flex items-center">
+                  <Sparkles className="w-7 h-7 mr-3" />
+                  Content Optimizer
+                </h3>
+                <p className="text-amber-100 mb-4">
+                  Analyze content, get SEO scores, and receive actionable optimization recommendations
+                </p>
+              </div>
+              <ArrowRight className="w-6 h-6 text-white group-hover:translate-x-2 transition-transform" />
+            </div>
+            <div className="flex gap-2 flex-wrap">
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">SEO Scoring</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Fix Suggestions</span>
+              <span className="px-3 py-1 bg-white/20 rounded-full text-xs font-medium">Readability Check</span>
             </div>
           </div>
         </div>

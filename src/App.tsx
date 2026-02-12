@@ -47,6 +47,8 @@ import BacklinkStrategy from './components/BacklinkStrategy';
 import SitemapPage from './components/SitemapPage';
 import BacklinkOutreachManager from './components/BacklinkOutreachManager';
 import ContentCalendar from './components/ContentCalendar';
+import SEOAnalyticsDashboard from './components/SEOAnalyticsDashboard';
+import ContentOptimizer from './components/ContentOptimizer';
 
 interface Casino {
   id: number;
@@ -158,6 +160,14 @@ function App() {
 
   if (currentPage === 'content-calendar') {
     return <ContentCalendar />;
+  }
+
+  if (currentPage === 'seo-analytics') {
+    return <SEOAnalyticsDashboard />;
+  }
+
+  if (currentPage === 'content-optimizer') {
+    return <ContentOptimizer />;
   }
 
   const topCasinos: Casino[] = [
