@@ -2,1041 +2,1045 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- Homepage - Highest Priority -->
+  <!-- Homepage - Maximum Priority -->
   <url>
     <loc>https://topcasinowagers.ca/</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Main Category Pages - High Priority -->
+  <!-- Core Navigation - Highest Priority -->
   <url>
     <loc>https://topcasinowagers.ca/reviews</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/bonuses</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- SEO Tools & Resources -->
-  <url>
-    <loc>https://topcasinowagers.ca/backlink-strategy</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/sitemap</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- High-Value SEO Landing Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/best-online-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Top Money Keywords - Page 1 Target -->
+  <url>
+    <loc>https://topcasinowagers.ca/best-online-casinos-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/online-casino-canada-real-money-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/best-online-casino-bonuses-canada-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/canadian-online-casino-reviews-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/online-slots-canada-real-money</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
+  <!-- High-Value Commercial Keywords -->
   <url>
     <loc>https://topcasinowagers.ca/casino-bonuses-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/interac-etransfer-casinos</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/live-dealer-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/fast-payout-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Individual Casino Reviews - High Priority -->
-  <url>
-    <loc>https://topcasinowagers.ca/casino-neospin</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/mobile-casino-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Individual Casino Reviews -->
+  <url>
+    <loc>https://topcasinowagers.ca/casino-neospin</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-casinomate</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-houseofjack</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-vicibet</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-onluck</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-casino-infinity</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-cosmic-spins</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-jackpotcity</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-spin-casino</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-royal-vegas</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
-  <!-- Provincial Location Pages - High Priority for Local SEO -->
+  <!-- Provincial Location Pages - Critical for Local SEO -->
   <url>
     <loc>https://topcasinowagers.ca/location-ontario</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/ontario-igaming-licensed-casinos-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/location-british-columbia</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/location-alberta</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/location-quebec</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/location-manitoba</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/location-atlantic-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
 
   <!-- Game Guide Pages -->
   <url>
     <loc>https://topcasinowagers.ca/games-slots</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/games-blackjack</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/games-roulette</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/games-live-dealer</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/games-baccarat</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://topcasinowagers.ca/games-baccarat</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
     <loc>https://topcasinowagers.ca/games-poker</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Game Provider Pages -->
   <url>
     <loc>https://topcasinowagers.ca/provider-netent</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/provider-microgaming</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/provider-evolution</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/provider-pragmatic-play</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/provider-playngo</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/provider-yggdrasil</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
-  <!-- Blog Posts - High Value Content -->
+  <!-- High-Priority Blog Posts -->
   <url>
     <loc>https://topcasinowagers.ca/blog/best-online-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/online-slots-canada-real-money-guide</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/casino-bonuses-canada-2024-guide</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/interac-etransfer-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/live-dealer-casino-canada-guide</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/ontario-online-casinos-igaming-guide</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/top-10-casino-bonuses-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/complete-guide-online-slots-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/blackjack-basic-strategy-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/blog/responsible-gambling-guide-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
   </url>
 
-  <!-- High-Value Keyword Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/mobile-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/high-rtp-slots-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/progressive-jackpots-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
+  <!-- High-Conversion Bonus Pages -->
   <url>
     <loc>https://topcasinowagers.ca/no-deposit-bonus-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/free-spins-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/welcome-bonus-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.95</priority>
   </url>
 
-  <!-- City-Specific Pages for Local SEO -->
-  <url>
-    <loc>https://topcasinowagers.ca/toronto-online-casinos</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/vancouver-online-casinos</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/montreal-online-casinos</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/calgary-online-casinos</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Informational Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/about</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/guide</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/contact</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/faq</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Legal Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/responsible-gaming</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/privacy-policy</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/terms-conditions</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Bonus-Specific Pages -->
   <url>
     <loc>https://topcasinowagers.ca/casino-bonuses-no-wagering</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/cashback-casino-bonuses</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/reload-bonus-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- City-Specific Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/toronto-online-casinos</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/vancouver-online-casinos</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/montreal-online-casinos</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/calgary-online-casinos</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- High-RTP & Progressive Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/high-rtp-slots-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/progressive-jackpots-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Payment Method Pages -->
   <url>
     <loc>https://topcasinowagers.ca/credit-card-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/paypal-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/cryptocurrency-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <!-- Game-Specific Pages -->
   <url>
     <loc>https://topcasinowagers.ca/online-blackjack-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/online-roulette-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/online-baccarat-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/video-poker-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.75</priority>
   </url>
 
   <!-- Comparison Pages -->
   <url>
     <loc>https://topcasinowagers.ca/casino-comparison</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/bonus-comparison</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
 
-  <!-- Seasonal/Trending Pages -->
+  <!-- Trending & Seasonal Pages -->
   <url>
     <loc>https://topcasinowagers.ca/new-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/best-casino-apps-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Industry News Pages -->
   <url>
     <loc>https://topcasinowagers.ca/casino-news-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/igaming-ontario-news</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.85</priority>
   </url>
 
-  <!-- Long-tail SEO Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/best-online-casino-bonuses-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/online-casino-canada-real-money-guide</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/canadian-online-casino-reviews-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
+  <!-- Long-tail Money Keywords -->
   <url>
     <loc>https://topcasinowagers.ca/casino-games-canada-online</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/mobile-casino-apps-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-banking-methods-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/online-gambling-laws-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-security-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/vip-casino-programs-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-tournaments-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Bonus-specific Long-tail Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/casino-welcome-bonus-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/free-spins-no-deposit-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/casino-cashback-bonuses-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/high-roller-casino-bonuses-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Game-specific Long-tail Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/best-slot-machines-canada-online</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/online-blackjack-strategy-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <url>
-    <loc>https://topcasinowagers.ca/live-roulette-canada-online</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/progressive-slots-canada-jackpots</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Banking-specific Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/interac-online-casino-deposits-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/fastest-withdrawal-casinos-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/paypal-casino-canada-deposits</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Regional Long-tail Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/ontario-igaming-licensed-casinos-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/british-columbia-online-casino-guide</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/alberta-casino-players-guide-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- High-Traffic Keyword Pages -->
+  <!-- High-Intent Commercial Pages -->
   <url>
     <loc>https://topcasinowagers.ca/24-hour-payout-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/instant-withdrawal-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/98-percent-rtp-slots-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/11000-bonus-300-free-spins</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/same-day-withdrawal-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
+  <!-- License & Safety Pages -->
   <url>
     <loc>https://topcasinowagers.ca/licensed-mga-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/curacao-licensed-casinos-safe-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
+  <!-- Jackpot Pages -->
   <url>
     <loc>https://topcasinowagers.ca/million-dollar-jackpots-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/vip-casino-bonuses-canada-exclusive</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/weekend-300-percent-casino-bonuses</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/crypto-casino-canada-bitcoin-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/mobile-casino-apps-canada-download</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/live-dealer-blackjack-canada-real-money</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/progressive-jackpot-winners-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/mega-moolah-jackpot-winners-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Specific Bonus Offers -->
+  <url>
+    <loc>https://topcasinowagers.ca/vip-casino-bonuses-canada-exclusive</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/weekend-300-percent-casino-bonuses</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/casino-welcome-bonus-canada-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/free-spins-no-deposit-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/free-spins-no-wagering-canada-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/no-deposit-bonus-codes-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/300-free-spins-welcome-bonus-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/325-percent-bonus-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/casino-cashback-bonuses-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/high-roller-casino-bonuses-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Popular Slot & Game Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/best-slot-machines-canada-online</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/best-paying-slots-canada-high-rtp</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/mega-moolah-jackpot-winners-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/starburst-free-spins-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/book-of-dead-casino-bonus-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/online-blackjack-strategy-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/live-roulette-canada-online</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/live-dealer-blackjack-canada-real-money</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/progressive-slots-canada-jackpots</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Provider-Specific Pages -->
   <url>
     <loc>https://topcasinowagers.ca/evolution-gaming-live-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/pragmatic-play-slots-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Banking & Withdrawal Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/interac-online-casino-deposits-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://topcasinowagers.ca/interac-instant-deposit-casino</loc>
-    <lastmod>2024-12-22</lastmod>
+    <loc>https://topcasinowagers.ca/fastest-withdrawal-casinos-canada</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/paypal-casino-canada-deposits</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/interac-instant-deposit-casino</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/no-verification-withdrawal-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://topcasinowagers.ca/free-casino-games-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <loc>https://topcasinowagers.ca/crypto-casino-canada-bitcoin-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Mobile & App Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/mobile-casino-apps-canada-download</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/casino-apps-real-money-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://topcasinowagers.ca/weekend-casino-bonuses-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <loc>https://topcasinowagers.ca/free-casino-games-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Regional Long-Tail Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/licensed-ontario-igaming-casinos-2024</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/british-columbia-online-casino-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
+    <loc>https://topcasinowagers.ca/alberta-casino-players-guide-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Additional High-Value Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/weekend-casino-bonuses-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
     <loc>https://topcasinowagers.ca/casino-loyalty-programs-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/high-limit-casino-canada</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/casino-free-spins-today</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/progressive-jackpot-winners-canada</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- New High-Performance Pages -->
-  <url>
-    <loc>https://topcasinowagers.ca/free-spins-no-wagering-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://topcasinowagers.ca/licensed-ontario-igaming-casinos-2024</loc>
-    <lastmod>2024-12-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/high-roller-casinos-canada-exclusive</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/casino-free-spins-today</loc>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/progressive-jackpot-winners-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/fastest-payout-casinos-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://topcasinowagers.ca/new-casino-launches-canada-2024</loc>
-    <lastmod>2024-12-22</lastmod>
+    <lastmod>2026-02-13</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+
+  <!-- Informational & Support Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/about</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/contact</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/faq</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/sitemap</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legal & Compliance Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/responsible-gaming</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/privacy-policy</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/terms-conditions</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- SEO Tools (Internal) -->
+  <url>
+    <loc>https://topcasinowagers.ca/backlink-strategy</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

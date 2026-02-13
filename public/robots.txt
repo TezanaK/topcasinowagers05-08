@@ -1,5 +1,5 @@
 # Robots.txt for TopCasinoWagers.ca
-# Updated: December 22, 2024 - Optimized for Maximum Crawl Efficiency
+# Updated: February 13, 2026 - Optimized for Maximum Page 1 Rankings
 # Canada's Premier Online Casino Review Platform
 
 User-agent: *
@@ -9,45 +9,69 @@ Crawl-delay: 0
 # XML Sitemap - Primary navigation for search engines
 Sitemap: https://topcasinowagers.ca/sitemap.xml
 
-# Priority crawl paths - High-value pages
+# Priority crawl paths - High-value money pages
 Allow: /reviews
 Allow: /bonuses
 Allow: /blog
 Allow: /casino-*
 Allow: /games-*
 Allow: /location-*
+Allow: /provider-*
 
-# Allow all major search engines
+# Allow all major search engines with optimized crawl rates
 User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Mobile
 Allow: /
 Crawl-delay: 0
 
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
+Crawl-delay: 0
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Baiduspider
 Allow: /
+Crawl-delay: 2
 
 User-agent: YandexBot
 Allow: /
+Crawl-delay: 1
 
+# Social media crawlers
 User-agent: facebookexternalhit
 Allow: /
+Crawl-delay: 0
 
 User-agent: Twitterbot
 Allow: /
+Crawl-delay: 0
 
 User-agent: LinkedInBot
 Allow: /
+Crawl-delay: 1
 
 User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: TelegramBot
 Allow: /
 
 # Allow SEO tools for better optimization
@@ -59,6 +83,11 @@ User-agent: SemrushBot
 Allow: /
 Crawl-delay: 2
 
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 1
+
+# Block harmful bots
 User-agent: MJ12bot
 Disallow: /
 
@@ -74,28 +103,37 @@ Disallow: /
 User-agent: MegaIndex
 Disallow: /
 
-User-agent: Screaming Frog SEO Spider
-Allow: /
+User-agent: SemrushBot-SA
+Disallow: /
 
-# Allow access to important files
+User-agent: PetalBot
+Disallow: /
+
+# Allow access to important static resources
 Allow: /sitemap.xml
 Allow: /robots.txt
-Allow: /*.css
-Allow: /*.js
-Allow: /*.png
-Allow: /*.jpg
-Allow: /*.jpeg
-Allow: /*.gif
-Allow: /*.webp
-Allow: /*.svg
-Allow: /*.ico
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
 
-# Optimize crawling for important pages
-Allow: /casino-*
-Allow: /bonuses
-Allow: /reviews
-Allow: /blog/*
-Allow: /location-*
+# Explicitly allow high-value pages for indexing
+Allow: /best-online-casinos-canada
+Allow: /online-casino-canada-real-money-guide
+Allow: /best-online-casino-bonuses-canada-2024
+Allow: /no-deposit-bonus-canada
+Allow: /free-spins-canada
+Allow: /ontario-igaming-licensed-casinos-2024
+Allow: /fastest-withdrawal-casinos-canada
+Allow: /instant-withdrawal-casinos-canada-2024
 
 # Host directive (helps with canonicalization)
 Host: https://topcasinowagers.ca
