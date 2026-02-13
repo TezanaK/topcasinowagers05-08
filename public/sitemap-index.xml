@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Primary Content Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Image Sitemap for Casino Logos and Graphics -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-images.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Casino Reviews Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-casinos.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Blog Posts and Articles Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-blog.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Game Guides Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-games.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Regional/Provincial Pages Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-locations.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+  <!-- Bonus and Promotional Pages Sitemap -->
+  <sitemap>
+    <loc>https://topcasinowagers.ca/sitemap-bonuses.xml</loc>
+    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
+  </sitemap>
+
+</sitemapindex>

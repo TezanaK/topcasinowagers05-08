@@ -6,8 +6,15 @@ User-agent: *
 Allow: /
 Crawl-delay: 0
 
-# XML Sitemap - Primary navigation for search engines
+# XML Sitemaps - Primary navigation for search engines
+Sitemap: https://topcasinowagers.ca/sitemap-index.xml
 Sitemap: https://topcasinowagers.ca/sitemap.xml
+Sitemap: https://topcasinowagers.ca/sitemap-images.xml
+Sitemap: https://topcasinowagers.ca/sitemap-casinos.xml
+Sitemap: https://topcasinowagers.ca/sitemap-blog.xml
+Sitemap: https://topcasinowagers.ca/sitemap-games.xml
+Sitemap: https://topcasinowagers.ca/sitemap-locations.xml
+Sitemap: https://topcasinowagers.ca/sitemap-bonuses.xml
 
 # Priority crawl paths - High-value money pages
 Allow: /reviews

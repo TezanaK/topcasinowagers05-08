@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage with Logo -->
+  <url>
+    <loc>https://topcasinowagers.ca/</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/logo.png</image:loc>
+      <image:title>TopCasinoWagers - Canada's Premier Online Casino Review Platform</image:title>
+      <image:caption>Trusted casino reviews, bonuses, and guides for Canadian players</image:caption>
+    </image:image>
+  </url>
+
+  <!-- NEOSPIN Casino -->
+  <url>
+    <loc>https://topcasinowagers.ca/casino-neospin</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/neospin.jpg</image:loc>
+      <image:title>NEOSPIN Casino Logo</image:title>
+      <image:caption>NEOSPIN Casino - $10,000 Welcome Bonus + 100 Free Spins</image:caption>
+    </image:image>
+  </url>
+
+  <!-- CasinoMate -->
+  <url>
+    <loc>https://topcasinowagers.ca/casino-casinomate</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/casino-mate.webp</image:loc>
+      <image:title>CasinoMate Logo</image:title>
+      <image:caption>CasinoMate - Premium Online Casino for Canadian Players</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/cmt.jpg</image:loc>
+      <image:title>CasinoMate Alternative Logo</image:title>
+      <image:caption>CasinoMate Casino Brand Identity</image:caption>
+    </image:image>
+  </url>
+
+  <!-- House of Jack -->
+  <url>
+    <loc>https://topcasinowagers.ca/casino-houseofjack</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/hoj.webp</image:loc>
+      <image:title>House of Jack Casino Logo</image:title>
+      <image:caption>House of Jack - Australian-Style Casino for Canadians</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Casino Infinity -->
+  <url>
+    <loc>https://topcasinowagers.ca/casino-casino-infinity</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/casino infinity.webp</image:loc>
+      <image:title>Casino Infinity Logo</image:title>
+      <image:caption>Casino Infinity - Unlimited Gaming Possibilities</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Casino Screenshots and Promotional Images -->
+  <url>
+    <loc>https://topcasinowagers.ca/reviews</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0097.PNG</image:loc>
+      <image:title>Casino Welcome Bonus Screenshot</image:title>
+      <image:caption>Example of casino welcome bonus offers for Canadian players</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0098.PNG</image:loc>
+      <image:title>Casino Games Selection</image:title>
+      <image:caption>Wide variety of online casino games available</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0099.PNG</image:loc>
+      <image:title>Casino Payment Methods</image:title>
+      <image:caption>Secure payment options for Canadian online casinos</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Casino Interface Screenshots -->
+  <url>
+    <loc>https://topcasinowagers.ca/bonuses</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0128.jpeg</image:loc>
+      <image:title>Casino Bonus Interface</image:title>
+      <image:caption>How to claim casino bonuses - Step by step guide</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0129.jpeg</image:loc>
+      <image:title>Free Spins Bonus</image:title>
+      <image:caption>Free spins bonus offers for Canadian players</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0130.jpeg</image:loc>
+      <image:title>No Deposit Bonus</image:title>
+      <image:caption>No deposit bonus codes and offers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0131.jpeg</image:loc>
+      <image:title>Welcome Bonus Package</image:title>
+      <image:caption>Complete welcome bonus package breakdown</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0132.jpeg</image:loc>
+      <image:title>Cashback Bonus</image:title>
+      <image:caption>Casino cashback and reload bonus offers</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Game Screenshots -->
+  <url>
+    <loc>https://topcasinowagers.ca/games-slots</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0133.jpeg</image:loc>
+      <image:title>Online Slots Games</image:title>
+      <image:caption>Popular online slot games at Canadian casinos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0134.jpeg</image:loc>
+      <image:title>Progressive Jackpot Slots</image:title>
+      <image:caption>Million dollar progressive jackpot slot games</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0135.jpeg</image:loc>
+      <image:title>High RTP Slots</image:title>
+      <image:caption>Best paying slots with highest RTP percentages</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Live Casino Screenshots -->
+  <url>
+    <loc>https://topcasinowagers.ca/games-live-dealer</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0136.jpeg</image:loc>
+      <image:title>Live Dealer Casino</image:title>
+      <image:caption>Live dealer blackjack, roulette, and baccarat</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0136 copy.jpeg</image:loc>
+      <image:title>Live Dealer Blackjack</image:title>
+      <image:caption>Professional live dealers in HD quality</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0137.jpeg</image:loc>
+      <image:title>Live Roulette Tables</image:title>
+      <image:caption>Multiple live roulette variations available</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0137 copy.jpeg</image:loc>
+      <image:title>Live Baccarat</image:title>
+      <image:caption>High-stakes live baccarat for VIP players</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Mobile Casino Screenshots -->
+  <url>
+    <loc>https://topcasinowagers.ca/mobile-casino-canada</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0138.jpeg</image:loc>
+      <image:title>Mobile Casino App</image:title>
+      <image:caption>Play casino games on mobile devices and tablets</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0138 copy.jpeg</image:loc>
+      <image:title>Mobile Casino Interface</image:title>
+      <image:caption>User-friendly mobile casino interface</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0139.jpeg</image:loc>
+      <image:title>Mobile Slots Games</image:title>
+      <image:caption>Mobile-optimized slot games for iOS and Android</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0139 copy.jpeg</image:loc>
+      <image:title>Mobile Live Casino</image:title>
+      <image:caption>Live dealer games on mobile devices</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Payment and Banking Screenshots -->
+  <url>
+    <loc>https://topcasinowagers.ca/interac-etransfer-casinos</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0140.jpeg</image:loc>
+      <image:title>Interac e-Transfer Casino Banking</image:title>
+      <image:caption>Instant deposits with Interac e-Transfer</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0140 copy.jpeg</image:loc>
+      <image:title>Fast Casino Withdrawals</image:title>
+      <image:caption>Same-day and instant withdrawal options</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/IMG_0160.jpeg</image:loc>
+      <image:title>Casino Payment Methods</image:title>
+      <image:caption>Multiple secure payment options for Canadian players</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Casino Brand Images -->
+  <url>
+    <loc>https://topcasinowagers.ca/best-online-casinos-canada</loc>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/167C05B3-7832-412C-B3B7-8ADDDC44F518.jpeg</image:loc>
+      <image:title>Top Canadian Online Casinos</image:title>
+      <image:caption>Best rated online casinos for Canadian players in 2024</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/5844BB04-6320-48CB-8482-6D84B5FAD908.jpeg</image:loc>
+      <image:title>Licensed Casino Platforms</image:title>
+      <image:caption>Fully licensed and regulated casino platforms</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/F7CC2C7D-2C47-4F27-920C-9E87CA77A2B0.jpeg</image:loc>
+      <image:title>Casino Gaming Experience</image:title>
+      <image:caption>Premium online casino gaming experience</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/OIP.webp</image:loc>
+      <image:title>Casino Platform Interface</image:title>
+      <image:caption>Modern casino platform with extensive game library</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://topcasinowagers.ca/image.png</image:loc>
+      <image:title>Casino Feature Highlights</image:title>
+      <image:caption>Key features of top Canadian online casinos</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

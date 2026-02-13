@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- Blog Main Page -->
+  <url>
+    <loc>https://topcasinowagers.ca/blog</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- High-Priority Blog Posts -->
+  <url>
+    <loc>https://topcasinowagers.ca/blog/best-online-casinos-canada-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.90</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TopCasinoWagers</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-12-22</news:publication_date>
+      <news:title>Best Online Casinos Canada 2024 - Expert Reviews</news:title>
+      <news:keywords>online casinos canada, best casinos 2024, casino reviews</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/online-slots-canada-real-money-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/casino-bonuses-canada-2024-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/interac-etransfer-casinos-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/live-dealer-casino-canada-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/ontario-online-casinos-igaming-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TopCasinoWagers</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-12-22</news:publication_date>
+      <news:title>Ontario iGaming Guide - Licensed Casinos 2024</news:title>
+      <news:keywords>ontario igaming, licensed casinos, ontario casinos</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/top-10-casino-bonuses-canada-2024</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/complete-guide-online-slots-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/blackjack-basic-strategy-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/blog/responsible-gambling-guide-canada</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Resource Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/online-casino-canada-real-money-guide</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Informational Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/about</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/contact</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/faq</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/sitemap</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://topcasinowagers.ca/responsible-gaming</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/privacy-policy</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://topcasinowagers.ca/terms-conditions</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+</urlset>
